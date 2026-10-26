@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1100" viewBox="0 0 1700 1100" font-family="Arial, Helvetica, sans-serif" font-size="17">
+  <rect width="1700" height="1100" fill="#fff"/>
+
+  <!-- Входные документы -->
+  <rect x="480" y="30" width="740" height="150" fill="#fff" stroke="#000" stroke-width="1.6"/>
+  <text x="850" y="60" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="19">Входные документы</text>
+  <text x="510" y="95">• товарная накладная / акт приёма-передачи</text>
+  <text x="510" y="125">• распоряжение о выдаче компьютера</text>
+  <text x="510" y="155">• заявка на ремонт</text>
+  <text x="890" y="95">• акт выполненных работ сервиса</text>
+  <text x="890" y="125">• акт списания</text>
+  <line x1="850" y1="180" x2="850" y2="248" stroke="#000" stroke-width="2"/>
+
+  <!-- Система -->
+  <rect x="480" y="250" width="740" height="540" fill="#fff" stroke="#000" stroke-width="3"/>
+  <text x="850" y="288" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="21">АС учёта компьютеров фирмы</text>
+  <text x="850" y="314" text-anchor="middle" font-size="15">объекты учёта</text>
+
+  <g text-anchor="middle" font-size="17">
+    <rect x="510" y="335" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="615" y="371">Компьютер</text>
+    <rect x="745" y="335" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="850" y="371">Модель</text>
+    <rect x="980" y="335" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="1085" y="371">Комплектующее</text>
+
+    <rect x="510" y="420" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="615" y="456">Помещение</text>
+    <rect x="745" y="420" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="850" y="447">Отдел,</text>
+    <text x="850" y="469">сотрудник</text>
+    <rect x="980" y="420" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="1085" y="456">Закрепление</text>
+
+    <rect x="627" y="505" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="732" y="532">Программа,</text>
+    <text x="732" y="554">установка ПО</text>
+    <rect x="862" y="505" width="210" height="60" fill="#fff" stroke="#000" stroke-width="1.4"/>
+    <text x="967" y="541">Обслуживание</text>
+  </g>
+
+  <line x1="510" y1="595" x2="1190" y2="595" stroke="#000" stroke-dasharray="4 4"/>
+  <text x="850" y="625" text-anchor="middle" font-size="15">процессы</text>
+  <text x="520" y="660" font-size="16">1. Приём техники на учёт</text>
+  <text x="520" y="690" font-size="16">2. Выдача, возврат, перемещение</text>
+  <text x="520" y="720" font-size="16">3. Обслуживание и модернизация</text>
+  <text x="870" y="660" font-size="16">4. Учёт ПО и лицензий</text>
+  <text x="870" y="690" font-size="16">5. Списание</text>
+  <text x="870" y="720" font-size="16">6. Сводная информация</text>
+
+  <!-- Роли -->
+  <rect x="40" y="290" width="340" height="230" fill="#fff" stroke="#000" stroke-width="1.6"/>
+  <text x="210" y="322" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="19">Системный администратор</text>
+  <text x="60" y="360" font-size="16">• ставит технику на учёт</text>
+  <text x="60" y="388" font-size="16">• выдаёт и принимает компьютеры</text>
+  <text x="60" y="416" font-size="16">• регистрирует обслуживание</text>
+  <text x="60" y="444" font-size="16">• фиксирует установку ПО</text>
+  <text x="60" y="472" font-size="16">• оформляет списание</text>
+  <line x1="380" y1="405" x2="478" y2="405" stroke="#000" stroke-width="2"/>
+  <text x="429" y="393" text-anchor="middle" font-size="14">ввод</text>
+
+  <rect x="40" y="580" width="340" height="150" fill="#fff" stroke="#000" stroke-width="1.6"/>
+  <text x="210" y="612" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="19">Руководитель ИТ-отдела</text>
+  <text x="60" y="650" font-size="16">• получает сводки и отчёты</text>
+  <text x="60" y="678" font-size="16">• утверждает списание</text>
+  <text x="60" y="706" font-size="16">• контролирует лицензии</text>
+  <line x1="380" y1="655" x2="478" y2="655" stroke="#000" stroke-width="2"/>
+  <text x="429" y="643" text-anchor="middle" font-size="14">запросы</text>
+
+  <!-- Результаты -->
+  <line x1="1220" y1="520" x2="1298" y2="520" stroke="#000" stroke-width="2"/>
+  <rect x="1300" y="250" width="370" height="540" fill="#fff" stroke="#000" stroke-width="1.6"/>
+  <text x="1485" y="288" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="19">Результаты</text>
+  <text x="1320" y="330" font-size="16">• карточка компьютера:</text>
+  <text x="1340" y="356" font-size="16">конфигурация, ПО, история</text>
+  <text x="1340" y="382" font-size="16">закреплений и обслуживания</text>
+  <text x="1320" y="422" font-size="16">• перечень техники по сотруднику,</text>
+  <text x="1340" y="448" font-size="16">отделу, помещению</text>
+  <text x="1320" y="488" font-size="16">• компьютеры в резерве и в ремонте</text>
+  <text x="1320" y="528" font-size="16">• отчёт по лицензиям ПО</text>
+  <text x="1320" y="568" font-size="16">• затраты на обслуживание</text>
+  <text x="1340" y="594" font-size="16">по отделам за период</text>
+  <text x="1320" y="634" font-size="16">• компьютеры с истекающей</text>
+  <text x="1340" y="660" font-size="16">гарантией</text>
+  <text x="1320" y="700" font-size="16">• кандидаты на замену (по возрасту)</text>
+  <text x="1320" y="740" font-size="16">• списанные компьютеры за период</text>
+
+  <!-- Внешние участники -->
+  <rect x="480" y="880" width="330" height="90" fill="#fff" stroke="#000" stroke-width="1.6"/>
+  <text x="645" y="915" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="18">Сотрудник фирмы</text>
+  <text x="645" y="945" text-anchor="middle" font-size="15">не пользователь АС</text>
+  <line x1="645" y1="878" x2="645" y2="792" stroke="#000" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="655" y="835" font-size="14">получает / возвращает компьютер,</text>
+  <text x="655" y="853" font-size="14">сообщает о неисправности</text>
+
+  <rect x="890" y="880" width="330" height="90" fill="#fff" stroke="#000" stroke-width="1.6"/>
+  <text x="1055" y="915" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="18">Сервисная организация</text>
+  <text x="1055" y="945" text-anchor="middle" font-size="15">внешний исполнитель ремонта</text>
+  <line x1="1055" y1="878" x2="1055" y2="792" stroke="#000" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="1065" y="840" font-size="14">акт выполненных работ</text>
+
+  <!-- Вне границ -->
+  <rect x="1300" y="840" width="370" height="230" fill="#fff" stroke="#000" stroke-width="1.6" stroke-dasharray="10 6"/>
+  <text x="1485" y="872" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" font-size="18">Вне границ системы</text>
+  <text x="1320" y="906" font-size="15">• закупки и поставщики</text>
+  <text x="1320" y="934" font-size="15">• бухучёт: стоимость, амортизация</text>
+  <text x="1320" y="962" font-size="15">• периферия, сетевое оборудование</text>
+  <text x="1320" y="990" font-size="15">• мониторинг сети</text>
+  <text x="1320" y="1018" font-size="15">• учётные записи пользователей АС</text>
+  <text x="1320" y="1046" font-size="15">• кадровый учёт</text>
+  <!-- наконечники стрелок -->
+  <polygon points="850,248 844,234 856,234" fill="#000"/>
+  <polygon points="478,405 464,411 464,399" fill="#000"/>
+  <polygon points="478,655 464,661 464,649" fill="#000"/>
+  <polygon points="380,655 394,649 394,661" fill="#000"/>
+  <polygon points="1298,520 1284,526 1284,514" fill="#000"/>
+  <polygon points="645,792 651,806 639,806" fill="#000"/>
+  <polygon points="645,878 639,864 651,864" fill="#000"/>
+  <polygon points="1055,792 1061,806 1049,806" fill="#000"/>
+</svg>
