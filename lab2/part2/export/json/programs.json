@@ -1,0 +1,114 @@
+[
+  {
+    "id_program": 1,
+    "name": "Windows 11 Pro",
+    "version": "23H2",
+    "developer": "Microsoft",
+    "license_type": "коммерческая",
+    "license_count": 25
+  },
+  {
+    "id_program": 2,
+    "name": "Microsoft Office LTSC",
+    "version": "2021",
+    "developer": "Microsoft",
+    "license_type": "коммерческая",
+    "license_count": 20
+  },
+  {
+    "id_program": 3,
+    "name": "1С:Предприятие",
+    "version": "8.3",
+    "developer": "1С",
+    "license_type": "коммерческая",
+    "license_count": 6
+  },
+  {
+    "id_program": 4,
+    "name": "Kaspersky Endpoint Security",
+    "version": "12.4",
+    "developer": "Лаборатория Касперского",
+    "license_type": "подписка",
+    "license_count": 30
+  },
+  {
+    "id_program": 5,
+    "name": "Adobe Photoshop",
+    "version": "2025",
+    "developer": "Adobe",
+    "license_type": "подписка",
+    "license_count": 2
+  },
+  {
+    "id_program": 6,
+    "name": "КонсультантПлюс",
+    "version": "4018",
+    "developer": "КонсультантПлюс",
+    "license_type": "подписка",
+    "license_count": 3
+  },
+  {
+    "id_program": 7,
+    "name": "AutoCAD LT",
+    "version": "2024",
+    "developer": "Autodesk",
+    "license_type": "коммерческая",
+    "license_count": 1
+  },
+  {
+    "id_program": 8,
+    "name": "Яндекс Браузер",
+    "version": "24.10",
+    "developer": "Яндекс",
+    "license_type": "бесплатная",
+    "license_count": null
+  },
+  {
+    "id_program": 9,
+    "name": "7-Zip",
+    "version": "24.08",
+    "developer": "Igor Pavlov",
+    "license_type": "бесплатная",
+    "license_count": null
+  },
+  {
+    "id_program": 10,
+    "name": "LibreOffice",
+    "version": "24.8",
+    "developer": "The Document Foundation",
+    "license_type": "бесплатная",
+    "license_count": null
+  },
+  {
+    "id_program": 11,
+    "name": "Visual Studio Code",
+    "version": "1.95",
+    "developer": "Microsoft",
+    "license_type": "бесплатная",
+    "license_count": null
+  },
+  {
+    "id_program": 12,
+    "name": "Ubuntu Server",
+    "version": "22.04 LTS",
+    "developer": "Canonical",
+    "license_type": "бесплатная",
+    "license_count": null
+  },
+  {
+    "id_program": 13,
+    "name": "Windows Server 2022 Standard",
+    "version": "21H2",
+    "developer": "Microsoft",
+    "license_type": "коммерческая",
+    "license_count": 2
+  },
+  {
+    "id_program": 14,
+    "name": "macOS Sonoma",
+    "version": "14",
+    "developer": "Apple",
+    "license_type": "бесплатная",
+    "license_count": null
+  }
+]

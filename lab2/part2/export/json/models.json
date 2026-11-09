@@ -1,0 +1,68 @@
+[
+  {
+    "id_model": 1,
+    "manufacturer": "Lenovo",
+    "name": "ThinkCentre M70q Gen 3",
+    "device_type": "настольный ПК"
+  },
+  {
+    "id_model": 2,
+    "manufacturer": "HP",
+    "name": "ProDesk 400 G7",
+    "device_type": "настольный ПК"
+  },
+  {
+    "id_model": 3,
+    "manufacturer": "Dell",
+    "name": "OptiPlex 7090",
+    "device_type": "настольный ПК"
+  },
+  {
+    "id_model": 4,
+    "manufacturer": "Apple",
+    "name": "iMac 24 M3",
+    "device_type": "моноблок"
+  },
+  {
+    "id_model": 5,
+    "manufacturer": "HP",
+    "name": "ProOne 440 G9",
+    "device_type": "моноблок"
+  },
+  {
+    "id_model": 6,
+    "manufacturer": "Lenovo",
+    "name": "ThinkPad T14 Gen 3",
+    "device_type": "ноутбук"
+  },
+  {
+    "id_model": 7,
+    "manufacturer": "Apple",
+    "name": "MacBook Air 13 M2",
+    "device_type": "ноутбук"
+  },
+  {
+    "id_model": 8,
+    "manufacturer": "ASUS",
+    "name": "ExpertBook B1 B1500",
+    "device_type": "ноутбук"
+  },
+  {
+    "id_model": 9,
+    "manufacturer": "Dell",
+    "name": "PowerEdge R650",
+    "device_type": "сервер"
+  },
+  {
+    "id_model": 10,
+    "manufacturer": "HP",
+    "name": "ProLiant DL380 Gen10",
+    "device_type": "сервер"
+  },
+  {
+    "id_model": 11,
+    "manufacturer": "Huawei",
+    "name": "MateBook D 16",
+    "device_type": "ноутбук"
+  }
+]

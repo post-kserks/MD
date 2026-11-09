@@ -1,0 +1,8 @@
+[
+  {"component_type": "оперативная память", "manufacturer": "Kingston", "model": "KVR32S22S8/16",
+   "serial_number": "SDELIV0001", "param_value": 16, "unit": "ГБ", "inv_number": null},
+  {"component_type": "оперативная память", "manufacturer": "Kingston", "model": "KVR32S22S8/16",
+   "serial_number": "SDELIV0002", "param_value": 16, "unit": "ГБ", "inv_number": null},
+  {"component_type": "накопитель", "manufacturer": "Samsung", "model": "990 PRO 1TB",
+   "serial_number": "SDELIV0003", "param_value": 1, "unit": "ТБ", "inv_number": "ПК-00026"}
+]

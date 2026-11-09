@@ -1,0 +1,15 @@
+id_program,name,version,developer,license_type,license_count
+1,Windows 11 Pro,23H2,Microsoft,коммерческая,25
+2,Microsoft Office LTSC,2021,Microsoft,коммерческая,20
+3,1С:Предприятие,8.3,1С,коммерческая,6
+4,Kaspersky Endpoint Security,12.4,Лаборатория Касперского,подписка,30
+5,Adobe Photoshop,2025,Adobe,подписка,2
+6,КонсультантПлюс,4018,КонсультантПлюс,подписка,3
+7,AutoCAD LT,2024,Autodesk,коммерческая,1
+8,Яндекс Браузер,24.10,Яндекс,бесплатная,
+9,7-Zip,24.08,Igor Pavlov,бесплатная,
+10,LibreOffice,24.8,The Document Foundation,бесплатная,
+11,Visual Studio Code,1.95,Microsoft,бесплатная,
+12,Ubuntu Server,22.04 LTS,Canonical,бесплатная,
+13,Windows Server 2022 Standard,21H2,Microsoft,коммерческая,2
+14,macOS Sonoma,14,Apple,бесплатная,
