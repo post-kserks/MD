@@ -1,26 +1,19 @@
-"""Собирает report.docx из report.md (с титульным листом).
-
-Нужен python-docx:  pip install python-docx
-Запуск:             python3 build_docx.py
-Поддерживается только то подмножество Markdown, которое используется в report.md.
-"""
 import re
+import sys
 from pathlib import Path
 
 from docx import Document
-from docx.enum.section import WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt
 
-HERE = Path(__file__).resolve().parent
 FONT = "Times New Roman"
+MONO = "Courier New"
 
 
 def set_cell_borders(table):
-    tbl = table._tbl
     borders = OxmlElement("w:tblBorders")
     for edge in ("top", "left", "bottom", "right", "insideH", "insideV"):
         el = OxmlElement(f"w:{edge}")
@@ -28,22 +21,30 @@ def set_cell_borders(table):
         el.set(qn("w:sz"), "4")
         el.set(qn("w:color"), "000000")
         borders.append(el)
-    tbl.tblPr.append(borders)
+    table._tbl.tblPr.append(borders)
+
+
+def shade(paragraph, color="F2F2F2"):
+    shd = OxmlElement("w:shd")
+    shd.set(qn("w:val"), "clear")
+    shd.set(qn("w:color"), "auto")
+    shd.set(qn("w:fill"), color)
+    paragraph._p.get_or_add_pPr().append(shd)
 
 
 def add_runs(par, text, size=None, bold=False):
-    """Разбирает **жирный**, *курсив* и `код`."""
-    for part in re.split(r"(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`)", text):
+    for part in re.split(r"(\*\*[^*]+\*\*|\*[^*\s][^*]*\*|`[^`]+`)", text):
         if not part:
             continue
         if part.startswith("**"):
             run = par.add_run(part[2:-2])
             run.bold = True
-        elif part.startswith("*"):
+        elif part.startswith("*") and len(part) > 2:
             run = par.add_run(part[1:-1])
             run.italic = True
         elif part.startswith("`"):
             run = par.add_run(part[1:-1])
+            run.font.name = MONO
         else:
             run = par.add_run(part.replace("\\", ""))
         if bold:
@@ -63,7 +64,24 @@ def para(doc, text="", align=None, size=None, bold=False, indent=True, space_aft
     return p
 
 
-def title_page(doc):
+def parse_header(lines):
+    meta = {"lab": "", "title": "", "discipline": "Модели данных", "topic": ""}
+    for i, line in enumerate(lines):
+        s = line.strip()
+        if s == "---":
+            return meta, i + 1
+        if s.startswith("# "):
+            meta["lab"] = s[2:].strip()
+        elif s.startswith("## "):
+            meta["title"] = s[3:].strip().replace("**", "")
+        elif s.startswith("**Дисциплина:**"):
+            meta["discipline"] = s.split("**", 2)[2].strip()
+        elif s.startswith("**Тема:**"):
+            meta["topic"] = s.split("**", 2)[2].strip()
+    return meta, 0
+
+
+def title_page(doc, meta):
     c = WD_ALIGN_PARAGRAPH.CENTER
     for line in (
         "Министерство науки и высшего образования Российской Федерации",
@@ -78,10 +96,12 @@ def title_page(doc):
     para(doc, "Кафедра «Системы обработки информации и управления»", c, 13, indent=False)
     for _ in range(5):
         para(doc, "", indent=False, space_after=0)
-    para(doc, "Отчёт по лабораторной работе № 1 (часть 1)", c, 16, True, indent=False)
-    para(doc, "по дисциплине «Модели данных»", c, 14, indent=False)
-    para(doc, "«Исследование предметной области с использованием ИИ и построение инфологической модели»", c, 14, indent=False)
-    para(doc, "Тема: «АС учёта компьютеров, используемых фирмой»", c, 14, True, indent=False)
+    report = re.sub(r"^Лабораторная работа", "Отчёт по лабораторной работе", meta["lab"])
+    para(doc, report, c, 16, True, indent=False)
+    para(doc, f"по дисциплине «{meta['discipline']}»", c, 14, indent=False)
+    para(doc, meta["title"], c, 14, indent=False)
+    if meta["topic"]:
+        para(doc, f"Тема: «{meta['topic']}»", c, 14, True, indent=False)
     for _ in range(5):
         para(doc, "", indent=False, space_after=0)
     r = WD_ALIGN_PARAGRAPH.RIGHT
@@ -111,15 +131,32 @@ def add_table(doc, rows):
     doc.add_paragraph().paragraph_format.space_after = Pt(0)
 
 
+def add_code(doc, code_lines):
+    for line in code_lines or [""]:
+        p = doc.add_paragraph()
+        pf = p.paragraph_format
+        pf.space_after = Pt(0)
+        pf.line_spacing = 1.0
+        pf.left_indent = Cm(0.5)
+        shade(p)
+        run = p.add_run(line.rstrip("\n") or " ")
+        run.font.name = MONO
+        run.element.rPr.rFonts.set(qn("w:eastAsia"), MONO)
+        run.font.size = Pt(9.5)
+    doc.add_paragraph().paragraph_format.space_after = Pt(0)
+
+
 def split_row(line):
-    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+    cells = re.split(r"(?<!\\)\|", line.strip().strip("|"))
+    return [c.strip().replace("\\|", "|") for c in cells]
 
 
-def main():
-    lines = (HERE / "report.md").read_text(encoding="utf-8").splitlines()
+def build(src: Path):
+    base = src.parent
+    lines = src.read_text(encoding="utf-8").splitlines()
     doc = Document()
     sec = doc.sections[0]
-    sec.orientation = WD_ORIENT.PORTRAIT
     sec.left_margin, sec.right_margin = Cm(3), Cm(1.5)
     sec.top_margin = sec.bottom_margin = Cm(2)
     st = doc.styles["Normal"]
@@ -133,17 +170,22 @@ def main():
         hs.element.rPr.rFonts.set(qn("w:eastAsia"), FONT)
         hs.font.color.rgb = None
 
-    title_page(doc)
+    meta, i = parse_header(lines)
+    title_page(doc, meta)
     content_w = sec.page_width - sec.left_margin - sec.right_margin
 
-    i = 0
-    # пропускаем заголовок документа — он на титульном листе
-    while i < len(lines) and not lines[i].startswith("## 1."):
-        i += 1
     while i < len(lines):
-        line = lines[i]
-        s = line.strip()
-        if not s or s == "---":
+        s = lines[i].strip()
+        if s.startswith("```"):
+            code = []
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith("```"):
+                code.append(lines[i])
+                i += 1
+            add_code(doc, code)
+            i += 1
+            continue
+        if not s or s == "---" or s.startswith("<!--"):
             i += 1
             continue
         if s.startswith("|"):
@@ -165,8 +207,12 @@ def main():
             continue
         m = re.match(r"^!\[[^\]]*\]\(([^)]+)\)", s)
         if m:
-            doc.add_picture(str(HERE / m.group(1)), width=content_w)
-            doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+            img = base / m.group(1)
+            if img.exists():
+                doc.add_picture(str(img), width=content_w)
+                doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+            else:
+                para(doc, f"[нет файла рисунка: {m.group(1)}]", WD_ALIGN_PARAGRAPH.CENTER, 12, indent=False)
             i += 1
             continue
         if s.startswith(">"):
@@ -176,14 +222,14 @@ def main():
                 r.italic = True
             i += 1
             continue
-        if s.startswith("*Рисунок"):
+        if s.startswith("*Рисунок") or s.startswith("*Таблица"):
             para(doc, s.strip("*"), WD_ALIGN_PARAGRAPH.CENTER, 12, indent=False)
             i += 1
             continue
-        m = re.match(r"^[-•]\s+(.*)", s)
+        m = re.match(r"^(\s*)[-•]\s+(.*)", lines[i])
         if m:
-            p = doc.add_paragraph(style="List Bullet")
-            add_runs(p, m.group(1))
+            p = doc.add_paragraph(style="List Bullet 2" if len(m.group(1)) >= 2 else "List Bullet")
+            add_runs(p, m.group(2))
             i += 1
             continue
         m = re.match(r"^(\d+)\.\s+(.*)", s)
@@ -195,10 +241,13 @@ def main():
         para(doc, s)
         i += 1
 
-    out = HERE / "report.docx"
+    out = src.with_suffix(".docx")
     doc.save(out)
     print(out)
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        sys.exit("usage: python3 tools/build_docx.py path/to/report.md [...]")
+    for arg in sys.argv[1:]:
+        build(Path(arg).resolve())
