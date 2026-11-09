@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#E6E6E6" stroke="none" stroke-width="1"/>
+<line x1="220" y1="0" x2="220" y2="800" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПК</text>
+<text x="64" y="32" font-size="15" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Учёт ПК</text>
+<text x="64" y="48" font-size="10" fill="#444444" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТА</text>
+<text x="26" y="132" font-size="13" fill="#444444" text-anchor="middle">⌂</text>
+<text x="44" y="132" font-size="13" fill="#444444" text-anchor="start">Главная</text>
+<text x="26" y="170" font-size="13" fill="#444444" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#444444" text-anchor="start">Компьютеры</text>
+<text x="26" y="208" font-size="13" fill="#444444" text-anchor="middle">☺</text>
+<text x="44" y="208" font-size="13" fill="#444444" text-anchor="start">Сотрудники</text>
+<rect x="10" y="224" width="200" height="34" rx="6" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="26" y="246" font-size="13" fill="#FFFFFF" text-anchor="middle">⇄</text>
+<text x="44" y="246" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Закрепления</text>
+<text x="26" y="284" font-size="13" fill="#444444" text-anchor="middle">✎</text>
+<text x="44" y="284" font-size="13" fill="#444444" text-anchor="start">Обслуживание</text>
+<text x="26" y="322" font-size="13" fill="#444444" text-anchor="middle">≡</text>
+<text x="44" y="322" font-size="13" fill="#444444" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ДАННЫЕ</text>
+<text x="26" y="386" font-size="13" fill="#444444" text-anchor="middle">›</text>
+<text x="44" y="386" font-size="13" fill="#444444" text-anchor="start">SQL-запросы</text>
+<text x="26" y="424" font-size="13" fill="#444444" text-anchor="middle">★</text>
+<text x="44" y="424" font-size="13" fill="#444444" text-anchor="start">Готовые запросы</text>
+<text x="26" y="462" font-size="13" fill="#444444" text-anchor="middle">⇅</text>
+<text x="44" y="462" font-size="13" fill="#444444" text-anchor="start">Импорт и экспорт</text>
+<text x="20" y="778" font-size="10" fill="#444444" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#9A9A9A" stroke-width="1"/>
+<text x="244" y="24" font-size="11" fill="#8A8A8A" text-anchor="start">Учёт ПК / Закрепления / Выдача</text>
+<text x="244" y="44" font-size="18" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Выдача компьютера сотруднику</text>
+<text x="1256" y="34" font-size="11" fill="#8A8A8A" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="640" height="470" rx="8" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Выдача компьютера</text>
+<line x1="244" y1="124" x2="884" y2="124" stroke="#9A9A9A" stroke-width="1"/>
+<text x="268" y="150" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Компьютер (только в резерве) *</text>
+<rect x="268" y="158" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="180.0" font-size="13" fill="#333333" text-anchor="start">ПК-00004 · Lenovo ThinkCentre M70q Gen 3</text>
+<text x="842" y="180.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<text x="268" y="230" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Сотрудник *</text>
+<rect x="268" y="238" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="260.0" font-size="13" fill="#333333" text-anchor="start">Петрова Анна Викторовна · Бухгалтерия</text>
+<text x="842" y="260.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<text x="268" y="310" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Дата выдачи *</text>
+<rect x="268" y="318" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="340.0" font-size="13" fill="#333333" text-anchor="start">2026-11-09</text>
+<text x="580" y="310" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Номер распоряжения</text>
+<rect x="580" y="318" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="590" y="340.0" font-size="13" fill="#333333" text-anchor="start">Р-2026-040</text>
+<text x="268" y="390" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Переместить в помещение *</text>
+<rect x="268" y="398" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="420.0" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 101 (кабинет)</text>
+<text x="842" y="420.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<rect x="740" y="496" width="120" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="800.0" y="518" font-size="13" fill="#333333" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Выдать</text>
+<rect x="628" y="496" width="100" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="678.0" y="518" font-size="13" fill="#333333" text-anchor="middle">Отмена</text>
+<rect x="904" y="80" width="352" height="230" rx="8" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="922" y="108" font-size="16" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Проверки перед выдачей</text>
+<line x1="904" y1="124" x2="1256" y2="124" stroke="#9A9A9A" stroke-width="1"/>
+<text x="922" y="150" font-size="13" fill="#555555" text-anchor="start">✓ компьютер в состоянии «в резерве»</text>
+<text x="922" y="180" font-size="13" fill="#555555" text-anchor="start">✓ сотрудник не уволен</text>
+<text x="922" y="210" font-size="13" fill="#555555" text-anchor="start">✓ у компьютера нет действующего закрепления</text>
+<text x="922" y="240" font-size="13" fill="#555555" text-anchor="start">✓ дата выдачи не раньше даты ввода</text>
+<rect x="244" y="570" width="640" height="58" rx="6" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+<circle cx="266" cy="599" r="11" fill="#555555" stroke="#555555" stroke-width="1"/>
+<text x="266" y="604" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">✓</text>
+<text x="288" y="594" font-size="13" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Компьютер ПК-00004 выдан</text>
+<text x="288" y="614" font-size="12" fill="#333333" text-anchor="start">Закреплён за Петровой А. В., состояние — «в эксплуатации», помещение — Главный корпус, 101</text>
+</svg>

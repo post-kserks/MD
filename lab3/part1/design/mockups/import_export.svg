@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Учёт ПК</text>
+<text x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТА</text>
+<text x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<text x="26" y="170" font-size="13" fill="#C9D3E0" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#C9D3E0" text-anchor="start">Компьютеры</text>
+<text x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ДАННЫЕ</text>
+<text x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<rect x="10" y="440" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="26" y="462" font-size="13" fill="#FFFFFF" text-anchor="middle">⇅</text>
+<text x="44" y="462" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Импорт и экспорт</text>
+<text x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Импорт и экспорт</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Импорт и экспорт</text>
+<text x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="560" height="520" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Параметры операции</text>
+<line x1="244" y1="124" x2="804" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text x="268" y="150" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Операция</text>
+<circle cx="276" cy="172" r="8" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="1.5"/>
+<circle cx="276" cy="172" r="4" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1"/>
+<text x="292" y="177" font-size="13" fill="#1F2933" text-anchor="start">Экспорт из базы в файл</text>
+<circle cx="506" cy="172" r="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1.5"/>
+<text x="522" y="177" font-size="13" fill="#1F2933" text-anchor="start">Импорт из файла в базу</text>
+<text x="268" y="216" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Формат</text>
+<circle cx="276" cy="238" r="8" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="1.5"/>
+<circle cx="276" cy="238" r="4" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1"/>
+<text x="292" y="243" font-size="13" fill="#1F2933" text-anchor="start">CSV</text>
+<circle cx="376" cy="238" r="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1.5"/>
+<text x="392" y="243" font-size="13" fill="#1F2933" text-anchor="start">JSON</text>
+<text x="268" y="278" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Таблица *</text>
+<rect x="268" y="286" width="512" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="278" y="308.0" font-size="13" fill="#1F2933" text-anchor="start">computers — компьютеры (30 строк)</text>
+<text x="762" y="308.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="268" y="352" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Файл *</text>
+<rect x="268" y="360" width="400" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="278" y="382.0" font-size="13" fill="#1F2933" text-anchor="start">export/csv/computers.csv</text>
+<rect x="680" y="360" width="100" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="730.0" y="382" font-size="13" fill="#1F2933" text-anchor="middle">Обзор…</text>
+<text x="268" y="426" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Разделитель</text>
+<rect x="268" y="434" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="278" y="456.0" font-size="13" fill="#1F2933" text-anchor="start">запятая ( , )</text>
+<text x="410" y="456.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="444" y="426" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Кодировка</text>
+<rect x="444" y="434" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="454" y="456.0" font-size="13" fill="#1F2933" text-anchor="start">UTF-8</text>
+<text x="586" y="456.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<rect x="268" y="490" width="16" height="16" rx="3" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1.5"/>
+<text x="276" y="503" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">✓</text>
+<text x="292" y="503" font-size="13" fill="#1F2933" text-anchor="start">Первая строка — заголовки столбцов</text>
+<rect x="268" y="518" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1.5"/>
+<text x="292" y="531" font-size="13" fill="#1F2933" text-anchor="start">Пропускать существующие записи (импорт)</text>
+<rect x="620" y="548" width="160" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="700.0" y="570" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Начать экспорт</text>
+<rect x="820" y="80" width="436" height="520" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="838" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Ход выполнения</text>
+<line x1="820" y1="124" x2="1256" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="838" y="146" width="400" height="12" rx="6" fill="#F5F7FA" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="838" y="146" width="400" height="12" rx="6" fill="#2E7D4F" stroke="none" stroke-width="1"/>
+<text x="838" y="180" font-size="12" fill="#6B7785" text-anchor="start">100 % · 30 из 30 строк</text>
+<rect x="838" y="200" width="400" height="58" rx="6" fill="#E3F2E8" stroke="#2E7D4F" stroke-width="1"/>
+<circle cx="860" cy="229" r="11" fill="#2E7D4F" stroke="#2E7D4F" stroke-width="1"/>
+<text x="860" y="234" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">✓</text>
+<text x="882" y="224" font-size="13" fill="#2E7D4F" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Экспорт завершён</text>
+<text x="882" y="244" font-size="12" fill="#1F2933" text-anchor="start">30 строк → export/csv/computers.csv</text>
+<rect x="838" y="274" width="400" height="58" rx="6" fill="#FBE5E2" stroke="#C0392B" stroke-width="1"/>
+<circle cx="860" cy="303" r="11" fill="#C0392B" stroke="#C0392B" stroke-width="1"/>
+<text x="860" y="308" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">!</text>
+<text x="882" y="298" font-size="13" fill="#C0392B" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Импорт отменён, изменения откатаны</text>
+<text x="882" y="318" font-size="12" fill="#1F2933" text-anchor="start">UNIQUE constraint failed: programs.name, programs.version</text>
+<text x="838" y="366" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Журнал</text>
+<text x="838" y="392" font-size="12" fill="#6B7785" text-anchor="start" font-family="Menlo, Consolas, monospace">23:42:33  экспорт computers → CSV: 30 строк</text>
+<text x="838" y="414" font-size="12" fill="#6B7785" text-anchor="start" font-family="Menlo, Consolas, monospace">23:41:10  импорт new_programs.csv → programs: +2</text>
+<text x="838" y="436" font-size="12" fill="#6B7785" text-anchor="start" font-family="Menlo, Consolas, monospace">23:41:12  импорт bad_programs.csv: ошибка, откат</text>
+</svg>

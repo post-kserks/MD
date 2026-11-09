@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#E6E6E6" stroke="none" stroke-width="1"/>
+<line x1="220" y1="0" x2="220" y2="800" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПК</text>
+<text x="64" y="32" font-size="15" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Учёт ПК</text>
+<text x="64" y="48" font-size="10" fill="#444444" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТА</text>
+<text x="26" y="132" font-size="13" fill="#444444" text-anchor="middle">⌂</text>
+<text x="44" y="132" font-size="13" fill="#444444" text-anchor="start">Главная</text>
+<text x="26" y="170" font-size="13" fill="#444444" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#444444" text-anchor="start">Компьютеры</text>
+<text x="26" y="208" font-size="13" fill="#444444" text-anchor="middle">☺</text>
+<text x="44" y="208" font-size="13" fill="#444444" text-anchor="start">Сотрудники</text>
+<text x="26" y="246" font-size="13" fill="#444444" text-anchor="middle">⇄</text>
+<text x="44" y="246" font-size="13" fill="#444444" text-anchor="start">Закрепления</text>
+<text x="26" y="284" font-size="13" fill="#444444" text-anchor="middle">✎</text>
+<text x="44" y="284" font-size="13" fill="#444444" text-anchor="start">Обслуживание</text>
+<text x="26" y="322" font-size="13" fill="#444444" text-anchor="middle">≡</text>
+<text x="44" y="322" font-size="13" fill="#444444" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ДАННЫЕ</text>
+<rect x="10" y="364" width="200" height="34" rx="6" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="26" y="386" font-size="13" fill="#FFFFFF" text-anchor="middle">›</text>
+<text x="44" y="386" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">SQL-запросы</text>
+<text x="26" y="424" font-size="13" fill="#444444" text-anchor="middle">★</text>
+<text x="44" y="424" font-size="13" fill="#444444" text-anchor="start">Готовые запросы</text>
+<text x="26" y="462" font-size="13" fill="#444444" text-anchor="middle">⇅</text>
+<text x="44" y="462" font-size="13" fill="#444444" text-anchor="start">Импорт и экспорт</text>
+<text x="20" y="778" font-size="10" fill="#444444" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#9A9A9A" stroke-width="1"/>
+<text x="244" y="24" font-size="11" fill="#8A8A8A" text-anchor="start">Учёт ПК / SQL-запросы</text>
+<text x="244" y="44" font-size="18" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">SQL-запросы</text>
+<text x="1256" y="34" font-size="11" fill="#8A8A8A" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="1012" height="250" rx="8" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="245" y="81" width="40" height="248" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="274" y="108" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">1</text>
+<text x="298" y="108" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">SELECT m.device_type AS category,</text>
+<text x="274" y="128" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">2</text>
+<text x="298" y="128" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">       COUNT(*)      AS computers</text>
+<text x="274" y="148" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">3</text>
+<text x="298" y="148" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">FROM computers c</text>
+<text x="274" y="168" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">4</text>
+<text x="298" y="168" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">JOIN models m ON m.id_model = c.id_model</text>
+<text x="274" y="188" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">5</text>
+<text x="298" y="188" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">WHERE c.status &lt;&gt; 'списан'</text>
+<text x="274" y="208" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">6</text>
+<text x="298" y="208" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">GROUP BY m.device_type</text>
+<text x="274" y="228" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">7</text>
+<text x="298" y="228" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">HAVING COUNT(*) &gt; 5</text>
+<text x="274" y="248" font-size="12" fill="#8A8A8A" text-anchor="end" font-family="Menlo, Consolas, monospace">8</text>
+<text x="298" y="248" font-size="13" fill="#333333" text-anchor="start" font-family="Menlo, Consolas, monospace">ORDER BY computers DESC;</text>
+<rect x="244" y="346" width="199" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="343.5" y="368" font-size="13" fill="#333333" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">▶ Выполнить  Ctrl+Enter</text>
+<rect x="470" y="346" width="90" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="515.0" y="368" font-size="13" fill="#333333" text-anchor="middle">Очистить</text>
+<rect x="578" y="346" width="97" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="626.5" y="368" font-size="13" fill="#333333" text-anchor="middle">История ▾</text>
+<text x="1256" y="368" font-size="12" fill="#555555" text-anchor="end" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Готово: 2 строки за 3 мс</text>
+<rect x="244" y="400" width="500" height="94" rx="6" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="245" y="401" width="498" height="33" rx="5" fill="#EEEEEE" stroke="none" stroke-width="1"/>
+<text x="254" y="422" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">category</text>
+<text x="554" y="422" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">computers</text>
+<line x1="244" y1="434" x2="744" y2="434" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="454" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="554" y="454" font-size="13" fill="#333333" text-anchor="start">14</text>
+<rect x="245" y="464" width="498" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="464" x2="744" y2="464" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="484" font-size="13" fill="#333333" text-anchor="start">ноутбук</text>
+<text x="554" y="484" font-size="13" fill="#333333" text-anchor="start">6</text>
+<rect x="244" y="520" width="1012" height="58" rx="6" fill="#FFFFFF" stroke="#555555" stroke-width="1"/>
+<circle cx="266" cy="549" r="11" fill="#555555" stroke="#555555" stroke-width="1"/>
+<text x="266" y="554" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">!</text>
+<text x="288" y="544" font-size="13" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Пример ошибки: no such column: device</text>
+<text x="288" y="564" font-size="12" fill="#333333" text-anchor="start">Текст ошибки SQLite показывается здесь, таблица результатов не очищается</text>
+</svg>
