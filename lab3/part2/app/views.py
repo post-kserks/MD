@@ -7,6 +7,7 @@ from db import DatabaseError
 from dialogs import RecordDialog, confirm_delete
 from io_ops import export_table, import_table
 from queries import catalog, param_names
+from theme import C
 from widgets import Card, DataTable, LookupCombo, Message, scrolled_text
 
 TABLE_TITLES = {
@@ -52,27 +53,27 @@ class Dashboard(View):
             self.values[key].pack(anchor="w")
         actions = Card(self, "Быстрые действия", self.F)
         actions.pack(fill="x", pady=16)
-        bar = ttk.Frame(actions, style="Card.TFrame")
-        bar.pack(anchor="w")
-        for text, op, style in [("＋ Поставить на учёт", "register", "Primary.TButton"),
-                                ("Выдать компьютер", "assign", "TButton"),
-                                ("Принять возврат", "return", "TButton"),
-                                ("Зарегистрировать обслуживание", "service_open", "TButton"),
-                                ("Завершить обслуживание", "service_close", "TButton"),
-                                ("Списать", "writeoff", "TButton")]:
-            ttk.Button(bar, text=text, style=style, command=lambda o=op: app.operation(o)).pack(side="left", padx=(0, 8))
+        rows = [[("＋ Поставить на учёт", "register", "Primary.TButton"), ("Выдать компьютер", "assign", "TButton"),
+                 ("Принять возврат", "return", "TButton")],
+                [("Зарегистрировать обслуживание", "service_open", "TButton"),
+                 ("Завершить обслуживание", "service_close", "TButton"), ("Списать компьютер", "writeoff", "TButton")]]
+        for i, buttons in enumerate(rows):
+            bar = ttk.Frame(actions, style="Inner.TFrame")
+            bar.pack(anchor="w", pady=(0 if i == 0 else 8, 0))
+            for text, op, style in buttons:
+                ttk.Button(bar, text=text, style=style, command=lambda o=op: app.operation(o)).pack(side="left", padx=(0, 8))
         bottom = ttk.Frame(self)
         bottom.pack(fill="both", expand=True)
-        bottom.columnconfigure(0, weight=1)
-        bottom.columnconfigure(1, weight=1)
+        bottom.columnconfigure(0, weight=1, uniform="half")
+        bottom.columnconfigure(1, weight=1, uniform="half")
         bottom.rowconfigure(0, weight=1)
-        left = Card(bottom, "Гарантия истекает в ближайшие полгода", self.F)
+        left = Card(bottom, "Истекает гарантия (полгода)", self.F)
         left.grid(row=0, column=0, sticky="nsew", padx=(0, 8))
-        self.warranty = DataTable(left, height=8, style="Card.TFrame")
+        self.warranty = DataTable(left, height=8, style="Inner.TFrame", fit=True)
         self.warranty.pack(fill="both", expand=True)
         right = Card(bottom, "Незавершённые обслуживания", self.F)
         right.grid(row=0, column=1, sticky="nsew", padx=(8, 0))
-        self.services = DataTable(right, height=8, style="Card.TFrame")
+        self.services = DataTable(right, height=8, style="Inner.TFrame", fit=True)
         self.services.pack(fill="both", expand=True)
 
     def refresh(self):
@@ -93,22 +94,21 @@ class TablesView(View):
         super().__init__(app)
         bar = ttk.Frame(self)
         bar.pack(fill="x", pady=(0, 12))
-        ttk.Label(bar, text="Таблица").pack(side="left")
-        self.table_box = ttk.Combobox(bar, state="readonly", width=22)
-        self.table_box.pack(side="left", padx=(6, 16))
-        self.table_box.bind("<<ComboboxSelected>>", lambda e: self.set_table(self.table_box.get().split(" — ")[0]))
-        ttk.Label(bar, text="Поиск").pack(side="left")
-        self.search = ttk.Entry(bar, width=28)
-        self.search.pack(side="left", padx=(6, 16))
-        self.search.bind("<KeyRelease>", lambda e: self.apply_filter())
-        self.status_box = ttk.Combobox(bar, state="readonly", width=16,
-                                       values=[self.STATUS_ALL, "в эксплуатации", "в резерве", "в ремонте", "списан"])
-        self.status_box.set(self.STATUS_ALL)
-        self.status_box.bind("<<ComboboxSelected>>", lambda e: self.refresh())
         ttk.Button(bar, text="⟳", width=3, command=self.refresh).pack(side="right")
         ttk.Button(bar, text="Удалить", command=self.delete).pack(side="right", padx=(0, 8))
         ttk.Button(bar, text="Изменить", command=self.edit).pack(side="right", padx=(0, 8))
         ttk.Button(bar, text="＋ Добавить", style="Primary.TButton", command=self.add).pack(side="right", padx=(0, 8))
+        self.table_box = ttk.Combobox(bar, state="readonly", width=17)
+        self.table_box.pack(side="left", padx=(0, 12))
+        self.table_box.bind("<<ComboboxSelected>>", lambda e: self.set_table(self.table_box.get().split(" — ")[0]))
+        ttk.Label(bar, text="Поиск").pack(side="left")
+        self.search = ttk.Entry(bar, width=15)
+        self.search.pack(side="left", padx=(6, 16))
+        self.search.bind("<KeyRelease>", lambda e: self.apply_filter())
+        self.status_box = ttk.Combobox(bar, state="readonly", width=14,
+                                       values=[self.STATUS_ALL, "в эксплуатации", "в резерве", "в ремонте", "списан"])
+        self.status_box.set(self.STATUS_ALL)
+        self.status_box.bind("<<ComboboxSelected>>", lambda e: self.refresh())
         self.grid_table = DataTable(self, height=18, on_open=lambda row: self.edit())
         self.grid_table.pack(fill="both", expand=True)
         self.info = ttk.Label(self, text="", style="Muted.TLabel")
@@ -130,7 +130,7 @@ class TablesView(View):
             self.table = tables[0]
         self.table_box.set(f"{self.table} — {TABLE_TITLES.get(self.table, self.table)}")
         if self.table == "computers":
-            self.status_box.pack(side="left", after=self.search)
+            self.status_box.pack(side="left", after=self.search, padx=(0, 8))
         else:
             self.status_box.pack_forget()
         sql, params = f'SELECT * FROM "{self.table}"', ()
@@ -194,10 +194,13 @@ class SqlView(View):
         ttk.Button(bar, text="Очистить", command=lambda: self.editor.delete("1.0", "end")).pack(side="left", padx=8)
         self.status = ttk.Label(bar, text="", style="Muted.TLabel")
         self.status.pack(side="right")
-        self.message = Message(self)
+        self.message = Message(self, empty_style="TLabel")
         self.message.pack(fill="x")
         self.result = DataTable(self, height=14)
         self.result.pack(fill="both", expand=True, pady=(8, 0))
+
+    def refresh(self):
+        self.editor.focus_set()
 
     def load_sql(self, sql):
         self.editor.delete("1.0", "end")
@@ -233,9 +236,9 @@ class QueriesView(View):
         self.items = catalog()
         left = Card(self, "Запросы ЛР2", self.F)
         left.pack(side="left", fill="y", padx=(0, 16))
-        self.listbox = tk.Listbox(left, width=44, height=22, font=self.F["body"], activestyle="none",
-                                  relief="flat", highlightthickness=0, selectbackground="#DCE7F7",
-                                  selectforeground="#1F2933", exportselection=False)
+        self.listbox = tk.Listbox(left, width=38, height=22, font=self.F["body"], activestyle="none",
+                                  relief="flat", highlightthickness=0, bg=C["surface"], fg=C["text"],
+                                  selectbackground=C["selected"], selectforeground=C["text"], exportselection=False)
         for title, _, _ in self.items:
             self.listbox.insert("end", title)
         self.listbox.pack(fill="y", expand=True)
@@ -245,25 +248,29 @@ class QueriesView(View):
         right.pack(side="left", fill="both", expand=True)
         top = Card(right)
         top.pack(fill="x")
-        self.heading = ttk.Label(top, text="", style="H2.TLabel")
+        self.heading = ttk.Label(top, text="", style="H2.TLabel", wraplength=480)
         self.heading.pack(anchor="w")
         frame, self.sql = scrolled_text(top, self.F, height=7)
         frame.pack(fill="x", pady=8)
-        self.params = ttk.Frame(top, style="Card.TFrame")
+        self.params = ttk.Frame(top, style="Inner.TFrame")
         self.params.pack(fill="x")
-        bar = ttk.Frame(top, style="Card.TFrame")
+        bar = ttk.Frame(top, style="Inner.TFrame")
         bar.pack(fill="x", pady=(8, 0))
         ttk.Button(bar, text="▶ Выполнить", style="Primary.TButton", command=self.run).pack(side="left")
         ttk.Button(bar, text="Открыть в SQL-консоли", command=self.to_console).pack(side="left", padx=8)
         self.status = ttk.Label(bar, text="", style="CardMuted.TLabel")
         self.status.pack(side="right")
-        self.message = Message(right)
+        self.message = Message(right, empty_style="TLabel")
         self.message.pack(fill="x", pady=(8, 0))
         self.result = DataTable(right, height=12)
         self.result.pack(fill="both", expand=True, pady=(8, 0))
         self.param_entries = {}
         self.listbox.selection_set(len(self.items) - 3)
         self.select()
+
+    def refresh(self):
+        if not self.result.rows:
+            self.run()
 
     def current(self):
         sel = self.listbox.curselection()
@@ -322,14 +329,14 @@ class ImportExportView(View):
         self.op = tk.StringVar(value="export")
         self.fmt = tk.StringVar(value="csv")
         ttk.Label(left, text="Операция", style="Field.TLabel").pack(anchor="w")
-        row = ttk.Frame(left, style="Card.TFrame")
+        row = ttk.Frame(left, style="Inner.TFrame")
         row.pack(anchor="w", pady=(4, 10))
         ttk.Radiobutton(row, text="Экспорт из базы в файл", variable=self.op, value="export",
                         command=self.suggest).pack(side="left")
         ttk.Radiobutton(row, text="Импорт из файла в базу", variable=self.op, value="import",
                         command=self.suggest).pack(side="left", padx=12)
         ttk.Label(left, text="Формат", style="Field.TLabel").pack(anchor="w")
-        row = ttk.Frame(left, style="Card.TFrame")
+        row = ttk.Frame(left, style="Inner.TFrame")
         row.pack(anchor="w", pady=(4, 10))
         for f in ("csv", "json"):
             ttk.Radiobutton(row, text=f.upper(), variable=self.fmt, value=f, command=self.suggest).pack(side="left", padx=(0, 12))
@@ -338,7 +345,7 @@ class ImportExportView(View):
         self.table.pack(anchor="w", fill="x", pady=(4, 10))
         self.table.bind("<<ComboboxSelected>>", lambda e: self.suggest())
         ttk.Label(left, text="Файл *", style="Field.TLabel").pack(anchor="w")
-        row = ttk.Frame(left, style="Card.TFrame")
+        row = ttk.Frame(left, style="Inner.TFrame")
         row.pack(fill="x", pady=(4, 10))
         self.path = ttk.Entry(row, width=36)
         self.path.pack(side="left", fill="x", expand=True)
@@ -361,7 +368,7 @@ class ImportExportView(View):
         self.message = Message(right)
         self.message.pack(fill="x", pady=10)
         ttk.Label(right, text="Журнал", style="Field.TLabel").pack(anchor="w")
-        frame, self.log = scrolled_text(right, self.F, height=14)
+        frame, self.log = scrolled_text(right, self.F, height=14, wrap="word")
         frame.pack(fill="both", expand=True, pady=(4, 0))
         self.log.configure(state="disabled")
 

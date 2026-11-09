@@ -82,6 +82,8 @@ class App(tk.Tk):
         io = tk.Menu(m, tearoff=False)
         io.add_command(label="Экспорт данных…", command=lambda: self.show_io("export"))
         io.add_command(label="Импорт данных…", command=lambda: self.show_io("import"))
+        io.add_separator()
+        io.add_command(label="Выполнить операцию", command=self.run_io)
         m.add_cascade(label="Импорт/экспорт", menu=io)
         hlp = tk.Menu(m, tearoff=False)
         hlp.add_command(label="О программе", command=lambda: messagebox.showinfo(
@@ -91,7 +93,7 @@ class App(tk.Tk):
         self.config(menu=m)
 
     def build_layout(self):
-        side = ttk.Frame(self, style="Sidebar.TFrame", width=220)
+        side = ttk.Frame(self, style="Sidebar.TFrame", width=232)
         side.pack(side="left", fill="y")
         side.pack_propagate(False)
         ttk.Label(side, text="Учёт ПК", style="Brand.TLabel").pack(anchor="w", padx=20, pady=(20, 0))
@@ -146,6 +148,11 @@ class App(tk.Tk):
         self.views["io"].op.set(op)
         self.views["io"].suggest()
 
+    def run_io(self):
+        if self.current is not self.views["io"]:
+            self.show("io")
+        self.views["io"].start()
+
     def table_action(self, action):
         if self.current is not self.views["tables"]:
             self.show("tables", "computers")
@@ -187,7 +194,7 @@ class App(tk.Tk):
             return False
         version = self.db.value("PRAGMA user_version")
         self.db_label.configure(text=f"{Path(path).name} · схема v{version}")
-        self.notify("success", f"Подключена база {path}")
+        self.notify("success", f"Подключена база {Path(path).name}")
         return True
 
     def ask_open(self):
