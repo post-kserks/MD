@@ -8,6 +8,7 @@ from pathlib import Path
 
 W, H = 3150, 1960
 FONT = "Arial, Helvetica, sans-serif"
+BOLD = 'font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif"'
 
 # Сущности: имя -> (x, y, ассоциативная?)
 ENTITIES = {
@@ -23,20 +24,27 @@ ENTITIES = {
     "КОМПЛЕКТУЮЩЕЕ": (2130, 1660, False),
 }
 
-# Связи: (имя, сущность A, карт. A, обяз. A, сущность B, карт. B, обяз. B)
+# Связи-ромбы: (имя, тип, сущность A, карт. A, обяз. A, сущность B, карт. B, обяз. B)
+# Тип пишется в порядке A:B, где A — левая или верхняя сущность на схеме.
 # Кардинальность пишется у сущности: «М» у той, чьих экземпляров много.
 RELATIONS = [
-    ("РАБОТАЕТ_В", "СОТРУДНИК", "М", True, "ОТДЕЛ", "1", False),
-    ("ПОЛУЧАЕТ", "СОТРУДНИК", "1", False, "ЗАКРЕПЛЕНИЕ", "М", True),
-    ("КАСАЕТСЯ", "ЗАКРЕПЛЕНИЕ", "М", True, "КОМПЬЮТЕР", "1", False),
-    ("ВЫПОЛНЯЕТ", "СОТРУДНИК", "1", False, "ОБСЛУЖИВАНИЕ", "М", False),
-    ("ПРОВОДИТСЯ_ДЛЯ", "ОБСЛУЖИВАНИЕ", "М", True, "КОМПЬЮТЕР", "1", False),
-    ("ВЫПОЛНЕНА_НА", "УСТАНОВКА_ПО", "М", True, "КОМПЬЮТЕР", "1", False),
-    ("ФИКСИРУЕТ", "УСТАНОВКА_ПО", "М", True, "ПРОГРАММА", "1", False),
-    ("ИМЕЕТ_МОДЕЛЬ", "КОМПЬЮТЕР", "М", True, "МОДЕЛЬ", "1", False),
-    ("НАХОДИТСЯ_В", "КОМПЬЮТЕР", "М", True, "ПОМЕЩЕНИЕ", "1", False),
-    ("СОДЕРЖИТ", "КОМПЬЮТЕР", "1", False, "КОМПЛЕКТУЮЩЕЕ", "М", False),
+    ("РАБОТАЕТ_В", "1:М", "ОТДЕЛ", "1", False, "СОТРУДНИК", "М", True),
+    ("ВЫПОЛНЯЕТ", "1:М", "СОТРУДНИК", "1", False, "ОБСЛУЖИВАНИЕ", "М", False),
+    ("ПРОВОДИТСЯ_ДЛЯ", "М:1", "ОБСЛУЖИВАНИЕ", "М", True, "КОМПЬЮТЕР", "1", False),
+    ("ИМЕЕТ_МОДЕЛЬ", "М:1", "КОМПЬЮТЕР", "М", True, "МОДЕЛЬ", "1", False),
+    ("НАХОДИТСЯ_В", "М:1", "КОМПЬЮТЕР", "М", True, "ПОМЕЩЕНИЕ", "1", False),
+    ("СОДЕРЖИТ", "1:М", "КОМПЬЮТЕР", "1", False, "КОМПЛЕКТУЮЩЕЕ", "М", False),
 ]
+
+# Метки кардинальности, которые нужно поставить по другую сторону линии: (связь, сущность)
+LABEL_FLIP = {("ИМЕЕТ_МОДЕЛЬ", "КОМПЬЮТЕР")}
+
+# Ассоциативные сущности — связи М:М с собственными атрибутами:
+# имя -> (тип, смещение подписи типа (dx, dy), [(сущность, карт., обяз.), ...])
+ASSOC_LINKS = {
+    "ЗАКРЕПЛЕНИЕ": ("М:М", (-75, 62), [("СОТРУДНИК", "М", False), ("КОМПЬЮТЕР", "М", False)]),
+    "УСТАНОВКА_ПО": ("М:М", (0, -48), [("КОМПЬЮТЕР", "М", False), ("ПРОГРАММА", "М", False)]),
+}
 
 
 
@@ -164,6 +172,19 @@ def clip_ellipse(cx, cy, rx, ry, tx, ty):
     return cx + dx * s, cy + dy * s
 
 
+def arrow_head(x, y, ux, uy, double=False):
+    """Наконечник с вершиной в (x, y) по направлению (ux, uy); двойной — для стороны «М»."""
+    L, Wd = 18, 7
+    heads = []
+    for back in ((0, 14) if double else (0,)):
+        tx, ty = x - ux * back, y - uy * back
+        bx, by = tx - ux * L, ty - uy * L
+        heads.append(
+            f'<polygon points="{tx:.1f},{ty:.1f} {bx - uy * Wd:.1f},{by + ux * Wd:.1f} {bx + uy * Wd:.1f},{by - ux * Wd:.1f}" fill="#000"/>'
+        )
+    return "".join(heads)
+
+
 def line(x1, y1, x2, y2, double=False):
     if not double:
         return f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="#000" stroke-width="1.6"/>'
@@ -209,30 +230,42 @@ def main():
                     f'<line x1="{ax - tw / 2:.1f}" y1="{ay + 8}" x2="{ax + tw / 2:.1f}" y2="{ay + 8}" stroke="#000" stroke-width="1.2"/>'
                 )
 
-    # связи
-    for name, a, ca, ma, b, cb, mb in RELATIONS:
+    def link(start, ename, card, mand, flip=False):
+        """Линия от связи к сущности со стрелкой и меткой кардинальности у сущности."""
+        ex, ey, _ = ENTITIES[ename]
+        tip = clip_rect(ex, ey, ent_w(ename), ENT_H, *start)
+        lines.append(line(*start, *tip, double=mand))
+        dx, dy = tip[0] - start[0], tip[1] - start[1]
+        ln = (dx * dx + dy * dy) ** 0.5
+        ux, uy = dx / ln, dy / ln
+        shapes.append(arrow_head(*tip, ux, uy, double=(card == "М")))
+        # метка: отступаем от сущности назад вдоль линии и в сторону
+        side = -1 if flip else 1
+        lx = tip[0] - ux * 50 - uy * 20 * side
+        ly = tip[1] - uy * 50 + ux * 20 * side
+        shapes.append(f'<text x="{lx:.1f}" y="{ly + 8:.1f}" font-size="22" {BOLD} text-anchor="middle">{card}</text>')
+
+    # связи-ромбы
+    for name, kind, a, ca, ma, b, cb, mb in RELATIONS:
         ax, ay, _ = ENTITIES[a]
         bx, by, _ = ENTITIES[b]
         rx, ry = (ax + bx) / 2, (ay + by) / 2
         rw = max(REL_W, text_w(name, 14) + 70)
-        for ex, ey, ename, card, mand in ((ax, ay, a, ca, ma), (bx, by, b, cb, mb)):
-            p1 = clip_rect(ex, ey, ent_w(ename), ENT_H, rx, ry)
-            p2 = clip_diamond(rx, ry, rw, REL_H, ex, ey)
-            lines.append(line(*p1, *p2, double=mand))
-            # метка кардинальности: чуть в стороне от линии у сущности
-            dx, dy = p2[0] - p1[0], p2[1] - p1[1]
-            ln = (dx * dx + dy * dy) ** 0.5
-            ux, uy = dx / ln, dy / ln
-            lx = p1[0] + ux * 26 - uy * 16
-            ly = p1[1] + uy * 26 + ux * 16
-            shapes.append(
-                f'<text x="{lx:.1f}" y="{ly + 7:.1f}" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">{card}</text>'
-            )
+        for ename, card, mand in ((a, ca, ma), (b, cb, mb)):
+            ex, ey, _ = ENTITIES[ename]
+            link(clip_diamond(rx, ry, rw, REL_H, ex, ey), ename, card, mand, (name, ename) in LABEL_FLIP)
         pts = f"{rx},{ry - REL_H / 2} {rx + rw / 2},{ry} {rx},{ry + REL_H / 2} {rx - rw / 2},{ry}"
         shapes.append(f'<polygon points="{pts}" fill="#fff" stroke="#000" stroke-width="1.6"/>')
-        shapes.append(
-            f'<text x="{rx}" y="{ry + 5}" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">{esc(name)}</text>'
-        )
+        shapes.append(f'<text x="{rx}" y="{ry - 3}" font-size="14" text-anchor="middle" {BOLD}>{esc(name)}</text>')
+        shapes.append(f'<text x="{rx}" y="{ry + 20}" font-size="17" text-anchor="middle" {BOLD}>{kind}</text>')
+
+    # ассоциативные сущности: стрелки к связываемым сущностям
+    for name, (kind, (tdx, tdy), targets) in ASSOC_LINKS.items():
+        x, y, _ = ENTITIES[name]
+        for ename, card, mand in targets:
+            ex, ey, _ = ENTITIES[ename]
+            link(clip_rect(x, y, ent_w(name), ENT_H, ex, ey), ename, card, mand)
+        shapes.append(f'<text x="{x + tdx}" y="{y + tdy}" font-size="17" text-anchor="middle" {BOLD}>{kind}</text>')
 
     # сущности
     for name, (x, y, assoc) in ENTITIES.items():
@@ -248,25 +281,35 @@ def main():
         )
 
     # легенда
-    lx, ly = 2330, 60
+    lx, ly = 2330, 50
     legend = [
-        f'<rect x="{lx}" y="{ly}" width="720" height="350" fill="#fff" stroke="#000" stroke-width="1.2"/>',
-        f'<text x="{lx + 20}" y="{ly + 34}" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Обозначения</text>',
+        f'<rect x="{lx}" y="{ly}" width="740" height="500" fill="#fff" stroke="#000" stroke-width="1.2"/>',
+        f'<text x="{lx + 20}" y="{ly + 34}" font-size="18" {BOLD}>Обозначения</text>',
         f'<rect x="{lx + 20}" y="{ly + 55}" width="110" height="36" fill="#fff" stroke="#000" stroke-width="2"/>',
         f'<text x="{lx + 150}" y="{ly + 79}" font-size="15">сущность</text>',
         f'<rect x="{lx + 20}" y="{ly + 105}" width="110" height="36" fill="#fff" stroke="#000" stroke-width="2"/>',
         f'<polygon points="{lx + 75},{ly + 108} {lx + 126},{ly + 123} {lx + 75},{ly + 138} {lx + 24},{ly + 123}" fill="none" stroke="#000"/>',
-        f'<text x="{lx + 150}" y="{ly + 129}" font-size="15">ассоциативная сущность (связь М:М)</text>',
-        f'<polygon points="{lx + 75},{ly + 155} {lx + 130},{ly + 175} {lx + 75},{ly + 195} {lx + 20},{ly + 175}" fill="#fff" stroke="#000"/>',
-        f'<text x="{lx + 150}" y="{ly + 181}" font-size="15">связь</text>',
-        f'<ellipse cx="{lx + 75}" cy="{ly + 225}" rx="55" ry="18" fill="#fff" stroke="#000"/>',
-        f'<text x="{lx + 75}" y="{ly + 230}" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id</text>',
-        f'<line x1="{lx + 66}" y1="{ly + 233}" x2="{lx + 84}" y2="{ly + 233}" stroke="#000"/>',
-        f'<text x="{lx + 150}" y="{ly + 231}" font-size="15">атрибут (подчёркнут — идентификатор)</text>',
-        line(lx + 20, ly + 270, lx + 130, ly + 270, double=True),
-        f'<text x="{lx + 150}" y="{ly + 276}" font-size="15">обязательное участие сущности в связи</text>',
-        line(lx + 20, ly + 310, lx + 130, ly + 310),
-        f'<text x="{lx + 150}" y="{ly + 316}" font-size="15">необязательное участие; 1 / М — кардинальность</text>',
+        f'<text x="{lx + 150}" y="{ly + 129}" font-size="15">ассоциативная сущность (связь М:М с атрибутами)</text>',
+        f'<polygon points="{lx + 75},{ly + 152} {lx + 130},{ly + 177} {lx + 75},{ly + 202} {lx + 20},{ly + 177}" fill="#fff" stroke="#000"/>',
+        f'<text x="{lx + 75}" y="{ly + 183}" font-size="13" text-anchor="middle" {BOLD}>1:М</text>',
+        f'<text x="{lx + 150}" y="{ly + 183}" font-size="15">связь; под именем — тип связи (1:М, М:1, М:М)</text>',
+        f'<ellipse cx="{lx + 75}" cy="{ly + 232}" rx="55" ry="18" fill="#fff" stroke="#000"/>',
+        f'<text x="{lx + 75}" y="{ly + 237}" font-size="14" text-anchor="middle" {BOLD}>id</text>',
+        f'<line x1="{lx + 66}" y1="{ly + 240}" x2="{lx + 84}" y2="{ly + 240}" stroke="#000"/>',
+        f'<text x="{lx + 150}" y="{ly + 238}" font-size="15">атрибут (подчёркнут — идентификатор)</text>',
+        line(lx + 20, ly + 285, lx + 130, ly + 285),
+        arrow_head(lx + 130, ly + 285, 1, 0),
+        f'<text x="{lx + 105}" y="{ly + 275}" font-size="17" {BOLD}>1</text>',
+        f'<text x="{lx + 150}" y="{ly + 291}" font-size="15">стрелка к сущности со стороны «один»</text>',
+        line(lx + 20, ly + 335, lx + 130, ly + 335),
+        arrow_head(lx + 130, ly + 335, 1, 0, double=True),
+        f'<text x="{lx + 90}" y="{ly + 325}" font-size="17" {BOLD}>М</text>',
+        f'<text x="{lx + 150}" y="{ly + 341}" font-size="15">двойная стрелка к сущности со стороны «много»</text>',
+        line(lx + 20, ly + 385, lx + 130, ly + 385, double=True),
+        f'<text x="{lx + 150}" y="{ly + 391}" font-size="15">двойная линия — обязательное участие сущности</text>',
+        line(lx + 20, ly + 435, lx + 130, ly + 435),
+        f'<text x="{lx + 150}" y="{ly + 441}" font-size="15">одинарная линия — необязательное участие</text>',
+        f'<text x="{lx + 20}" y="{ly + 482}" font-size="14">Идентификатор УСТАНОВКИ_ПО составной: (инвентарный_номер, код_программы)</text>',
     ]
 
     out += lines + shapes + legend + ["</svg>"]
