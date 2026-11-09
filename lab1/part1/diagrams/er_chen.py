@@ -1,8 +1,3 @@
-"""Генерирует инфологическую модель в нотации Чена: ../img/er_chen.svg.
-
-Запуск: python3 er_chen.py
-Позиции подобраны вручную; чтобы сдвинуть элемент, правьте координаты ниже.
-"""
 import math
 from pathlib import Path
 
@@ -10,7 +5,7 @@ W, H = 3150, 1960
 FONT = "Arial, Helvetica, sans-serif"
 BOLD = 'font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif"'
 
-# Сущности: имя -> (x, y, ассоциативная?)
+
 ENTITIES = {
     "ОТДЕЛ": (230, 330, False),
     "СОТРУДНИК": (820, 330, False),
@@ -24,9 +19,7 @@ ENTITIES = {
     "КОМПЛЕКТУЮЩЕЕ": (2130, 1660, False),
 }
 
-# Связи-ромбы: (имя, тип, сущность A, карт. A, обяз. A, сущность B, карт. B, обяз. B)
-# Тип пишется в порядке A:B, где A — левая или верхняя сущность на схеме.
-# Кардинальность пишется у сущности: «М» у той, чьих экземпляров много.
+
 RELATIONS = [
     ("РАБОТАЕТ_В", "1:М", "ОТДЕЛ", "1", False, "СОТРУДНИК", "М", True),
     ("ВЫПОЛНЯЕТ", "1:М", "СОТРУДНИК", "1", False, "ОБСЛУЖИВАНИЕ", "М", False),
@@ -36,25 +29,21 @@ RELATIONS = [
     ("СОДЕРЖИТ", "1:М", "КОМПЬЮТЕР", "1", False, "КОМПЛЕКТУЮЩЕЕ", "М", False),
 ]
 
-# Метки кардинальности, которые нужно поставить по другую сторону линии: (связь, сущность)
+
 LABEL_FLIP = {("ИМЕЕТ_МОДЕЛЬ", "КОМПЬЮТЕР")}
 
-# Ассоциативные сущности — связи М:М с собственными атрибутами:
-# имя -> (тип, смещение подписи типа (dx, dy), [(сущность, карт., обяз.), ...])
+
 ASSOC_LINKS = {
     "ЗАКРЕПЛЕНИЕ": ("М:М", (-75, 62), [("СОТРУДНИК", "М", False), ("КОМПЬЮТЕР", "М", False)]),
     "УСТАНОВКА_ПО": ("М:М", (0, -48), [("КОМПЬЮТЕР", "М", False), ("ПРОГРАММА", "М", False)]),
 }
 
 
-
 def P(angle, r):
-    """Смещение атрибута в полярных координатах (угол в градусах, против часовой от оси X)."""
     a = math.radians(angle)
     return round(r * math.cos(a)), round(-r * math.sin(a))
 
 
-# Атрибуты: сущность -> [(имя, dx, dy, идентификатор?)]
 ATTRS = {
     "ОТДЕЛ": [
         ("код_отдела", -20, -130, True),
@@ -140,7 +129,7 @@ def text_w(s, size):
 
 
 def ent_w(name):
-    # у ассоциативной сущности внутри ромб — нужен запас по ширине
+
     extra = 110 if ENTITIES[name][2] else 40
     return max(190, text_w(name, 18) + extra)
 
@@ -150,7 +139,6 @@ def esc(s):
 
 
 def clip_rect(cx, cy, w, h, tx, ty):
-    """Точка на границе прямоугольника (cx, cy, w, h) по направлению к (tx, ty)."""
     dx, dy = tx - cx, ty - cy
     if dx == 0 and dy == 0:
         return cx, cy
@@ -173,7 +161,6 @@ def clip_ellipse(cx, cy, rx, ry, tx, ty):
 
 
 def arrow_head(x, y, ux, uy, double=False):
-    """Наконечник с вершиной в (x, y) по направлению (ux, uy); двойной — для стороны «М»."""
     L, Wd = 18, 7
     heads = []
     for back in ((0, 14) if double else (0,)):
@@ -188,7 +175,7 @@ def arrow_head(x, y, ux, uy, double=False):
 def line(x1, y1, x2, y2, double=False):
     if not double:
         return f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="#000" stroke-width="1.6"/>'
-    # двойная линия — обязательное участие
+
     dx, dy = x2 - x1, y2 - y1
     ln = (dx * dx + dy * dy) ** 0.5
     nx, ny = -dy / ln * 3.2, dx / ln * 3.2
@@ -205,7 +192,7 @@ def main():
     ]
     lines, shapes = [], []
 
-    # атрибуты
+
     for ent, attrs in ATTRS.items():
         ex, ey, _ = ENTITIES[ent]
         ew = ent_w(ent)
@@ -224,14 +211,13 @@ def main():
             shapes.append(
                 f'<text x="{ax}" y="{ay + 5}" font-size="15" text-anchor="middle"{deco}{weight}>{esc(name)}</text>'
             )
-            if key:  # подчёркивание рисуем явно: не все рендеры поддерживают text-decoration
+            if key:
                 tw = text_w(name, 15) * 0.97
                 shapes.append(
                     f'<line x1="{ax - tw / 2:.1f}" y1="{ay + 8}" x2="{ax + tw / 2:.1f}" y2="{ay + 8}" stroke="#000" stroke-width="1.2"/>'
                 )
 
     def link(start, ename, card, mand, flip=False):
-        """Линия от связи к сущности со стрелкой и меткой кардинальности у сущности."""
         ex, ey, _ = ENTITIES[ename]
         tip = clip_rect(ex, ey, ent_w(ename), ENT_H, *start)
         lines.append(line(*start, *tip, double=mand))
@@ -239,13 +225,13 @@ def main():
         ln = (dx * dx + dy * dy) ** 0.5
         ux, uy = dx / ln, dy / ln
         shapes.append(arrow_head(*tip, ux, uy, double=(card == "М")))
-        # метка: отступаем от сущности назад вдоль линии и в сторону
+
         side = -1 if flip else 1
         lx = tip[0] - ux * 50 - uy * 20 * side
         ly = tip[1] - uy * 50 + ux * 20 * side
         shapes.append(f'<text x="{lx:.1f}" y="{ly + 8:.1f}" font-size="22" {BOLD} text-anchor="middle">{card}</text>')
 
-    # связи-ромбы
+
     for name, kind, a, ca, ma, b, cb, mb in RELATIONS:
         ax, ay, _ = ENTITIES[a]
         bx, by, _ = ENTITIES[b]
@@ -259,7 +245,7 @@ def main():
         shapes.append(f'<text x="{rx}" y="{ry - 3}" font-size="14" text-anchor="middle" {BOLD}>{esc(name)}</text>')
         shapes.append(f'<text x="{rx}" y="{ry + 20}" font-size="17" text-anchor="middle" {BOLD}>{kind}</text>')
 
-    # ассоциативные сущности: стрелки к связываемым сущностям
+
     for name, (kind, (tdx, tdy), targets) in ASSOC_LINKS.items():
         x, y, _ = ENTITIES[name]
         for ename, card, mand in targets:
@@ -267,7 +253,7 @@ def main():
             link(clip_rect(x, y, ent_w(name), ENT_H, ex, ey), ename, card, mand)
         shapes.append(f'<text x="{x + tdx}" y="{y + tdy}" font-size="17" text-anchor="middle" {BOLD}>{kind}</text>')
 
-    # сущности
+
     for name, (x, y, assoc) in ENTITIES.items():
         w = ent_w(name)
         shapes.append(
@@ -280,7 +266,7 @@ def main():
             f'<text x="{x}" y="{y + 6}" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">{esc(name)}</text>'
         )
 
-    # легенда
+
     lx, ly = 2330, 50
     legend = [
         f'<rect x="{lx}" y="{ly}" width="740" height="500" fill="#fff" stroke="#000" stroke-width="1.2"/>',

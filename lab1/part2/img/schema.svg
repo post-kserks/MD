@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2140" height="1130" viewBox="0 0 2140 1130" font-family="Arial, Helvetica, sans-serif">
+<rect width="2140" height="1130" fill="#fff"/>
+<line x1="470.0" y1="130.6" x2="370.0" y2="111.9" stroke="#333" stroke-width="1.6"/>
+<line x1="454.3" y1="127.7" x2="468.3" y2="139.5" stroke="#333" stroke-width="1.6"/>
+<line x1="454.3" y1="127.7" x2="470.0" y2="130.6" stroke="#333" stroke-width="1.6"/>
+<line x1="454.3" y1="127.7" x2="471.7" y2="121.8" stroke="#333" stroke-width="1.6"/>
+<line x1="383.5" y1="105.3" x2="380.1" y2="122.9" stroke="#333" stroke-width="1.6"/>
+<text x="422.6" y="111.5" font-size="12" text-anchor="middle" fill="#444">RESTRICT</text>
+<line x1="1065.0" y1="214.0" x2="1065.0" y2="450.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1065.0" y1="230.0" x2="1074.0" y2="214.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1065.0" y1="230.0" x2="1065.0" y2="214.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1065.0" y1="230.0" x2="1056.0" y2="214.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1056.0" y1="438.0" x2="1074.0" y2="438.0" stroke="#333" stroke-width="1.6"/>
+<text x="1051.0" y="336.0" font-size="12" text-anchor="middle" fill="#444">CASCADE</text>
+<line x1="900.0" y1="140.2" x2="800.0" y2="148.3" stroke="#333" stroke-width="1.6"/>
+<line x1="884.1" y1="141.5" x2="900.7" y2="149.2" stroke="#333" stroke-width="1.6"/>
+<line x1="884.1" y1="141.5" x2="900.0" y2="140.2" stroke="#333" stroke-width="1.6"/>
+<line x1="884.1" y1="141.5" x2="899.3" y2="131.3" stroke="#333" stroke-width="1.6"/>
+<line x1="811.2" y1="138.3" x2="812.7" y2="156.3" stroke="#333" stroke-width="1.6"/>
+<text x="848.9" y="134.3" font-size="12" text-anchor="middle" fill="#444">RESTRICT</text>
+<line x1="635.0" y1="450.0" x2="635.0" y2="283.0" stroke="#333" stroke-width="1.6"/>
+<line x1="635.0" y1="434.0" x2="626.0" y2="450.0" stroke="#333" stroke-width="1.6"/>
+<line x1="635.0" y1="434.0" x2="635.0" y2="450.0" stroke="#333" stroke-width="1.6"/>
+<line x1="635.0" y1="434.0" x2="644.0" y2="450.0" stroke="#333" stroke-width="1.6"/>
+<line x1="644.0" y1="295.0" x2="626.0" y2="295.0" stroke="#333" stroke-width="1.6"/>
+<text x="649.0" y="370.5" font-size="12" text-anchor="middle" fill="#444">RESTRICT</text>
+<line x1="800.0" y1="578.6" x2="900.0" y2="575.9" stroke="#333" stroke-width="1.6"/>
+<line x1="816.0" y1="578.2" x2="799.8" y2="569.6" stroke="#333" stroke-width="1.6"/>
+<line x1="816.0" y1="578.2" x2="800.0" y2="578.6" stroke="#333" stroke-width="1.6"/>
+<line x1="816.0" y1="578.2" x2="800.2" y2="587.6" stroke="#333" stroke-width="1.6"/>
+<line x1="888.2" y1="585.2" x2="887.8" y2="567.2" stroke="#333" stroke-width="1.6"/>
+<text x="850.4" y="595.2" font-size="12" text-anchor="middle" fill="#444">CASCADE</text>
+<line x1="1065.0" y1="693.0" x2="1065.0" y2="880.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1065.0" y1="709.0" x2="1074.0" y2="693.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1065.0" y1="709.0" x2="1065.0" y2="693.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1065.0" y1="709.0" x2="1056.0" y2="693.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1056.0" y1="868.0" x2="1074.0" y2="868.0" stroke="#333" stroke-width="1.6"/>
+<text x="1051.0" y="790.5" font-size="12" text-anchor="middle" fill="#444">RESTRICT</text>
+<line x1="924.7" y1="693.0" x2="708.9" y2="880.0" stroke="#333" stroke-width="1.6"/>
+<line x1="912.7" y1="703.5" x2="930.6" y2="699.8" stroke="#333" stroke-width="1.6"/>
+<line x1="912.7" y1="703.5" x2="924.7" y2="693.0" stroke="#333" stroke-width="1.6"/>
+<line x1="912.7" y1="703.5" x2="918.9" y2="686.2" stroke="#333" stroke-width="1.6"/>
+<line x1="712.1" y1="865.3" x2="723.8" y2="878.9" stroke="#333" stroke-width="1.6"/>
+<text x="807.6" y="779.9" font-size="12" text-anchor="middle" fill="#444">RESTRICT</text>
+<line x1="1660.0" y1="515.7" x2="1760.0" y2="523.8" stroke="#333" stroke-width="1.6"/>
+<line x1="1675.9" y1="517.0" x2="1660.7" y2="506.8" stroke="#333" stroke-width="1.6"/>
+<line x1="1675.9" y1="517.0" x2="1660.0" y2="515.7" stroke="#333" stroke-width="1.6"/>
+<line x1="1675.9" y1="517.0" x2="1659.3" y2="524.7" stroke="#333" stroke-width="1.6"/>
+<line x1="1747.3" y1="531.8" x2="1748.8" y2="513.8" stroke="#333" stroke-width="1.6"/>
+<text x="1708.9" y="537.7" font-size="12" text-anchor="middle" fill="#444">CASCADE</text>
+<line x1="1330.0" y1="529.0" x2="1230.0" y2="545.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1314.2" y1="531.5" x2="1331.4" y2="537.9" stroke="#333" stroke-width="1.6"/>
+<line x1="1314.2" y1="531.5" x2="1330.0" y2="529.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1314.2" y1="531.5" x2="1328.6" y2="520.1" stroke="#333" stroke-width="1.6"/>
+<line x1="1240.4" y1="534.2" x2="1243.3" y2="552.0" stroke="#333" stroke-width="1.6"/>
+<text x="1277.8" y="527.2" font-size="12" text-anchor="middle" fill="#444">CASCADE</text>
+<line x1="1382.0" y1="880.0" x2="1189.8" y2="693.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1370.5" y1="868.8" x2="1375.7" y2="886.4" stroke="#333" stroke-width="1.6"/>
+<line x1="1370.5" y1="868.8" x2="1382.0" y2="880.0" stroke="#333" stroke-width="1.6"/>
+<line x1="1370.5" y1="868.8" x2="1388.3" y2="873.6" stroke="#333" stroke-width="1.6"/>
+<line x1="1204.7" y1="694.9" x2="1192.2" y2="707.8" stroke="#333" stroke-width="1.6"/>
+<text x="1295.7" y="780.5" font-size="12" text-anchor="middle" fill="#444">SET NULL</text>
+<rect x="40" y="40" width="330" height="82" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="40" y="40" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="52" y="64" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">departments</text>
+<text x="358" y="64" font-size="12" text-anchor="end" fill="#555">ОТДЕЛ</text>
+<text x="52" y="92" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_department</text>
+<text x="240" y="92" font-size="13" fill="#555">INTEGER</text>
+<text x="360" y="92" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="52" y="115" font-size="14">name</text>
+<text x="240" y="115" font-size="13" fill="#555">TEXT</text>
+<text x="360" y="115" font-size="12" text-anchor="end" fill="#1a4f9c">U NN</text>
+<rect x="470" y="40" width="330" height="243" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="470" y="40" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="482" y="64" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">employees</text>
+<text x="788" y="64" font-size="12" text-anchor="end" fill="#555">СОТРУДНИК</text>
+<text x="482" y="92" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">tab_number</text>
+<text x="670" y="92" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="92" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="482" y="115" font-size="14">surname</text>
+<text x="670" y="115" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="115" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="138" font-size="14">name</text>
+<text x="670" y="138" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="138" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="161" font-size="14">patronymic</text>
+<text x="670" y="161" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="161" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="184" font-size="14">position</text>
+<text x="670" y="184" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="184" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="207" font-size="14">phone</text>
+<text x="670" y="207" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="207" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="230" font-size="14">email</text>
+<text x="670" y="230" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="230" font-size="12" text-anchor="end" fill="#1a4f9c">U</text>
+<text x="482" y="253" font-size="14">dismissal_date</text>
+<text x="670" y="253" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="253" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="276" font-size="14">id_department</text>
+<text x="670" y="276" font-size="13" fill="#555">INTEGER</text>
+<text x="790" y="276" font-size="12" text-anchor="end" fill="#1a4f9c">FK NN</text>
+<rect x="900" y="40" width="330" height="174" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="900" y="40" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="912" y="64" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">assignments</text>
+<text x="1218" y="64" font-size="12" text-anchor="end" fill="#555">ЗАКРЕПЛЕНИЕ</text>
+<text x="912" y="92" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_assignment</text>
+<text x="1100" y="92" font-size="13" fill="#555">INTEGER</text>
+<text x="1220" y="92" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="912" y="115" font-size="14">tab_number</text>
+<text x="1100" y="115" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="115" font-size="12" text-anchor="end" fill="#1a4f9c">FK NN</text>
+<text x="912" y="138" font-size="14">inv_number</text>
+<text x="1100" y="138" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="138" font-size="12" text-anchor="end" fill="#1a4f9c">FK NN</text>
+<text x="912" y="161" font-size="14">issue_date</text>
+<text x="1100" y="161" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="161" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="912" y="184" font-size="14">return_date</text>
+<text x="1100" y="184" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="184" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="912" y="207" font-size="14">doc_number</text>
+<text x="1100" y="207" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="207" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<rect x="470" y="450" width="330" height="266" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="470" y="450" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="482" y="474" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">services</text>
+<text x="788" y="474" font-size="12" text-anchor="end" fill="#555">ОБСЛУЖИВАНИЕ</text>
+<text x="482" y="502" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_service</text>
+<text x="670" y="502" font-size="13" fill="#555">INTEGER</text>
+<text x="790" y="502" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="482" y="525" font-size="14">inv_number</text>
+<text x="670" y="525" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="525" font-size="12" text-anchor="end" fill="#1a4f9c">FK NN</text>
+<text x="482" y="548" font-size="14">work_type</text>
+<text x="670" y="548" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="548" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="571" font-size="14">start_date</text>
+<text x="670" y="571" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="571" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="594" font-size="14">end_date</text>
+<text x="670" y="594" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="594" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="617" font-size="14">fault_description</text>
+<text x="670" y="617" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="617" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="640" font-size="14">works_done</text>
+<text x="670" y="640" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="640" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="663" font-size="14">cost</text>
+<text x="670" y="663" font-size="13" fill="#555">REAL</text>
+<text x="790" y="663" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="482" y="686" font-size="14">executor_tab_number</text>
+<text x="670" y="686" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="686" font-size="12" text-anchor="end" fill="#1a4f9c">FK</text>
+<text x="482" y="709" font-size="14">service_org</text>
+<text x="670" y="709" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="709" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<rect x="900" y="450" width="330" height="243" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="900" y="450" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="912" y="474" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">computers</text>
+<text x="1218" y="474" font-size="12" text-anchor="end" fill="#555">КОМПЬЮТЕР</text>
+<text x="912" y="502" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">inv_number</text>
+<text x="1100" y="502" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="502" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="912" y="525" font-size="14">serial_number</text>
+<text x="1100" y="525" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="525" font-size="12" text-anchor="end" fill="#1a4f9c">U NN</text>
+<text x="912" y="548" font-size="14">hostname</text>
+<text x="1100" y="548" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="548" font-size="12" text-anchor="end" fill="#1a4f9c">U</text>
+<text x="912" y="571" font-size="14">commission_date</text>
+<text x="1100" y="571" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="571" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="912" y="594" font-size="14">warranty_end</text>
+<text x="1100" y="594" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="594" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="912" y="617" font-size="14">status</text>
+<text x="1100" y="617" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="617" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="912" y="640" font-size="14">writeoff_date</text>
+<text x="1100" y="640" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="640" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="912" y="663" font-size="14">id_model</text>
+<text x="1100" y="663" font-size="13" fill="#555">INTEGER</text>
+<text x="1220" y="663" font-size="12" text-anchor="end" fill="#1a4f9c">FK NN</text>
+<text x="912" y="686" font-size="14">id_room</text>
+<text x="1100" y="686" font-size="13" fill="#555">INTEGER</text>
+<text x="1220" y="686" font-size="12" text-anchor="end" fill="#1a4f9c">FK NN</text>
+<rect x="1330" y="450" width="330" height="105" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="1330" y="450" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="1342" y="474" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">software_installs</text>
+<text x="1648" y="474" font-size="12" text-anchor="end" fill="#555">УСТАНОВКА_ПО</text>
+<text x="1342" y="502" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">inv_number</text>
+<text x="1530" y="502" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="502" font-size="12" text-anchor="end" fill="#1a4f9c">PK FK</text>
+<text x="1342" y="525" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_program</text>
+<text x="1530" y="525" font-size="13" fill="#555">INTEGER</text>
+<text x="1650" y="525" font-size="12" text-anchor="end" fill="#1a4f9c">PK FK</text>
+<text x="1342" y="548" font-size="14">install_date</text>
+<text x="1530" y="548" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="548" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<rect x="1760" y="450" width="330" height="174" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="1760" y="450" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="1772" y="474" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">programs</text>
+<text x="2078" y="474" font-size="12" text-anchor="end" fill="#555">ПРОГРАММА</text>
+<text x="1772" y="502" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_program</text>
+<text x="1960" y="502" font-size="13" fill="#555">INTEGER</text>
+<text x="2080" y="502" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="1772" y="525" font-size="14">name</text>
+<text x="1960" y="525" font-size="13" fill="#555">TEXT</text>
+<text x="2080" y="525" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1772" y="548" font-size="14">version</text>
+<text x="1960" y="548" font-size="13" fill="#555">TEXT</text>
+<text x="2080" y="548" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1772" y="571" font-size="14">developer</text>
+<text x="1960" y="571" font-size="13" fill="#555">TEXT</text>
+<text x="2080" y="571" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1772" y="594" font-size="14">license_type</text>
+<text x="1960" y="594" font-size="13" fill="#555">TEXT</text>
+<text x="2080" y="594" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1772" y="617" font-size="14">license_count</text>
+<text x="1960" y="617" font-size="13" fill="#555">INTEGER</text>
+<text x="2080" y="617" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<rect x="470" y="880" width="330" height="128" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="470" y="880" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="482" y="904" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">models</text>
+<text x="788" y="904" font-size="12" text-anchor="end" fill="#555">МОДЕЛЬ</text>
+<text x="482" y="932" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_model</text>
+<text x="670" y="932" font-size="13" fill="#555">INTEGER</text>
+<text x="790" y="932" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="482" y="955" font-size="14">manufacturer</text>
+<text x="670" y="955" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="955" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="978" font-size="14">name</text>
+<text x="670" y="978" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="978" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="482" y="1001" font-size="14">device_type</text>
+<text x="670" y="1001" font-size="13" fill="#555">TEXT</text>
+<text x="790" y="1001" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<rect x="900" y="880" width="330" height="151" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="900" y="880" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="912" y="904" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">rooms</text>
+<text x="1218" y="904" font-size="12" text-anchor="end" fill="#555">ПОМЕЩЕНИЕ</text>
+<text x="912" y="932" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_room</text>
+<text x="1100" y="932" font-size="13" fill="#555">INTEGER</text>
+<text x="1220" y="932" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="912" y="955" font-size="14">building</text>
+<text x="1100" y="955" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="955" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="912" y="978" font-size="14">number</text>
+<text x="1100" y="978" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="978" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="912" y="1001" font-size="14">floor</text>
+<text x="1100" y="1001" font-size="13" fill="#555">INTEGER</text>
+<text x="1220" y="1001" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="912" y="1024" font-size="14">room_type</text>
+<text x="1100" y="1024" font-size="13" fill="#555">TEXT</text>
+<text x="1220" y="1024" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<rect x="1330" y="880" width="330" height="220" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<rect x="1330" y="880" width="330" height="36" fill="#e8eef7" stroke="#000" stroke-width="1.6"/>
+<text x="1342" y="904" font-size="16" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">components</text>
+<text x="1648" y="904" font-size="12" text-anchor="end" fill="#555">КОМПЛЕКТУЮЩЕЕ</text>
+<text x="1342" y="932" font-size="14" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id_component</text>
+<text x="1530" y="932" font-size="13" fill="#555">INTEGER</text>
+<text x="1650" y="932" font-size="12" text-anchor="end" fill="#1a4f9c">PK</text>
+<text x="1342" y="955" font-size="14">component_type</text>
+<text x="1530" y="955" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="955" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1342" y="978" font-size="14">manufacturer</text>
+<text x="1530" y="978" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="978" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1342" y="1001" font-size="14">model</text>
+<text x="1530" y="1001" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="1001" font-size="12" text-anchor="end" fill="#1a4f9c">NN</text>
+<text x="1342" y="1024" font-size="14">serial_number</text>
+<text x="1530" y="1024" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="1024" font-size="12" text-anchor="end" fill="#1a4f9c">U</text>
+<text x="1342" y="1047" font-size="14">param_value</text>
+<text x="1530" y="1047" font-size="13" fill="#555">REAL</text>
+<text x="1650" y="1047" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="1342" y="1070" font-size="14">unit</text>
+<text x="1530" y="1070" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="1070" font-size="12" text-anchor="end" fill="#1a4f9c"></text>
+<text x="1342" y="1093" font-size="14">inv_number</text>
+<text x="1530" y="1093" font-size="13" fill="#555">TEXT</text>
+<text x="1650" y="1093" font-size="12" text-anchor="end" fill="#1a4f9c">FK</text>
+<rect x="1760" y="40" width="330" height="190" fill="#fff" stroke="#000"/>
+<text x="1774" y="68" font-size="15" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Обозначения</text>
+<text x="1774" y="94" font-size="13">PK — первичный ключ, FK — внешний ключ</text>
+<text x="1774" y="116" font-size="13">U — уникальный, NN — NOT NULL</text>
+<line x1="1774" y1="150" x2="1870" y2="150" stroke="#333" stroke-width="1.6"/>
+<line x1="1790" y1="150" x2="1774" y2="141" stroke="#333" stroke-width="1.6"/>
+<line x1="1790" y1="150" x2="1774" y2="159" stroke="#333" stroke-width="1.6"/>
+<line x1="1858" y1="141" x2="1858" y2="159" stroke="#333" stroke-width="1.6"/>
+<text x="1882" y="155" font-size="13">«много» — «один»</text>
+<text x="1774" y="186" font-size="13">на линии — действие ON DELETE</text>
+<text x="1774" y="206" font-size="13">(у всех FK — ON UPDATE CASCADE)</text>
+</svg>
