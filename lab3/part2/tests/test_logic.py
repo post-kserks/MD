@@ -8,10 +8,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "app"))
 
-from db import Database, DatabaseError  # noqa: E402
-from io_ops import export_table, import_table  # noqa: E402
-from queries import catalog, param_names  # noqa: E402
-from services import Accounting, ValidationError  # noqa: E402
+from db import Database, DatabaseError
+from io_ops import export_table, import_table
+from queries import catalog, param_names
+from services import Accounting, ValidationError
 
 TODAY = date.today().isoformat()
 

@@ -6,8 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "app"))
 
-from dialogs import OperationDialog, RecordDialog, operation_specs  # noqa: E402
-from main import App  # noqa: E402
+from dialogs import OperationDialog, RecordDialog, operation_specs
+from main import App
 
 
 def pump(app, n=3):
