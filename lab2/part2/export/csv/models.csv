@@ -1,0 +1,12 @@
+id_model,manufacturer,name,device_type
+1,Lenovo,ThinkCentre M70q Gen 3,настольный ПК
+2,HP,ProDesk 400 G7,настольный ПК
+3,Dell,OptiPlex 7090,настольный ПК
+4,Apple,iMac 24 M3,моноблок
+5,HP,ProOne 440 G9,моноблок
+6,Lenovo,ThinkPad T14 Gen 3,ноутбук
+7,Apple,MacBook Air 13 M2,ноутбук
+8,ASUS,ExpertBook B1 B1500,ноутбук
+9,Dell,PowerEdge R650,сервер
+10,HP,ProLiant DL380 Gen10,сервер
+11,Huawei,MateBook D 16,ноутбук

@@ -1,0 +1,189 @@
+[
+  {
+    "tab_number": "100101",
+    "surname": "Иванова",
+    "name": "Мария",
+    "patronymic": "Сергеевна",
+    "position": "Главный бухгалтер",
+    "phone": "+7 (495) 123-45-01",
+    "email": "m.ivanova@firma.ru",
+    "dismissal_date": null,
+    "id_department": 1
+  },
+  {
+    "tab_number": "100102",
+    "surname": "Петрова",
+    "name": "Анна",
+    "patronymic": "Викторовна",
+    "position": "Бухгалтер",
+    "phone": "+7 (495) 123-45-02",
+    "email": "a.petrova@firma.ru",
+    "dismissal_date": null,
+    "id_department": 1
+  },
+  {
+    "tab_number": "100103",
+    "surname": "Сидоров",
+    "name": "Алексей",
+    "patronymic": "Игоревич",
+    "position": "Бухгалтер",
+    "phone": null,
+    "email": null,
+    "dismissal_date": "2025-06-30",
+    "id_department": 1
+  },
+  {
+    "tab_number": "200201",
+    "surname": "Кузнецов",
+    "name": "Дмитрий",
+    "patronymic": "Андреевич",
+    "position": "Руководитель отдела продаж",
+    "phone": "+7 (495) 123-45-11",
+    "email": "d.kuznetsov@firma.ru",
+    "dismissal_date": null,
+    "id_department": 2
+  },
+  {
+    "tab_number": "200202",
+    "surname": "Смирнова",
+    "name": "Екатерина",
+    "patronymic": "Олеговна",
+    "position": "Менеджер по продажам",
+    "phone": "+7 (495) 123-45-12",
+    "email": "e.smirnova@firma.ru",
+    "dismissal_date": null,
+    "id_department": 2
+  },
+  {
+    "tab_number": "200203",
+    "surname": "Волков",
+    "name": "Артём",
+    "patronymic": "Павлович",
+    "position": "Менеджер по продажам",
+    "phone": "+7 (495) 123-45-13",
+    "email": "a.volkov@firma.ru",
+    "dismissal_date": null,
+    "id_department": 2
+  },
+  {
+    "tab_number": "200204",
+    "surname": "Морозова",
+    "name": "Ольга",
+    "patronymic": "Николаевна",
+    "position": "Менеджер по продажам",
+    "phone": "+7 (495) 123-45-14",
+    "email": null,
+    "dismissal_date": null,
+    "id_department": 2
+  },
+  {
+    "tab_number": "200205",
+    "surname": "Тимофеев",
+    "name": "Роман",
+    "patronymic": null,
+    "position": "Стажёр",
+    "phone": null,
+    "email": "r.timofeev@firma.ru",
+    "dismissal_date": null,
+    "id_department": 2
+  },
+  {
+    "tab_number": "300301",
+    "surname": "Новиков",
+    "name": "Илья",
+    "patronymic": "Романович",
+    "position": "Маркетолог",
+    "phone": "+7 (495) 123-45-21",
+    "email": "i.novikov@firma.ru",
+    "dismissal_date": null,
+    "id_department": 3
+  },
+  {
+    "tab_number": "300302",
+    "surname": "Фёдорова",
+    "name": "Дарья",
+    "patronymic": "Александровна",
+    "position": "Дизайнер",
+    "phone": "+7 (495) 123-45-22",
+    "email": "d.fedorova@firma.ru",
+    "dismissal_date": null,
+    "id_department": 3
+  },
+  {
+    "tab_number": "400401",
+    "surname": "Соколов",
+    "name": "Максим",
+    "patronymic": "Владимирович",
+    "position": "Руководитель ИТ-отдела",
+    "phone": "+7 (495) 123-45-31",
+    "email": "m.sokolov@firma.ru",
+    "dismissal_date": null,
+    "id_department": 4
+  },
+  {
+    "tab_number": "400402",
+    "surname": "Лебедев",
+    "name": "Кирилл",
+    "patronymic": "Евгеньевич",
+    "position": "Системный администратор",
+    "phone": "+7 (495) 123-45-32",
+    "email": "k.lebedev@firma.ru",
+    "dismissal_date": null,
+    "id_department": 4
+  },
+  {
+    "tab_number": "400403",
+    "surname": "Козлов",
+    "name": "Никита",
+    "patronymic": "Сергеевич",
+    "position": "Инженер техподдержки",
+    "phone": "+7 (495) 123-45-33",
+    "email": "n.kozlov@firma.ru",
+    "dismissal_date": null,
+    "id_department": 4
+  },
+  {
+    "tab_number": "500501",
+    "surname": "Павлова",
+    "name": "Светлана",
+    "patronymic": "Юрьевна",
+    "position": "Начальник отдела кадров",
+    "phone": "+7 (495) 123-45-41",
+    "email": "s.pavlova@firma.ru",
+    "dismissal_date": null,
+    "id_department": 5
+  },
+  {
+    "tab_number": "500502",
+    "surname": "Егорова",
+    "name": "Наталья",
+    "patronymic": "Ивановна",
+    "position": "Специалист по кадрам",
+    "phone": null,
+    "email": "n.egorova@firma.ru",
+    "dismissal_date": null,
+    "id_department": 5
+  },
+  {
+    "tab_number": "600601",
+    "surname": "Орлов",
+    "name": "Виктор",
+    "patronymic": "Михайлович",
+    "position": "Юрист",
+    "phone": "+7 (495) 123-45-51",
+    "email": "v.orlov@firma.ru",
+    "dismissal_date": null,
+    "id_department": 6
+  },
+  {
+    "tab_number": "600602",
+    "surname": "Зайцева",
+    "name": "Полина",
+    "patronymic": "Андреевна",
+    "position": "Юрист",
+    "phone": "+7 (495) 123-45-52",
+    "email": "p.zaitseva@firma.ru",
+    "dismissal_date": "2026-03-31",
+    "id_department": 6
+  }
+]

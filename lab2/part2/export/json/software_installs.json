@@ -1,0 +1,602 @@
+[
+  {
+    "inv_number": "ПК-00002",
+    "id_program": 1,
+    "install_date": "2019-02-28"
+  },
+  {
+    "inv_number": "ПК-00002",
+    "id_program": 4,
+    "install_date": "2019-02-19"
+  },
+  {
+    "inv_number": "ПК-00002",
+    "id_program": 8,
+    "install_date": "2019-02-12"
+  },
+  {
+    "inv_number": "ПК-00002",
+    "id_program": 9,
+    "install_date": "2019-02-25"
+  },
+  {
+    "inv_number": "ПК-00002",
+    "id_program": 2,
+    "install_date": "2019-02-28"
+  },
+  {
+    "inv_number": "ПК-00002",
+    "id_program": 3,
+    "install_date": "2019-02-25"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 1,
+    "install_date": "2022-03-14"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 4,
+    "install_date": "2022-03-21"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 8,
+    "install_date": "2022-03-13"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 9,
+    "install_date": "2022-03-09"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 2,
+    "install_date": "2022-03-19"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 3,
+    "install_date": "2022-03-20"
+  },
+  {
+    "inv_number": "ПК-00003",
+    "id_program": 6,
+    "install_date": "2022-03-14"
+  },
+  {
+    "inv_number": "ПК-00004",
+    "id_program": 1,
+    "install_date": "2025-01-27"
+  },
+  {
+    "inv_number": "ПК-00004",
+    "id_program": 4,
+    "install_date": "2025-01-16"
+  },
+  {
+    "inv_number": "ПК-00004",
+    "id_program": 8,
+    "install_date": "2025-01-19"
+  },
+  {
+    "inv_number": "ПК-00004",
+    "id_program": 9,
+    "install_date": "2025-01-23"
+  },
+  {
+    "inv_number": "ПК-00005",
+    "id_program": 1,
+    "install_date": "2020-09-17"
+  },
+  {
+    "inv_number": "ПК-00005",
+    "id_program": 4,
+    "install_date": "2020-09-16"
+  },
+  {
+    "inv_number": "ПК-00005",
+    "id_program": 8,
+    "install_date": "2020-09-26"
+  },
+  {
+    "inv_number": "ПК-00005",
+    "id_program": 9,
+    "install_date": "2020-09-30"
+  },
+  {
+    "inv_number": "ПК-00005",
+    "id_program": 2,
+    "install_date": "2020-09-23"
+  },
+  {
+    "inv_number": "ПК-00005",
+    "id_program": 10,
+    "install_date": "2020-09-26"
+  },
+  {
+    "inv_number": "ПК-00006",
+    "id_program": 1,
+    "install_date": "2020-09-16"
+  },
+  {
+    "inv_number": "ПК-00006",
+    "id_program": 4,
+    "install_date": "2020-09-24"
+  },
+  {
+    "inv_number": "ПК-00006",
+    "id_program": 8,
+    "install_date": "2020-09-27"
+  },
+  {
+    "inv_number": "ПК-00006",
+    "id_program": 9,
+    "install_date": "2020-09-17"
+  },
+  {
+    "inv_number": "ПК-00006",
+    "id_program": 2,
+    "install_date": "2020-09-22"
+  },
+  {
+    "inv_number": "ПК-00007",
+    "id_program": 1,
+    "install_date": "2020-09-11"
+  },
+  {
+    "inv_number": "ПК-00007",
+    "id_program": 4,
+    "install_date": "2020-09-28"
+  },
+  {
+    "inv_number": "ПК-00007",
+    "id_program": 8,
+    "install_date": "2020-09-13"
+  },
+  {
+    "inv_number": "ПК-00007",
+    "id_program": 9,
+    "install_date": "2020-09-14"
+  },
+  {
+    "inv_number": "ПК-00007",
+    "id_program": 2,
+    "install_date": "2020-09-14"
+  },
+  {
+    "inv_number": "ПК-00007",
+    "id_program": 10,
+    "install_date": "2020-09-17"
+  },
+  {
+    "inv_number": "ПК-00008",
+    "id_program": 1,
+    "install_date": "2023-04-16"
+  },
+  {
+    "inv_number": "ПК-00008",
+    "id_program": 4,
+    "install_date": "2023-04-07"
+  },
+  {
+    "inv_number": "ПК-00008",
+    "id_program": 8,
+    "install_date": "2023-04-18"
+  },
+  {
+    "inv_number": "ПК-00008",
+    "id_program": 9,
+    "install_date": "2023-04-23"
+  },
+  {
+    "inv_number": "ПК-00008",
+    "id_program": 2,
+    "install_date": "2023-04-15"
+  },
+  {
+    "inv_number": "ПК-00009",
+    "id_program": 1,
+    "install_date": "2024-02-18"
+  },
+  {
+    "inv_number": "ПК-00009",
+    "id_program": 4,
+    "install_date": "2024-02-05"
+  },
+  {
+    "inv_number": "ПК-00009",
+    "id_program": 8,
+    "install_date": "2024-02-15"
+  },
+  {
+    "inv_number": "ПК-00009",
+    "id_program": 9,
+    "install_date": "2024-02-09"
+  },
+  {
+    "inv_number": "ПК-00009",
+    "id_program": 2,
+    "install_date": "2024-02-12"
+  },
+  {
+    "inv_number": "ПК-00010",
+    "id_program": 1,
+    "install_date": "2024-02-11"
+  },
+  {
+    "inv_number": "ПК-00010",
+    "id_program": 4,
+    "install_date": "2024-02-02"
+  },
+  {
+    "inv_number": "ПК-00010",
+    "id_program": 8,
+    "install_date": "2024-02-05"
+  },
+  {
+    "inv_number": "ПК-00010",
+    "id_program": 9,
+    "install_date": "2024-02-04"
+  },
+  {
+    "inv_number": "ПК-00010",
+    "id_program": 2,
+    "install_date": "2024-02-12"
+  },
+  {
+    "inv_number": "ПК-00011",
+    "id_program": 14,
+    "install_date": "2024-06-15"
+  },
+  {
+    "inv_number": "ПК-00011",
+    "id_program": 4,
+    "install_date": "2024-06-25"
+  },
+  {
+    "inv_number": "ПК-00011",
+    "id_program": 8,
+    "install_date": "2024-06-24"
+  },
+  {
+    "inv_number": "ПК-00011",
+    "id_program": 2,
+    "install_date": "2024-06-14"
+  },
+  {
+    "inv_number": "ПК-00011",
+    "id_program": 5,
+    "install_date": "2024-06-14"
+  },
+  {
+    "inv_number": "ПК-00012",
+    "id_program": 1,
+    "install_date": "2022-11-28"
+  },
+  {
+    "inv_number": "ПК-00012",
+    "id_program": 4,
+    "install_date": "2022-12-09"
+  },
+  {
+    "inv_number": "ПК-00012",
+    "id_program": 8,
+    "install_date": "2022-12-07"
+  },
+  {
+    "inv_number": "ПК-00012",
+    "id_program": 9,
+    "install_date": "2022-12-02"
+  },
+  {
+    "inv_number": "ПК-00012",
+    "id_program": 2,
+    "install_date": "2022-12-11"
+  },
+  {
+    "inv_number": "ПК-00012",
+    "id_program": 10,
+    "install_date": "2022-11-27"
+  },
+  {
+    "inv_number": "ПК-00013",
+    "id_program": 14,
+    "install_date": "2023-09-08"
+  },
+  {
+    "inv_number": "ПК-00013",
+    "id_program": 4,
+    "install_date": "2023-09-07"
+  },
+  {
+    "inv_number": "ПК-00013",
+    "id_program": 8,
+    "install_date": "2023-09-16"
+  },
+  {
+    "inv_number": "ПК-00013",
+    "id_program": 2,
+    "install_date": "2023-09-12"
+  },
+  {
+    "inv_number": "ПК-00014",
+    "id_program": 1,
+    "install_date": "2023-01-21"
+  },
+  {
+    "inv_number": "ПК-00014",
+    "id_program": 4,
+    "install_date": "2023-01-31"
+  },
+  {
+    "inv_number": "ПК-00014",
+    "id_program": 8,
+    "install_date": "2023-01-31"
+  },
+  {
+    "inv_number": "ПК-00014",
+    "id_program": 9,
+    "install_date": "2023-01-20"
+  },
+  {
+    "inv_number": "ПК-00014",
+    "id_program": 2,
+    "install_date": "2023-02-03"
+  },
+  {
+    "inv_number": "ПК-00014",
+    "id_program": 11,
+    "install_date": "2023-01-30"
+  },
+  {
+    "inv_number": "ПК-00015",
+    "id_program": 1,
+    "install_date": "2021-05-22"
+  },
+  {
+    "inv_number": "ПК-00015",
+    "id_program": 4,
+    "install_date": "2021-05-20"
+  },
+  {
+    "inv_number": "ПК-00015",
+    "id_program": 8,
+    "install_date": "2021-05-18"
+  },
+  {
+    "inv_number": "ПК-00015",
+    "id_program": 9,
+    "install_date": "2021-06-01"
+  },
+  {
+    "inv_number": "ПК-00015",
+    "id_program": 2,
+    "install_date": "2021-05-31"
+  },
+  {
+    "inv_number": "ПК-00015",
+    "id_program": 11,
+    "install_date": "2021-05-20"
+  },
+  {
+    "inv_number": "ПК-00016",
+    "id_program": 1,
+    "install_date": "2022-08-23"
+  },
+  {
+    "inv_number": "ПК-00016",
+    "id_program": 4,
+    "install_date": "2022-08-24"
+  },
+  {
+    "inv_number": "ПК-00016",
+    "id_program": 8,
+    "install_date": "2022-08-10"
+  },
+  {
+    "inv_number": "ПК-00016",
+    "id_program": 9,
+    "install_date": "2022-08-23"
+  },
+  {
+    "inv_number": "ПК-00016",
+    "id_program": 2,
+    "install_date": "2022-08-24"
+  },
+  {
+    "inv_number": "ПК-00016",
+    "id_program": 11,
+    "install_date": "2022-08-20"
+  },
+  {
+    "inv_number": "ПК-00017",
+    "id_program": 12,
+    "install_date": "2021-10-08"
+  },
+  {
+    "inv_number": "ПК-00018",
+    "id_program": 13,
+    "install_date": "2019-12-04"
+  },
+  {
+    "inv_number": "ПК-00018",
+    "id_program": 4,
+    "install_date": "2019-12-16"
+  },
+  {
+    "inv_number": "ПК-00019",
+    "id_program": 13,
+    "install_date": "2019-12-08"
+  },
+  {
+    "inv_number": "ПК-00019",
+    "id_program": 4,
+    "install_date": "2019-12-16"
+  },
+  {
+    "inv_number": "ПК-00020",
+    "id_program": 1,
+    "install_date": "2020-09-13"
+  },
+  {
+    "inv_number": "ПК-00020",
+    "id_program": 4,
+    "install_date": "2020-09-19"
+  },
+  {
+    "inv_number": "ПК-00020",
+    "id_program": 8,
+    "install_date": "2020-09-28"
+  },
+  {
+    "inv_number": "ПК-00020",
+    "id_program": 9,
+    "install_date": "2020-09-27"
+  },
+  {
+    "inv_number": "ПК-00020",
+    "id_program": 2,
+    "install_date": "2020-09-18"
+  },
+  {
+    "inv_number": "ПК-00020",
+    "id_program": 3,
+    "install_date": "2020-09-24"
+  },
+  {
+    "inv_number": "ПК-00021",
+    "id_program": 1,
+    "install_date": "2025-03-07"
+  },
+  {
+    "inv_number": "ПК-00021",
+    "id_program": 4,
+    "install_date": "2025-03-15"
+  },
+  {
+    "inv_number": "ПК-00021",
+    "id_program": 8,
+    "install_date": "2025-03-09"
+  },
+  {
+    "inv_number": "ПК-00021",
+    "id_program": 9,
+    "install_date": "2025-03-04"
+  },
+  {
+    "inv_number": "ПК-00021",
+    "id_program": 2,
+    "install_date": "2025-03-08"
+  },
+  {
+    "inv_number": "ПК-00021",
+    "id_program": 3,
+    "install_date": "2025-03-23"
+  },
+  {
+    "inv_number": "ПК-00022",
+    "id_program": 1,
+    "install_date": "2021-06-06"
+  },
+  {
+    "inv_number": "ПК-00022",
+    "id_program": 4,
+    "install_date": "2021-05-27"
+  },
+  {
+    "inv_number": "ПК-00022",
+    "id_program": 8,
+    "install_date": "2021-05-26"
+  },
+  {
+    "inv_number": "ПК-00022",
+    "id_program": 9,
+    "install_date": "2021-05-31"
+  },
+  {
+    "inv_number": "ПК-00022",
+    "id_program": 2,
+    "install_date": "2021-05-21"
+  },
+  {
+    "inv_number": "ПК-00022",
+    "id_program": 6,
+    "install_date": "2021-05-25"
+  },
+  {
+    "inv_number": "ПК-00023",
+    "id_program": 1,
+    "install_date": "2023-01-28"
+  },
+  {
+    "inv_number": "ПК-00023",
+    "id_program": 4,
+    "install_date": "2023-01-19"
+  },
+  {
+    "inv_number": "ПК-00023",
+    "id_program": 8,
+    "install_date": "2023-01-30"
+  },
+  {
+    "inv_number": "ПК-00023",
+    "id_program": 9,
+    "install_date": "2023-01-19"
+  },
+  {
+    "inv_number": "ПК-00028",
+    "id_program": 14,
+    "install_date": "2023-09-23"
+  },
+  {
+    "inv_number": "ПК-00028",
+    "id_program": 4,
+    "install_date": "2023-09-24"
+  },
+  {
+    "inv_number": "ПК-00028",
+    "id_program": 8,
+    "install_date": "2023-09-13"
+  },
+  {
+    "inv_number": "ПК-00028",
+    "id_program": 2,
+    "install_date": "2023-09-15"
+  },
+  {
+    "inv_number": "ПК-00028",
+    "id_program": 5,
+    "install_date": "2023-09-18"
+  },
+  {
+    "inv_number": "ПК-00030",
+    "id_program": 1,
+    "install_date": "2026-04-26"
+  },
+  {
+    "inv_number": "ПК-00030",
+    "id_program": 4,
+    "install_date": "2026-04-25"
+  },
+  {
+    "inv_number": "ПК-00030",
+    "id_program": 8,
+    "install_date": "2026-04-16"
+  },
+  {
+    "inv_number": "ПК-00030",
+    "id_program": 9,
+    "install_date": "2026-04-14"
+  },
+  {
+    "inv_number": "ПК-00030",
+    "id_program": 2,
+    "install_date": "2026-04-26"
+  },
+  {
+    "inv_number": "ПК-00030",
+    "id_program": 11,
+    "install_date": "2026-04-23"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id_assignment": 1,
+    "tab_number": "200201",
+    "inv_number": "ПК-00025",
+    "issue_date": "2018-05-22",
+    "return_date": "2020-09-13",
+    "doc_number": "Р-2018-031"
+  },
+  {
+    "id_assignment": 2,
+    "tab_number": "100103",
+    "inv_number": "ПК-00001",
+    "issue_date": "2019-02-15",
+    "return_date": "2024-12-10",
+    "doc_number": "Р-2019-007"
+  },
+  {
+    "id_assignment": 3,
+    "tab_number": "100102",
+    "inv_number": "ПК-00002",
+    "issue_date": "2019-02-15",
+    "return_date": null,
+    "doc_number": "Р-2019-008"
+  },
+  {
+    "id_assignment": 4,
+    "tab_number": "100101",
+    "inv_number": "ПК-00024",
+    "issue_date": "2019-02-15",
+    "return_date": "2022-03-01",
+    "doc_number": "Р-2019-009"
+  },
+  {
+    "id_assignment": 5,
+    "tab_number": "200201",
+    "inv_number": "ПК-00005",
+    "issue_date": "2020-09-14",
+    "return_date": null,
+    "doc_number": "Р-2020-044"
+  },
+  {
+    "id_assignment": 6,
+    "tab_number": "200202",
+    "inv_number": "ПК-00006",
+    "issue_date": "2020-09-14",
+    "return_date": null,
+    "doc_number": "Р-2020-045"
+  },
+  {
+    "id_assignment": 7,
+    "tab_number": "200204",
+    "inv_number": "ПК-00007",
+    "issue_date": "2020-09-14",
+    "return_date": "2021-01-10",
+    "doc_number": "Р-2020-046"
+  },
+  {
+    "id_assignment": 8,
+    "tab_number": "500501",
+    "inv_number": "ПК-00020",
+    "issue_date": "2020-09-15",
+    "return_date": null,
+    "doc_number": "Р-2020-047"
+  },
+  {
+    "id_assignment": 9,
+    "tab_number": "200203",
+    "inv_number": "ПК-00007",
+    "issue_date": "2021-01-11",
+    "return_date": null,
+    "doc_number": "Р-2021-002"
+  },
+  {
+    "id_assignment": 10,
+    "tab_number": "400402",
+    "inv_number": "ПК-00015",
+    "issue_date": "2021-05-18",
+    "return_date": null,
+    "doc_number": "Р-2021-019"
+  },
+  {
+    "id_assignment": 11,
+    "tab_number": "600601",
+    "inv_number": "ПК-00022",
+    "issue_date": "2021-05-19",
+    "return_date": null,
+    "doc_number": "Р-2021-020"
+  },
+  {
+    "id_assignment": 12,
+    "tab_number": "100101",
+    "inv_number": "ПК-00003",
+    "issue_date": "2022-03-02",
+    "return_date": null,
+    "doc_number": "Р-2022-011"
+  },
+  {
+    "id_assignment": 13,
+    "tab_number": "400403",
+    "inv_number": "ПК-00016",
+    "issue_date": "2022-08-09",
+    "return_date": null,
+    "doc_number": "Р-2022-035"
+  },
+  {
+    "id_assignment": 14,
+    "tab_number": "300301",
+    "inv_number": "ПК-00012",
+    "issue_date": "2022-11-22",
+    "return_date": null,
+    "doc_number": "Р-2022-048"
+  },
+  {
+    "id_assignment": 15,
+    "tab_number": "400401",
+    "inv_number": "ПК-00014",
+    "issue_date": "2023-01-17",
+    "return_date": null,
+    "doc_number": "Р-2023-003"
+  },
+  {
+    "id_assignment": 16,
+    "tab_number": "600602",
+    "inv_number": "ПК-00023",
+    "issue_date": "2023-01-18",
+    "return_date": "2026-03-31",
+    "doc_number": "Р-2023-004"
+  },
+  {
+    "id_assignment": 17,
+    "tab_number": "200204",
+    "inv_number": "ПК-00008",
+    "issue_date": "2023-04-05",
+    "return_date": null,
+    "doc_number": "Р-2023-015"
+  },
+  {
+    "id_assignment": 18,
+    "tab_number": "300301",
+    "inv_number": "ПК-00013",
+    "issue_date": "2023-09-05",
+    "return_date": null,
+    "doc_number": "Р-2023-037"
+  },
+  {
+    "id_assignment": 19,
+    "tab_number": "300302",
+    "inv_number": "ПК-00028",
+    "issue_date": "2023-09-05",
+    "return_date": null,
+    "doc_number": "Р-2023-038"
+  },
+  {
+    "id_assignment": 20,
+    "tab_number": "200201",
+    "inv_number": "ПК-00009",
+    "issue_date": "2024-02-05",
+    "return_date": null,
+    "doc_number": null
+  },
+  {
+    "id_assignment": 21,
+    "tab_number": "200202",
+    "inv_number": "ПК-00010",
+    "issue_date": "2024-02-05",
+    "return_date": "2026-08-31",
+    "doc_number": null
+  },
+  {
+    "id_assignment": 22,
+    "tab_number": "200203",
+    "inv_number": "ПК-00029",
+    "issue_date": "2024-02-05",
+    "return_date": "2026-05-10",
+    "doc_number": null
+  },
+  {
+    "id_assignment": 23,
+    "tab_number": "300302",
+    "inv_number": "ПК-00011",
+    "issue_date": "2024-06-11",
+    "return_date": null,
+    "doc_number": "Р-2024-022"
+  },
+  {
+    "id_assignment": 24,
+    "tab_number": "100103",
+    "inv_number": "ПК-00004",
+    "issue_date": "2025-01-20",
+    "return_date": "2025-06-30",
+    "doc_number": "Р-2025-002"
+  },
+  {
+    "id_assignment": 25,
+    "tab_number": "500502",
+    "inv_number": "ПК-00021",
+    "issue_date": "2025-03-04",
+    "return_date": null,
+    "doc_number": "Р-2025-009"
+  },
+  {
+    "id_assignment": 26,
+    "tab_number": "400401",
+    "inv_number": "ПК-00030",
+    "issue_date": "2026-04-07",
+    "return_date": null,
+    "doc_number": "Р-2026-013"
+  },
+  {
+    "id_assignment": 27,
+    "tab_number": "200205",
+    "inv_number": "ПК-00010",
+    "issue_date": "2026-09-01",
+    "return_date": null,
+    "doc_number": "Р-2026-031"
+  }
+]
