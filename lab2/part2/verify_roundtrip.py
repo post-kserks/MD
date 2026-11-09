@@ -21,13 +21,19 @@ def rows(con, table):
     return sorted(con.execute(f'SELECT * FROM "{table}"').fetchall(), key=repr)
 
 
-def check(fmt, folder, src_con):
+def check(fmt, src_con):
     ok = True
     with tempfile.TemporaryDirectory() as tmp:
-        dst = empty_copy(src_con, Path(tmp) / "roundtrip.db")
+        tmp = Path(tmp)
+        dst = empty_copy(src_con, tmp / "roundtrip.db")
         for t in dbio.tables(src_con):
-            f = folder / f"{t}.{fmt}"
-            fields, data = dbio.read_csv(f) if fmt == "csv" else dbio.read_json(f)
+            f = tmp / f"{t}.{fmt}"
+            if fmt == "csv":
+                dbio.export_csv(src_con, t, f)
+                fields, data = dbio.read_csv(f)
+            else:
+                dbio.export_json(src_con, t, f)
+                fields, data = dbio.read_json(f)
             dbio.insert_rows(dst, t, fields, data)
             same = rows(src_con, t) == rows(dst, t)
             types = dbio.type_mismatches(dst, t)
@@ -46,7 +52,7 @@ def main():
     result = True
     for fmt in ("csv", "json"):
         print(f"{fmt.upper()}:")
-        result &= check(fmt, dbio.HERE / "export" / fmt, src)
+        result &= check(fmt, src)
     src.close()
     print("итог:", "данные восстановлены без потерь" if result else "есть расхождения")
     sys.exit(0 if result else 1)
