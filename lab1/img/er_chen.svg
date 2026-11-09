@@ -52,26 +52,22 @@
 <line x1="2154.8" y1="1690.0" x2="2301.5" y2="1867.6" stroke="#000" stroke-width="1.6"/>
 <line x1="2122.2" y1="1690.0" x2="2076.0" y2="1867.0" stroke="#000" stroke-width="1.6"/>
 <line x1="2083.5" y1="1690.0" x2="1853.4" y2="1838.5" stroke="#000" stroke-width="1.6"/>
-<line x1="725.0" y1="333.2" x2="630.0" y2="333.2" stroke="#000" stroke-width="1.4"/><line x1="725.0" y1="326.8" x2="630.0" y2="326.8" stroke="#000" stroke-width="1.4"/>
-<line x1="325.0" y1="330.0" x2="420.0" y2="330.0" stroke="#000" stroke-width="1.6"/>
-<line x1="915.0" y1="330.0" x2="1040.0" y2="330.0" stroke="#000" stroke-width="1.6"/>
-<line x1="1355.6" y1="333.2" x2="1250.0" y2="333.2" stroke="#000" stroke-width="1.4"/><line x1="1355.6" y1="326.8" x2="1250.0" y2="326.8" stroke="#000" stroke-width="1.4"/>
-<line x1="1473.2" y1="360.0" x2="1473.2" y2="625.0" stroke="#000" stroke-width="1.4"/><line x1="1466.8" y1="360.0" x2="1466.8" y2="625.0" stroke="#000" stroke-width="1.4"/>
-<line x1="1470.0" y1="980.0" x2="1470.0" y2="715.0" stroke="#000" stroke-width="1.6"/>
-<line x1="820.0" y1="360.0" x2="820.0" y2="625.0" stroke="#000" stroke-width="1.6"/>
-<line x1="820.0" y1="980.0" x2="820.0" y2="715.0" stroke="#000" stroke-width="1.6"/>
-<line x1="915.0" y1="1006.8" x2="1040.0" y2="1006.8" stroke="#000" stroke-width="1.4"/><line x1="915.0" y1="1013.2" x2="1040.0" y2="1013.2" stroke="#000" stroke-width="1.4"/>
-<line x1="1375.0" y1="1010.0" x2="1250.0" y2="1010.0" stroke="#000" stroke-width="1.6"/>
-<line x1="2010.2" y1="1013.2" x2="1905.0" y2="1013.2" stroke="#000" stroke-width="1.4"/><line x1="2010.2" y1="1006.8" x2="1905.0" y2="1006.8" stroke="#000" stroke-width="1.4"/>
-<line x1="1565.0" y1="1010.0" x2="1695.0" y2="1010.0" stroke="#000" stroke-width="1.6"/>
-<line x1="2249.8" y1="1006.8" x2="2330.0" y2="1006.8" stroke="#000" stroke-width="1.4"/><line x1="2249.8" y1="1013.2" x2="2330.0" y2="1013.2" stroke="#000" stroke-width="1.4"/>
-<line x1="2645.0" y1="1010.0" x2="2540.0" y2="1010.0" stroke="#000" stroke-width="1.6"/>
-<line x1="1442.3" y1="1042.3" x2="1178.8" y2="1305.8" stroke="#000" stroke-width="1.4"/><line x1="1437.7" y1="1037.7" x2="1174.2" y2="1301.2" stroke="#000" stroke-width="1.4"/>
-<line x1="850.0" y1="1630.0" x2="1113.5" y2="1366.5" stroke="#000" stroke-width="1.6"/>
-<line x1="1473.2" y1="1040.0" x2="1473.2" y2="1290.0" stroke="#000" stroke-width="1.4"/><line x1="1466.8" y1="1040.0" x2="1466.8" y2="1290.0" stroke="#000" stroke-width="1.4"/>
-<line x1="1470.0" y1="1630.0" x2="1470.0" y2="1380.0" stroke="#000" stroke-width="1.6"/>
-<line x1="1500.5" y1="1040.0" x2="1768.2" y2="1303.6" stroke="#000" stroke-width="1.6"/>
-<line x1="2099.5" y1="1630.0" x2="1831.8" y2="1366.4" stroke="#000" stroke-width="1.6"/>
+<line x1="420.0" y1="330.0" x2="325.0" y2="330.0" stroke="#000" stroke-width="1.6"/>
+<line x1="630.0" y1="326.8" x2="725.0" y2="326.8" stroke="#000" stroke-width="1.4"/><line x1="630.0" y1="333.2" x2="725.0" y2="333.2" stroke="#000" stroke-width="1.4"/>
+<line x1="820.0" y1="625.0" x2="820.0" y2="360.0" stroke="#000" stroke-width="1.6"/>
+<line x1="820.0" y1="715.0" x2="820.0" y2="980.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1040.0" y1="1013.2" x2="915.0" y2="1013.2" stroke="#000" stroke-width="1.4"/><line x1="1040.0" y1="1006.8" x2="915.0" y2="1006.8" stroke="#000" stroke-width="1.4"/>
+<line x1="1250.0" y1="1010.0" x2="1375.0" y2="1010.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1174.2" y1="1301.2" x2="1437.7" y2="1037.7" stroke="#000" stroke-width="1.4"/><line x1="1178.8" y1="1305.8" x2="1442.3" y2="1042.3" stroke="#000" stroke-width="1.4"/>
+<line x1="1113.5" y1="1366.5" x2="850.0" y2="1630.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1466.8" y1="1290.0" x2="1466.8" y2="1040.0" stroke="#000" stroke-width="1.4"/><line x1="1473.2" y1="1290.0" x2="1473.2" y2="1040.0" stroke="#000" stroke-width="1.4"/>
+<line x1="1470.0" y1="1380.0" x2="1470.0" y2="1630.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1768.2" y1="1303.6" x2="1500.5" y2="1040.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1831.8" y1="1366.4" x2="2099.5" y2="1630.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1355.6" y1="330.0" x2="915.0" y2="330.0" stroke="#000" stroke-width="1.6"/>
+<line x1="1470.0" y1="360.0" x2="1470.0" y2="980.0" stroke="#000" stroke-width="1.6"/>
+<line x1="2010.2" y1="1010.0" x2="1565.0" y2="1010.0" stroke="#000" stroke-width="1.6"/>
+<line x1="2249.8" y1="1010.0" x2="2645.0" y2="1010.0" stroke="#000" stroke-width="1.6"/>
 <ellipse cx="210" cy="200" rx="63.0" ry="23.0" fill="#fff" stroke="#000" stroke-width="1.4"/>
 <text x="210" y="205" font-size="15" text-anchor="middle" text-decoration="underline" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">код_отдела</text>
 <line x1="166.3" y1="208" x2="253.7" y2="208" stroke="#000" stroke-width="1.2"/>
@@ -185,46 +181,58 @@
 <text x="2070" y="1895" font-size="15" text-anchor="middle">значение_параметра</text>
 <ellipse cx="1820" cy="1860" rx="94.5" ry="23.0" fill="#fff" stroke="#000" stroke-width="1.4"/>
 <text x="1820" y="1865" font-size="15" text-anchor="middle">единица_измерения</text>
-<text x="699.0" y="321.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="351.0" y="353.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<polygon points="325.0,330.0 343.0,323.0 343.0,337.0" fill="#000"/>
+<text x="375.0" y="318.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<polygon points="725.0,330.0 707.0,337.0 707.0,323.0" fill="#000"/><polygon points="711.0,330.0 693.0,337.0 693.0,323.0" fill="#000"/>
+<text x="675.0" y="358.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
 <polygon points="525.0,285.0 630.0,330.0 525.0,375.0 420.0,330.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="525.0" y="335.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТАЕТ_В</text>
-<text x="941.0" y="353.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
-<text x="1329.6" y="321.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<polygon points="1145.0,285.0 1250.0,330.0 1145.0,375.0 1040.0,330.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1145.0" y="335.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПОЛУЧАЕТ</text>
-<text x="1454.0" y="393.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="1486.0" y="961.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
-<polygon points="1470.0,625.0 1575.0,670.0 1470.0,715.0 1365.0,670.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1470.0" y="675.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">КАСАЕТСЯ</text>
-<text x="804.0" y="393.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
-<text x="836.0" y="961.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<text x="525.0" y="327.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТАЕТ_В</text>
+<text x="525.0" y="350.0" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">1:М</text>
+<polygon points="820.0,360.0 827.0,378.0 813.0,378.0" fill="#000"/>
+<text x="840.0" y="418.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<polygon points="820.0,980.0 813.0,962.0 827.0,962.0" fill="#000"/><polygon points="820.0,966.0 813.0,948.0 827.0,948.0" fill="#000"/>
+<text x="800.0" y="938.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
 <polygon points="820.0,625.0 925.0,670.0 820.0,715.0 715.0,670.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="820.0" y="675.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ВЫПОЛНЯЕТ</text>
-<text x="941.0" y="1033.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="1349.0" y="1001.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<text x="820.0" y="667.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ВЫПОЛНЯЕТ</text>
+<text x="820.0" y="690.0" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">1:М</text>
+<polygon points="915.0,1010.0 933.0,1003.0 933.0,1017.0" fill="#000"/><polygon points="929.0,1010.0 947.0,1003.0 947.0,1017.0" fill="#000"/>
+<text x="965.0" y="998.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<polygon points="1375.0,1010.0 1357.0,1017.0 1357.0,1003.0" fill="#000"/>
+<text x="1325.0" y="1038.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
 <polygon points="1145.0,965.0 1250.0,1010.0 1145.0,1055.0 1040.0,1010.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1145.0" y="1015.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПРОВОДИТСЯ_ДЛЯ</text>
-<text x="1984.2" y="1001.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="1591.0" y="1033.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
-<polygon points="1800.0,965.0 1905.0,1010.0 1800.0,1055.0 1695.0,1010.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1800.0" y="1015.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ВЫПОЛНЕНА_НА</text>
-<text x="2275.8" y="1033.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="2619.0" y="1001.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
-<polygon points="2435.0,965.0 2540.0,1010.0 2435.0,1055.0 2330.0,1010.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="2435.0" y="1015.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ФИКСИРУЕТ</text>
-<text x="1410.3" y="1054.1" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="879.7" y="1629.9" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<text x="1145.0" y="1007.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПРОВОДИТСЯ_ДЛЯ</text>
+<text x="1145.0" y="1030.0" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">М:1</text>
+<polygon points="1440.0,1040.0 1432.2,1057.7 1422.3,1047.8" fill="#000"/><polygon points="1430.1,1049.9 1422.3,1067.6 1412.4,1057.7" fill="#000"/>
+<text x="1390.5" y="1069.2" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<polygon points="850.0,1630.0 857.8,1612.3 867.7,1622.2" fill="#000"/>
+<text x="871.2" y="1588.5" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
 <polygon points="1145.0,1290.0 1250.0,1335.0 1145.0,1380.0 1040.0,1335.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1145.0" y="1340.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ИМЕЕТ_МОДЕЛЬ</text>
-<text x="1454.0" y="1073.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
-<text x="1486.0" y="1611.0" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<text x="1145.0" y="1332.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ИМЕЕТ_МОДЕЛЬ</text>
+<text x="1145.0" y="1355.0" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">М:1</text>
+<polygon points="1470.0,1040.0 1477.0,1058.0 1463.0,1058.0" fill="#000"/><polygon points="1470.0,1054.0 1477.0,1072.0 1463.0,1072.0" fill="#000"/>
+<text x="1490.0" y="1098.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<polygon points="1470.0,1630.0 1463.0,1612.0 1477.0,1612.0" fill="#000"/>
+<text x="1450.0" y="1588.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
 <polygon points="1470.0,1290.0 1575.0,1335.0 1470.0,1380.0 1365.0,1335.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1470.0" y="1340.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">НАХОДИТСЯ_В</text>
-<text x="1507.8" y="1076.6" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
-<text x="2092.2" y="1607.4" font-size="20" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<text x="1470.0" y="1332.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">НАХОДИТСЯ_В</text>
+<text x="1470.0" y="1355.0" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">М:1</text>
+<polygon points="1500.5,1040.0 1518.2,1047.6 1508.4,1057.6" fill="#000"/>
+<text x="1550.1" y="1068.8" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">1</text>
+<polygon points="2099.5,1630.0 2081.8,1622.4 2091.6,1612.4" fill="#000"/><polygon points="2089.6,1620.2 2071.8,1612.5 2081.7,1602.6" fill="#000"/>
+<text x="2049.9" y="1617.2" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
 <polygon points="1800.0,1290.0 1905.0,1335.0 1800.0,1380.0 1695.0,1335.0" fill="#fff" stroke="#000" stroke-width="1.6"/>
-<text x="1800.0" y="1340.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">СОДЕРЖИТ</text>
+<text x="1800.0" y="1332.0" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">СОДЕРЖИТ</text>
+<text x="1800.0" y="1355.0" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">1:М</text>
+<polygon points="915.0,330.0 933.0,323.0 933.0,337.0" fill="#000"/><polygon points="929.0,330.0 947.0,323.0 947.0,337.0" fill="#000"/>
+<text x="965.0" y="318.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<polygon points="1470.0,980.0 1463.0,962.0 1477.0,962.0" fill="#000"/><polygon points="1470.0,966.0 1463.0,948.0 1477.0,948.0" fill="#000"/>
+<text x="1450.0" y="938.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<text x="1395" y="392" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">М:М</text>
+<polygon points="1565.0,1010.0 1583.0,1003.0 1583.0,1017.0" fill="#000"/><polygon points="1579.0,1010.0 1597.0,1003.0 1597.0,1017.0" fill="#000"/>
+<text x="1615.0" y="998.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<polygon points="2645.0,1010.0 2627.0,1017.0 2627.0,1003.0" fill="#000"/><polygon points="2631.0,1010.0 2613.0,1017.0 2613.0,1003.0" fill="#000"/>
+<text x="2595.0" y="1038.0" font-size="22" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">М</text>
+<text x="2130" y="962" font-size="17" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">М:М</text>
 <rect x="135.0" y="300.0" width="190.0" height="60" fill="#fff" stroke="#000" stroke-width="2.2"/>
 <text x="230" y="336" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">ОТДЕЛ</text>
 <rect x="725.0" y="300.0" width="190.0" height="60" fill="#fff" stroke="#000" stroke-width="2.2"/>
@@ -247,21 +255,31 @@
 <text x="1470" y="1666" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">ПОМЕЩЕНИЕ</text>
 <rect x="2035.0" y="1630.0" width="190.0" height="60" fill="#fff" stroke="#000" stroke-width="2.2"/>
 <text x="2130" y="1666" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif" text-anchor="middle">КОМПЛЕКТУЮЩЕЕ</text>
-<rect x="2330" y="60" width="720" height="350" fill="#fff" stroke="#000" stroke-width="1.2"/>
-<text x="2350" y="94" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Обозначения</text>
-<rect x="2350" y="115" width="110" height="36" fill="#fff" stroke="#000" stroke-width="2"/>
-<text x="2480" y="139" font-size="15">сущность</text>
-<rect x="2350" y="165" width="110" height="36" fill="#fff" stroke="#000" stroke-width="2"/>
-<polygon points="2405,168 2456,183 2405,198 2354,183" fill="none" stroke="#000"/>
-<text x="2480" y="189" font-size="15">ассоциативная сущность (связь М:М)</text>
-<polygon points="2405,215 2460,235 2405,255 2350,235" fill="#fff" stroke="#000"/>
-<text x="2480" y="241" font-size="15">связь</text>
-<ellipse cx="2405" cy="285" rx="55" ry="18" fill="#fff" stroke="#000"/>
-<text x="2405" y="290" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id</text>
-<line x1="2396" y1="293" x2="2414" y2="293" stroke="#000"/>
-<text x="2480" y="291" font-size="15">атрибут (подчёркнут — идентификатор)</text>
-<line x1="2350.0" y1="326.8" x2="2460.0" y2="326.8" stroke="#000" stroke-width="1.4"/><line x1="2350.0" y1="333.2" x2="2460.0" y2="333.2" stroke="#000" stroke-width="1.4"/>
-<text x="2480" y="336" font-size="15">обязательное участие сущности в связи</text>
-<line x1="2350.0" y1="370.0" x2="2460.0" y2="370.0" stroke="#000" stroke-width="1.6"/>
-<text x="2480" y="376" font-size="15">необязательное участие; 1 / М — кардинальность</text>
+<rect x="2330" y="50" width="740" height="500" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="2350" y="84" font-size="18" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Обозначения</text>
+<rect x="2350" y="105" width="110" height="36" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="2480" y="129" font-size="15">сущность</text>
+<rect x="2350" y="155" width="110" height="36" fill="#fff" stroke="#000" stroke-width="2"/>
+<polygon points="2405,158 2456,173 2405,188 2354,173" fill="none" stroke="#000"/>
+<text x="2480" y="179" font-size="15">ассоциативная сущность (связь М:М с атрибутами)</text>
+<polygon points="2405,202 2460,227 2405,252 2350,227" fill="#fff" stroke="#000"/>
+<text x="2405" y="233" font-size="13" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">1:М</text>
+<text x="2480" y="233" font-size="15">связь; под именем — тип связи (1:М, М:1, М:М)</text>
+<ellipse cx="2405" cy="282" rx="55" ry="18" fill="#fff" stroke="#000"/>
+<text x="2405" y="287" font-size="14" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">id</text>
+<line x1="2396" y1="290" x2="2414" y2="290" stroke="#000"/>
+<text x="2480" y="288" font-size="15">атрибут (подчёркнут — идентификатор)</text>
+<line x1="2350.0" y1="335.0" x2="2460.0" y2="335.0" stroke="#000" stroke-width="1.6"/>
+<polygon points="2460.0,335.0 2442.0,342.0 2442.0,328.0" fill="#000"/>
+<text x="2435" y="325" font-size="17" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">1</text>
+<text x="2480" y="341" font-size="15">стрелка к сущности со стороны «один»</text>
+<line x1="2350.0" y1="385.0" x2="2460.0" y2="385.0" stroke="#000" stroke-width="1.6"/>
+<polygon points="2460.0,385.0 2442.0,392.0 2442.0,378.0" fill="#000"/><polygon points="2446.0,385.0 2428.0,392.0 2428.0,378.0" fill="#000"/>
+<text x="2420" y="375" font-size="17" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">М</text>
+<text x="2480" y="391" font-size="15">двойная стрелка к сущности со стороны «много»</text>
+<line x1="2350.0" y1="431.8" x2="2460.0" y2="431.8" stroke="#000" stroke-width="1.4"/><line x1="2350.0" y1="438.2" x2="2460.0" y2="438.2" stroke="#000" stroke-width="1.4"/>
+<text x="2480" y="441" font-size="15">двойная линия — обязательное участие сущности</text>
+<line x1="2350.0" y1="485.0" x2="2460.0" y2="485.0" stroke="#000" stroke-width="1.6"/>
+<text x="2480" y="491" font-size="15">одинарная линия — необязательное участие</text>
+<text x="2350" y="532" font-size="14">Идентификатор УСТАНОВКИ_ПО составной: (инвентарный_номер, код_программы)</text>
 </svg>
