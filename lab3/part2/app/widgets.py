@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import font as tkfont
 from tkinter import ttk
 
 from theme import C, STATUS_TAG, style_tree
@@ -13,8 +14,9 @@ def sort_key(value):
 
 
 class DataTable(ttk.Frame):
-    def __init__(self, parent, height=12, on_open=None, style=None):
+    def __init__(self, parent, height=12, on_open=None, style=None, fit=False):
         super().__init__(parent, style=style or "TFrame")
+        self.fit = fit
         self.tree = ttk.Treeview(self, show="headings", height=height, selectmode="browse")
         ys = ttk.Scrollbar(self, orient="vertical", command=self.tree.yview)
         xs = ttk.Scrollbar(self, orient="horizontal", command=self.tree.xview)
@@ -29,6 +31,9 @@ class DataTable(ttk.Frame):
         self.sort_col, self.sort_desc = None, False
         self.filter_text = ""
         self.on_open = on_open
+        self.base_widths = []
+        if fit:
+            self.tree.bind("<Configure>", lambda e: self.fit_columns(e.width))
         if on_open:
             self.tree.bind("<Double-1>", lambda e: self.selected() and on_open(self.selected()))
 
@@ -37,11 +42,33 @@ class DataTable(ttk.Frame):
         if self.sort_col not in self.columns:
             self.sort_col, self.sort_desc = None, False
         self.tree["columns"] = self.columns
-        for c in self.columns:
-            width = max(90, min(260, 9 * max([len(c)] + [len(str(r[self.columns.index(c)])) for r in self.rows[:50]])))
+        style = ttk.Style(self)
+        body = tkfont.Font(font=style.lookup("Treeview", "font") or "TkDefaultFont")
+        head = tkfont.Font(font=style.lookup("Treeview.Heading", "font") or "TkHeadingFont")
+        for i, c in enumerate(self.columns):
+            values = [body.measure("NULL" if r[i] is None else str(r[i])) for r in self.rows[:200]]
+            width = min(320, max([head.measure(c + " ▲") + 24] + [v + 20 for v in values]))
             self.tree.heading(c, text=self._title(c), command=lambda col=c: self.sort_by(col))
-            self.tree.column(c, width=width, minwidth=60, stretch=True, anchor="w")
+            self.tree.column(c, width=width, minwidth=50, stretch=self.fit or i == len(self.columns) - 1, anchor="w")
+        self.base_widths = [self.tree.column(c, "width") for c in self.columns]
+        if self.fit:
+            self.fit_columns(self.tree.winfo_width())
         self.render()
+
+    def fit_columns(self, available):
+        total = sum(self.base_widths)
+        available -= 6
+        if available <= 1 or not total:
+            return
+        floors = [min(w, 120) for w in self.base_widths]
+        spare = sum(w - f for w, f in zip(self.base_widths, floors))
+        excess = max(0, total - available)
+        for c, w, f in zip(self.columns, self.base_widths, floors):
+            if excess and spare:
+                w -= (w - f) * min(1, excess / spare)
+            elif not excess:
+                w = w * available / total
+            self.tree.column(c, width=max(50, int(w)))
 
     def _title(self, c):
         if c != self.sort_col:
@@ -97,14 +124,15 @@ class Card(ttk.Frame):
 
 
 class Message(ttk.Label):
-    def __init__(self, parent, **kw):
-        super().__init__(parent, text="", style="Card.TLabel", wraplength=700, **kw)
+    def __init__(self, parent, empty_style="Card.TLabel", **kw):
+        self.empty_style = empty_style
+        super().__init__(parent, text="", style=empty_style, wraplength=700, **kw)
 
     def show(self, kind, text):
         self.configure(text=text, style=f"Msg{kind}.TLabel")
 
     def clear(self):
-        self.configure(text="", style="Card.TLabel")
+        self.configure(text="", style=self.empty_style)
 
 
 class LookupCombo(ttk.Combobox):
@@ -131,10 +159,10 @@ class LookupCombo(ttk.Combobox):
                 return
 
 
-def scrolled_text(parent, F, height=8, **kw):
+def scrolled_text(parent, F, height=8, wrap="none", **kw):
     frame = ttk.Frame(parent, style="Card.TFrame")
     text = tk.Text(frame, height=height, font=F["mono"], bg=C["surface"], fg=C["text"], relief="flat",
-                   insertbackground=C["text"], wrap="none", undo=True, borderwidth=0,
+                   insertbackground=C["text"], wrap=wrap, undo=True, borderwidth=0,
                    highlightthickness=1, highlightcolor=C["primary"], highlightbackground=C["border"], **kw)
     ys = ttk.Scrollbar(frame, orient="vertical", command=text.yview)
     text.configure(yscrollcommand=ys.set)

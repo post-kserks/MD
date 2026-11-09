@@ -144,7 +144,7 @@ class FormDialog(tk.Toplevel):
 
     def add_buttons(self, ok_text, ok_command):
         self.message.grid(row=self.row, column=0, sticky="ew", pady=(4, 8))
-        bar = ttk.Frame(self.body, style="Card.TFrame")
+        bar = ttk.Frame(self.body, style="Inner.TFrame")
         bar.grid(row=self.row + 1, column=0, sticky="e", pady=(8, 0))
         ttk.Button(bar, text="Отмена", command=self.destroy).pack(side="left", padx=(0, 8))
         ttk.Button(bar, text=ok_text, style="Primary.TButton", command=ok_command).pack(side="left")

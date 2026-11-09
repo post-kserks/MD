@@ -7,19 +7,19 @@ TITLES = {
     "01_select_all": "Все компьютеры",
     "02_select_columns": "Сотрудники: ФИО, должность, телефон",
     "03_order_by": "Компьютеры от новых к старым",
-    "04_limit_offset": "Обслуживания: вторая страница по стоимости",
+    "04_limit_offset": "Вторая страница обслуживаний (LIMIT)",
     "05_where_between": "Введены в 2023–2024 годах",
     "06_in_subquery": "Ноутбуки (IN с подзапросом)",
     "07_like": "Сотрудники на «К» (LIKE)",
     "08_is_null": "Сотрудники без e-mail или телефона",
     "09_aggregates": "Статистика стоимости обслуживаний",
-    "10_group_having": "Виды работ, выполнявшиеся больше трёх раз",
-    "11_join": "Компьютеры, помещения и сотрудники (JOIN)",
+    "10_group_having": "Виды работ больше 3 раз (HAVING)",
+    "11_join": "Компьютеры и сотрудники (JOIN)",
     "12_distinct": "Типы и производители комплектующих",
-    "13_exists": "Неустановленные программы (NOT EXISTS)",
+    "13_exists": "Неустановленные программы (EXISTS)",
     "14_case": "Состояние гарантии (CASE)",
-    "15_var18_join_categories": "Вариант 18: компьютеры и их категории",
-    "16_var18_categories_over_n": "Вариант 18: категории, где больше N компьютеров",
+    "15_var18_join_categories": "Вар. 18: компьютеры и категории",
+    "16_var18_categories_over_n": "Вар. 18: категории, где больше N",
 }
 
 PARAMS = {
@@ -35,12 +35,12 @@ SCHEMA_V2 = {
 }
 
 EXTRA = [
-    ("Свободные лицензии платных программ",
+    ("Свободные лицензии программ",
      "SELECT p.name, p.version, p.license_count AS licenses, COUNT(i.inv_number) AS used,\n"
      "       p.license_count - COUNT(i.inv_number) AS free\n"
      "FROM programs p\nLEFT JOIN software_installs i USING (id_program)\n"
      "WHERE p.license_type <> 'бесплатная'\nGROUP BY p.id_program\nORDER BY free;", {}),
-    ("Затраты на обслуживание по отделам за период",
+    ("Затраты на обслуживание по отделам",
      "SELECT d.name AS department, COUNT(*) AS services, SUM(s.cost) AS cost\n"
      "FROM services s\nJOIN assignments a ON a.inv_number = s.inv_number\n"
      "     AND a.issue_date <= s.start_date AND COALESCE(a.return_date, '9999') >= s.start_date\n"

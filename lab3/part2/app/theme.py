@@ -54,6 +54,7 @@ def setup(root):
                 lightcolor=C["border"], darkcolor=C["border"], troughcolor=C["bg"], focuscolor=C["primary"])
     s.configure("TFrame", background=C["bg"])
     s.configure("Card.TFrame", background=C["surface"], relief="solid", borderwidth=1)
+    s.configure("Inner.TFrame", background=C["surface"], relief="flat", borderwidth=0)
     s.configure("Top.TFrame", background=C["surface"])
     s.configure("TLabel", background=C["bg"], foreground=C["text"], font=F["body"])
     s.configure("Card.TLabel", background=C["surface"])
@@ -68,7 +69,7 @@ def setup(root):
         s.configure(f"Stat{kind}.TLabel", background=C["surface"], foreground=C[kind], font=(F["h1"][0], 30, "bold"))
         s.configure(f"Msg{kind}.TLabel", background=C[f"{kind}_bg"], foreground=C[kind], font=F["bold"],
                     padding=(12, 10))
-    s.configure("TButton", padding=(14, 7), background=C["surface"], foreground=C["text"], borderwidth=1)
+    s.configure("TButton", padding=(14, 7), width=-4, background=C["surface"], foreground=C["text"], borderwidth=1)
     s.map("TButton", background=[("active", C["primary_light"]), ("disabled", C["bg"])],
           foreground=[("disabled", C["muted"])])
     s.configure("Primary.TButton", background=C["primary"], foreground="#FFFFFF", bordercolor=C["primary"],
