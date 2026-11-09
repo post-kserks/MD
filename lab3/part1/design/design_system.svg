@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<text x="40" y="50" font-size="24" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Дизайн-система «Учёт ПК»</text>
+<text x="40" y="76" font-size="13" fill="#6B7785" text-anchor="start">Цвета, шрифты и компоненты, общие для всех экранов и для приложения на Tkinter (ЛР3, часть 2)</text>
+<text x="40" y="118" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Палитра</text>
+<rect x="40" y="136" width="150" height="44" rx="6" fill="#2F5D9E" stroke="#D5DBE3" stroke-width="1"/>
+<text x="40" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">primary</text>
+<text x="40" y="214" font-size="11" fill="#6B7785" text-anchor="start">#2F5D9E</text>
+<rect x="210" y="136" width="150" height="44" rx="6" fill="#234A80" stroke="#D5DBE3" stroke-width="1"/>
+<text x="210" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">primary_dark</text>
+<text x="210" y="214" font-size="11" fill="#6B7785" text-anchor="start">#234A80</text>
+<rect x="380" y="136" width="150" height="44" rx="6" fill="#E8EEF7" stroke="#D5DBE3" stroke-width="1"/>
+<text x="380" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">primary_light</text>
+<text x="380" y="214" font-size="11" fill="#6B7785" text-anchor="start">#E8EEF7</text>
+<rect x="550" y="136" width="150" height="44" rx="6" fill="#F5F7FA" stroke="#D5DBE3" stroke-width="1"/>
+<text x="550" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">bg</text>
+<text x="550" y="214" font-size="11" fill="#6B7785" text-anchor="start">#F5F7FA</text>
+<rect x="720" y="136" width="150" height="44" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="720" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">surface</text>
+<text x="720" y="214" font-size="11" fill="#6B7785" text-anchor="start">#FFFFFF</text>
+<rect x="890" y="136" width="150" height="44" rx="6" fill="#D5DBE3" stroke="#D5DBE3" stroke-width="1"/>
+<text x="890" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">border</text>
+<text x="890" y="214" font-size="11" fill="#6B7785" text-anchor="start">#D5DBE3</text>
+<rect x="1060" y="136" width="150" height="44" rx="6" fill="#1F2933" stroke="#D5DBE3" stroke-width="1"/>
+<text x="1060" y="198" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">text</text>
+<text x="1060" y="214" font-size="11" fill="#6B7785" text-anchor="start">#1F2933</text>
+<rect x="40" y="226" width="150" height="44" rx="6" fill="#6B7785" stroke="#D5DBE3" stroke-width="1"/>
+<text x="40" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">muted</text>
+<text x="40" y="304" font-size="11" fill="#6B7785" text-anchor="start">#6B7785</text>
+<rect x="210" y="226" width="150" height="44" rx="6" fill="#1F2A3A" stroke="#D5DBE3" stroke-width="1"/>
+<text x="210" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">sidebar</text>
+<text x="210" y="304" font-size="11" fill="#6B7785" text-anchor="start">#1F2A3A</text>
+<rect x="380" y="226" width="150" height="44" rx="6" fill="#2E7D4F" stroke="#D5DBE3" stroke-width="1"/>
+<text x="380" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">success</text>
+<text x="380" y="304" font-size="11" fill="#6B7785" text-anchor="start">#2E7D4F</text>
+<rect x="550" y="226" width="150" height="44" rx="6" fill="#3D6FB6" stroke="#D5DBE3" stroke-width="1"/>
+<text x="550" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">info</text>
+<text x="550" y="304" font-size="11" fill="#6B7785" text-anchor="start">#3D6FB6</text>
+<rect x="720" y="226" width="150" height="44" rx="6" fill="#B7791F" stroke="#D5DBE3" stroke-width="1"/>
+<text x="720" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">warning</text>
+<text x="720" y="304" font-size="11" fill="#6B7785" text-anchor="start">#B7791F</text>
+<rect x="890" y="226" width="150" height="44" rx="6" fill="#C0392B" stroke="#D5DBE3" stroke-width="1"/>
+<text x="890" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">danger</text>
+<text x="890" y="304" font-size="11" fill="#6B7785" text-anchor="start">#C0392B</text>
+<rect x="1060" y="226" width="150" height="44" rx="6" fill="#DCE7F7" stroke="#D5DBE3" stroke-width="1"/>
+<text x="1060" y="288" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">selected</text>
+<text x="1060" y="304" font-size="11" fill="#6B7785" text-anchor="start">#DCE7F7</text>
+<text x="40" y="348" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Типографика (Arial / Helvetica; моноширинный — Menlo / Consolas)</text>
+<text x="40" y="384" font-size="22" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Заголовок экрана — 22 px, полужирный</text>
+<text x="40" y="412" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Заголовок панели — 16 px, полужирный</text>
+<text x="40" y="436" font-size="13" fill="#1F2933" text-anchor="start">Основной текст, значения в таблицах — 13 px</text>
+<text x="40" y="458" font-size="11" fill="#6B7785" text-anchor="start">Подписи, подсказки, строка состояния — 11 px</text>
+<text x="40" y="480" font-size="12" fill="#1F2933" text-anchor="start" font-family="Menlo, Consolas, monospace">SELECT * FROM computers;  — код SQL, 12 px</text>
+<text x="640" y="348" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Кнопки</text>
+<rect x="640" y="366" width="90" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="685.0" y="388" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Основная</text>
+<rect x="740" y="366" width="97" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="788.5" y="388" font-size="13" fill="#1F2933" text-anchor="middle">Вторичная</text>
+<rect x="847" y="366" width="82" height="34" rx="6" fill="#C0392B" stroke="none" stroke-width="1"/>
+<text x="888.0" y="388" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Опасная</text>
+<rect x="939" y="366" width="75" height="34" rx="6" fill="#F5F7FA" stroke="none" stroke-width="1"/>
+<text x="976.5" y="388" font-size="13" fill="#2F5D9E" text-anchor="middle">Ссылка</text>
+<rect x="1024" y="366" width="104" height="34" rx="6" fill="#F5F7FA" stroke="#D5DBE3" stroke-width="1"/>
+<text x="1076.0" y="388" font-size="13" fill="#6B7785" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Недоступна</text>
+<text x="640" y="436" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Статусы компьютера</text>
+<rect x="640" y="450" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="692.12" y="464" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">в эксплуатации</text>
+<rect x="756.24" y="450" width="73.44" height="20" rx="10" fill="#E4EDF9" stroke="none" stroke-width="1"/>
+<text x="792.96" y="464" font-size="11" fill="#3D6FB6" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">в резерве</text>
+<rect x="841.6800000000001" y="450" width="73.44" height="20" rx="10" fill="#FBF0DC" stroke="none" stroke-width="1"/>
+<text x="878.4000000000001" y="464" font-size="11" fill="#B7791F" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">в ремонте</text>
+<rect x="927.1200000000001" y="450" width="54.96" height="20" rx="10" fill="#FBE5E2" stroke="none" stroke-width="1"/>
+<text x="954.6000000000001" y="464" font-size="11" fill="#C0392B" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">списан</text>
+<text x="40" y="530" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Поля ввода</text>
+<text x="40" y="556" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Обычное</text>
+<rect x="40" y="564" width="260" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="50" y="586.0" font-size="13" fill="#6B7785" text-anchor="start">подсказка</text>
+<text x="320" y="556" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">В фокусе</text>
+<rect x="320" y="564" width="260" height="34" rx="5" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="2"/>
+<text x="330" y="586.0" font-size="13" fill="#1F2933" text-anchor="start">ПК-00031</text>
+<text x="40" y="636" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Ошибка *</text>
+<rect x="40" y="644" width="260" height="34" rx="5" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+<text x="50" y="666.0" font-size="13" fill="#1F2933" text-anchor="start">PC-1</text>
+<text x="40" y="694" font-size="11" fill="#C0392B" text-anchor="start">Формат: ПК-NNNNN</text>
+<text x="320" y="636" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Выпадающий список</text>
+<rect x="320" y="644" width="260" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="330" y="666.0" font-size="13" fill="#1F2933" text-anchor="start">в резерве</text>
+<text x="562" y="666.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<rect x="40" y="732" width="16" height="16" rx="3" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1.5"/>
+<text x="48" y="745" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">✓</text>
+<text x="64" y="745" font-size="13" fill="#1F2933" text-anchor="start">Флажок</text>
+<circle cx="168" cy="740" r="8" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="1.5"/>
+<circle cx="168" cy="740" r="4" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1"/>
+<text x="184" y="745" font-size="13" fill="#1F2933" text-anchor="start">Переключатель</text>
+<text x="640" y="530" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Таблица и сообщения</text>
+<rect x="640" y="546" width="520" height="124" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="641" y="547" width="518" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="650" y="568" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Инв. №</text>
+<text x="750" y="568" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Модель</text>
+<text x="970" y="568" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Состояние</text>
+<line x1="640" y1="580" x2="1160" y2="580" stroke="#D5DBE3" stroke-width="1"/>
+<text x="650" y="600" font-size="13" fill="#1F2933" text-anchor="start">ПК-00002</text>
+<text x="750" y="600" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<rect x="968" y="585" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1020.12" y="599" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">в эксплуатации</text>
+<rect x="641" y="610" width="518" height="30" rx="0" fill="#DCE7F7" stroke="none" stroke-width="1"/>
+<line x1="640" y1="610" x2="1160" y2="610" stroke="#D5DBE3" stroke-width="1"/>
+<text x="650" y="630" font-size="13" fill="#1F2933" text-anchor="start">ПК-00006</text>
+<text x="750" y="630" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<rect x="968" y="615" width="73.44" height="20" rx="10" fill="#FBF0DC" stroke="none" stroke-width="1"/>
+<text x="1004.72" y="629" font-size="11" fill="#B7791F" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">в ремонте</text>
+<line x1="640" y1="640" x2="1160" y2="640" stroke="#D5DBE3" stroke-width="1"/>
+<text x="650" y="660" font-size="13" fill="#1F2933" text-anchor="start">ПК-00026</text>
+<text x="750" y="660" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q</text>
+<rect x="968" y="645" width="73.44" height="20" rx="10" fill="#E4EDF9" stroke="none" stroke-width="1"/>
+<text x="1004.72" y="659" font-size="11" fill="#3D6FB6" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">в резерве</text>
+<rect x="640" y="696" width="290" height="58" rx="6" fill="#E3F2E8" stroke="#2E7D4F" stroke-width="1"/>
+<circle cx="662" cy="725" r="11" fill="#2E7D4F" stroke="#2E7D4F" stroke-width="1"/>
+<text x="662" y="730" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">✓</text>
+<text x="684" y="720" font-size="13" fill="#2E7D4F" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Успех</text>
+<text x="684" y="740" font-size="12" fill="#1F2933" text-anchor="start">операция выполнена</text>
+<rect x="946" y="696" width="290" height="58" rx="6" fill="#FBE5E2" stroke="#C0392B" stroke-width="1"/>
+<circle cx="968" cy="725" r="11" fill="#C0392B" stroke="#C0392B" stroke-width="1"/>
+<text x="968" y="730" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">!</text>
+<text x="990" y="720" font-size="13" fill="#C0392B" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Ошибка</text>
+<text x="990" y="740" font-size="12" fill="#1F2933" text-anchor="start">текст ошибки SQLite</text>
+</svg>

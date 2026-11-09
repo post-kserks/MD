@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#E6E6E6" stroke="none" stroke-width="1"/>
+<line x1="220" y1="0" x2="220" y2="800" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПК</text>
+<text x="64" y="32" font-size="15" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Учёт ПК</text>
+<text x="64" y="48" font-size="10" fill="#444444" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТА</text>
+<text x="26" y="132" font-size="13" fill="#444444" text-anchor="middle">⌂</text>
+<text x="44" y="132" font-size="13" fill="#444444" text-anchor="start">Главная</text>
+<rect x="10" y="148" width="200" height="34" rx="6" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="26" y="170" font-size="13" fill="#FFFFFF" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Компьютеры</text>
+<text x="26" y="208" font-size="13" fill="#444444" text-anchor="middle">☺</text>
+<text x="44" y="208" font-size="13" fill="#444444" text-anchor="start">Сотрудники</text>
+<text x="26" y="246" font-size="13" fill="#444444" text-anchor="middle">⇄</text>
+<text x="44" y="246" font-size="13" fill="#444444" text-anchor="start">Закрепления</text>
+<text x="26" y="284" font-size="13" fill="#444444" text-anchor="middle">✎</text>
+<text x="44" y="284" font-size="13" fill="#444444" text-anchor="start">Обслуживание</text>
+<text x="26" y="322" font-size="13" fill="#444444" text-anchor="middle">≡</text>
+<text x="44" y="322" font-size="13" fill="#444444" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ДАННЫЕ</text>
+<text x="26" y="386" font-size="13" fill="#444444" text-anchor="middle">›</text>
+<text x="44" y="386" font-size="13" fill="#444444" text-anchor="start">SQL-запросы</text>
+<text x="26" y="424" font-size="13" fill="#444444" text-anchor="middle">★</text>
+<text x="44" y="424" font-size="13" fill="#444444" text-anchor="start">Готовые запросы</text>
+<text x="26" y="462" font-size="13" fill="#444444" text-anchor="middle">⇅</text>
+<text x="44" y="462" font-size="13" fill="#444444" text-anchor="start">Импорт и экспорт</text>
+<text x="20" y="778" font-size="10" fill="#444444" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#9A9A9A" stroke-width="1"/>
+<text x="244" y="24" font-size="11" fill="#8A8A8A" text-anchor="start">Учёт ПК / Компьютеры / Новый</text>
+<text x="244" y="44" font-size="18" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Постановка компьютера на учёт</text>
+<text x="1256" y="34" font-size="11" fill="#8A8A8A" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="640" height="560" rx="8" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Карточка компьютера</text>
+<line x1="244" y1="124" x2="884" y2="124" stroke="#9A9A9A" stroke-width="1"/>
+<text x="268" y="150" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Инвентарный номер *</text>
+<rect x="268" y="158" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#7A7A7A" stroke-width="2"/>
+<text x="278" y="180.0" font-size="13" fill="#333333" text-anchor="start">ПК-00031</text>
+<text x="580" y="150" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Серийный номер *</text>
+<rect x="580" y="158" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#555555" stroke-width="2"/>
+<text x="590" y="180.0" font-size="13" fill="#333333" text-anchor="start">LE-A8XP2TZZ</text>
+<text x="580" y="208" font-size="11" fill="#555555" text-anchor="start">Компьютер с таким серийным номером уже есть</text>
+<text x="268" y="240" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Модель *</text>
+<rect x="268" y="248" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="270.0" font-size="13" fill="#333333" text-anchor="start">Lenovo ThinkCentre M70q Gen 3 · настольный ПК</text>
+<text x="842" y="270.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<text x="268" y="320" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Помещение *</text>
+<rect x="268" y="328" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="350.0" font-size="13" fill="#333333" text-anchor="start">Корпус Б, Б-01 (склад)</text>
+<text x="530" y="350.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<text x="580" y="320" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Сетевое имя</text>
+<rect x="580" y="328" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="590" y="350.0" font-size="13" fill="#8A8A8A" text-anchor="start">например, BUH-05</text>
+<text x="268" y="400" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Дата ввода в эксплуатацию *</text>
+<rect x="268" y="408" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="430.0" font-size="13" fill="#333333" text-anchor="start">2026-11-09</text>
+<text x="580" y="400" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Гарантия до</text>
+<rect x="580" y="408" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="590" y="430.0" font-size="13" fill="#333333" text-anchor="start">2029-11-09</text>
+<text x="268" y="480" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Состояние</text>
+<rect x="268" y="488" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="278" y="510.0" font-size="13" fill="#333333" text-anchor="start">в резерве</text>
+<text x="530" y="510.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<text x="268" y="550" font-size="11" fill="#8A8A8A" text-anchor="start">* — обязательные поля</text>
+<rect x="740" y="586" width="120" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="800.0" y="608" font-size="13" fill="#333333" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Сохранить</text>
+<rect x="628" y="586" width="100" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="678.0" y="608" font-size="13" fill="#333333" text-anchor="middle">Отмена</text>
+<rect x="904" y="80" width="352" height="300" rx="8" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="922" y="108" font-size="16" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Подсказки</text>
+<line x1="904" y1="124" x2="1256" y2="124" stroke="#9A9A9A" stroke-width="1"/>
+<text x="922" y="150" font-size="12" fill="#333333" text-anchor="start">Инвентарный номер — в формате ПК-NNNNN.</text>
+<text x="922" y="174" font-size="12" fill="#333333" text-anchor="start">Новый компьютер ставится на учёт</text>
+<text x="922" y="198" font-size="12" fill="#333333" text-anchor="start">в состоянии «в резерве» на складе.</text>
+<text x="922" y="222" font-size="12" fill="#333333" text-anchor="start">Серийный номер и сетевое имя</text>
+<text x="922" y="246" font-size="12" fill="#333333" text-anchor="start">должны быть уникальными.</text>
+<text x="922" y="270" font-size="12" fill="#333333" text-anchor="start">Даты — в формате ГГГГ-ММ-ДД;</text>
+<text x="922" y="294" font-size="12" fill="#333333" text-anchor="start">гарантия не раньше даты ввода.</text>
+</svg>

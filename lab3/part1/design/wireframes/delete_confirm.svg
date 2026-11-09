@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1280" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#E6E6E6" stroke="none" stroke-width="1"/>
+<line x1="220" y1="0" x2="220" y2="800" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ПК</text>
+<text x="64" y="32" font-size="15" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Учёт ПК</text>
+<text x="64" y="48" font-size="10" fill="#444444" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">РАБОТА</text>
+<text x="26" y="132" font-size="13" fill="#444444" text-anchor="middle">⌂</text>
+<text x="44" y="132" font-size="13" fill="#444444" text-anchor="start">Главная</text>
+<rect x="10" y="148" width="200" height="34" rx="6" fill="#7A7A7A" stroke="none" stroke-width="1"/>
+<text x="26" y="170" font-size="13" fill="#FFFFFF" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Компьютеры</text>
+<text x="26" y="208" font-size="13" fill="#444444" text-anchor="middle">☺</text>
+<text x="44" y="208" font-size="13" fill="#444444" text-anchor="start">Сотрудники</text>
+<text x="26" y="246" font-size="13" fill="#444444" text-anchor="middle">⇄</text>
+<text x="44" y="246" font-size="13" fill="#444444" text-anchor="start">Закрепления</text>
+<text x="26" y="284" font-size="13" fill="#444444" text-anchor="middle">✎</text>
+<text x="44" y="284" font-size="13" fill="#444444" text-anchor="start">Обслуживание</text>
+<text x="26" y="322" font-size="13" fill="#444444" text-anchor="middle">≡</text>
+<text x="44" y="322" font-size="13" fill="#444444" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#444444" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">ДАННЫЕ</text>
+<text x="26" y="386" font-size="13" fill="#444444" text-anchor="middle">›</text>
+<text x="44" y="386" font-size="13" fill="#444444" text-anchor="start">SQL-запросы</text>
+<text x="26" y="424" font-size="13" fill="#444444" text-anchor="middle">★</text>
+<text x="44" y="424" font-size="13" fill="#444444" text-anchor="start">Готовые запросы</text>
+<text x="26" y="462" font-size="13" fill="#444444" text-anchor="middle">⇅</text>
+<text x="44" y="462" font-size="13" fill="#444444" text-anchor="start">Импорт и экспорт</text>
+<text x="20" y="778" font-size="10" fill="#444444" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#9A9A9A" stroke-width="1"/>
+<text x="244" y="24" font-size="11" fill="#8A8A8A" text-anchor="start">Учёт ПК / Компьютеры</text>
+<text x="244" y="44" font-size="18" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Подтверждение удаления</text>
+<text x="1256" y="34" font-size="11" fill="#8A8A8A" text-anchor="end">computers.db · 30 компьютеров</text>
+<text x="244" y="84" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Поиск</text>
+<rect x="244" y="92" width="300" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="114.0" font-size="13" fill="#8A8A8A" text-anchor="start">инв. номер, сетевое имя, модель…</text>
+<text x="560" y="84" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Состояние</text>
+<rect x="560" y="92" width="170" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="570" y="114.0" font-size="13" fill="#333333" text-anchor="start">все</text>
+<text x="712" y="114.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<text x="746" y="84" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Тип устройства</text>
+<rect x="746" y="92" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="756" y="114.0" font-size="13" fill="#333333" text-anchor="start">все</text>
+<text x="888" y="114.0" font-size="13" fill="#8A8A8A" text-anchor="middle">▾</text>
+<rect x="1217" y="92" width="39" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="1236.5" y="114" font-size="13" fill="#333333" text-anchor="middle">⟳</text>
+<rect x="1127" y="92" width="82" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="1168.0" y="114" font-size="13" fill="#333333" text-anchor="middle">Удалить</text>
+<rect x="1029" y="92" width="90" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="1074.0" y="114" font-size="13" fill="#333333" text-anchor="middle">Изменить</text>
+<rect x="917" y="92" width="104" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="969.0" y="114" font-size="13" fill="#333333" text-anchor="middle" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">＋ Добавить</text>
+<rect x="244" y="146" width="1012" height="514" rx="6" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<rect x="245" y="147" width="1010" height="33" rx="5" fill="#EEEEEE" stroke="none" stroke-width="1"/>
+<text x="254" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Инв. № ▾</text>
+<text x="350" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Модель</text>
+<text x="576" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Тип</text>
+<text x="692" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Помещение</text>
+<text x="868" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Сотрудник</text>
+<text x="1008" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Ввод</text>
+<text x="1112" y="168" font-size="12" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Состояние</text>
+<line x1="244" y1="180" x2="1256" y2="180" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="200" font-size="13" fill="#333333" text-anchor="start">ПК-00001</text>
+<text x="350" y="200" font-size="13" fill="#333333" text-anchor="start">Dell OptiPlex 7090</text>
+<text x="576" y="200" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="200" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 001</text>
+<text x="868" y="200" font-size="13" fill="#333333" text-anchor="start">—</text>
+<text x="1008" y="200" font-size="13" fill="#333333" text-anchor="start">2019-02-11</text>
+<rect x="1110" y="185" width="54.96" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1137.48" y="199" font-size="11" fill="#333333" text-anchor="middle">списан</text>
+<rect x="245" y="210" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="210" x2="1256" y2="210" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="230" font-size="13" fill="#333333" text-anchor="start">ПК-00002</text>
+<text x="350" y="230" font-size="13" fill="#333333" text-anchor="start">Dell OptiPlex 7090</text>
+<text x="576" y="230" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="230" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 101</text>
+<text x="868" y="230" font-size="13" fill="#333333" text-anchor="start">Петрова А.</text>
+<text x="1008" y="230" font-size="13" fill="#333333" text-anchor="start">2019-02-11</text>
+<rect x="1110" y="215" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="229" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<line x1="244" y1="240" x2="1256" y2="240" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="260" font-size="13" fill="#333333" text-anchor="start">ПК-00003</text>
+<text x="350" y="260" font-size="13" fill="#333333" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text x="576" y="260" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="260" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 101</text>
+<text x="868" y="260" font-size="13" fill="#333333" text-anchor="start">Иванова М.</text>
+<text x="1008" y="260" font-size="13" fill="#333333" text-anchor="start">2022-03-01</text>
+<rect x="1110" y="245" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="259" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="270" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="270" x2="1256" y2="270" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="290" font-size="13" fill="#333333" text-anchor="start">ПК-00004</text>
+<text x="350" y="290" font-size="13" fill="#333333" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text x="576" y="290" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="290" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 001</text>
+<text x="868" y="290" font-size="13" fill="#333333" text-anchor="start">—</text>
+<text x="1008" y="290" font-size="13" fill="#333333" text-anchor="start">2025-01-15</text>
+<rect x="1110" y="275" width="73.44" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1146.72" y="289" font-size="11" fill="#333333" text-anchor="middle">в резерве</text>
+<line x1="244" y1="300" x2="1256" y2="300" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="320" font-size="13" fill="#333333" text-anchor="start">ПК-00005</text>
+<text x="350" y="320" font-size="13" fill="#333333" text-anchor="start">HP ProDesk 400 G7</text>
+<text x="576" y="320" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="320" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 201</text>
+<text x="868" y="320" font-size="13" fill="#333333" text-anchor="start">Кузнецов Д.</text>
+<text x="1008" y="320" font-size="13" fill="#333333" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="305" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="319" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="330" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="330" x2="1256" y2="330" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="350" font-size="13" fill="#333333" text-anchor="start">ПК-00006</text>
+<text x="350" y="350" font-size="13" fill="#333333" text-anchor="start">HP ProDesk 400 G7</text>
+<text x="576" y="350" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="350" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 201</text>
+<text x="868" y="350" font-size="13" fill="#333333" text-anchor="start">Смирнова Е.</text>
+<text x="1008" y="350" font-size="13" fill="#333333" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="335" width="73.44" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1146.72" y="349" font-size="11" fill="#333333" text-anchor="middle">в ремонте</text>
+<line x1="244" y1="360" x2="1256" y2="360" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="380" font-size="13" fill="#333333" text-anchor="start">ПК-00007</text>
+<text x="350" y="380" font-size="13" fill="#333333" text-anchor="start">HP ProDesk 400 G7</text>
+<text x="576" y="380" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="380" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 201</text>
+<text x="868" y="380" font-size="13" fill="#333333" text-anchor="start">Волков А.</text>
+<text x="1008" y="380" font-size="13" fill="#333333" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="365" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="379" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="390" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="390" x2="1256" y2="390" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="410" font-size="13" fill="#333333" text-anchor="start">ПК-00008</text>
+<text x="350" y="410" font-size="13" fill="#333333" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text x="576" y="410" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="410" font-size="13" fill="#333333" text-anchor="start">Корпус Б, 110</text>
+<text x="868" y="410" font-size="13" fill="#333333" text-anchor="start">Морозова О.</text>
+<text x="1008" y="410" font-size="13" fill="#333333" text-anchor="start">2023-04-03</text>
+<rect x="1110" y="395" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="409" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<line x1="244" y1="420" x2="1256" y2="420" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="440" font-size="13" fill="#333333" text-anchor="start">ПК-00009</text>
+<text x="350" y="440" font-size="13" fill="#333333" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text x="576" y="440" font-size="13" fill="#333333" text-anchor="start">ноутбук</text>
+<text x="692" y="440" font-size="13" fill="#333333" text-anchor="start">Корпус Б, 110</text>
+<text x="868" y="440" font-size="13" fill="#333333" text-anchor="start">Кузнецов Д.</text>
+<text x="1008" y="440" font-size="13" fill="#333333" text-anchor="start">2024-02-01</text>
+<rect x="1110" y="425" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="439" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="450" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="450" x2="1256" y2="450" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="470" font-size="13" fill="#333333" text-anchor="start">ПК-00010</text>
+<text x="350" y="470" font-size="13" fill="#333333" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text x="576" y="470" font-size="13" fill="#333333" text-anchor="start">ноутбук</text>
+<text x="692" y="470" font-size="13" fill="#333333" text-anchor="start">Корпус Б, 110</text>
+<text x="868" y="470" font-size="13" fill="#333333" text-anchor="start">Тимофеев Р.</text>
+<text x="1008" y="470" font-size="13" fill="#333333" text-anchor="start">2024-02-01</text>
+<rect x="1110" y="455" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="469" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<line x1="244" y1="480" x2="1256" y2="480" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="500" font-size="13" fill="#333333" text-anchor="start">ПК-00011</text>
+<text x="350" y="500" font-size="13" fill="#333333" text-anchor="start">Apple iMac 24 M3</text>
+<text x="576" y="500" font-size="13" fill="#333333" text-anchor="start">моноблок</text>
+<text x="692" y="500" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 202</text>
+<text x="868" y="500" font-size="13" fill="#333333" text-anchor="start">Фёдорова Д.</text>
+<text x="1008" y="500" font-size="13" fill="#333333" text-anchor="start">2024-06-10</text>
+<rect x="1110" y="485" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="499" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="510" width="1010" height="30" rx="0" fill="#E6E6E6" stroke="none" stroke-width="1"/>
+<line x1="244" y1="510" x2="1256" y2="510" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="530" font-size="13" fill="#333333" text-anchor="start">ПК-00012</text>
+<text x="350" y="530" font-size="13" fill="#333333" text-anchor="start">HP ProOne 440 G9</text>
+<text x="576" y="530" font-size="13" fill="#333333" text-anchor="start">моноблок</text>
+<text x="692" y="530" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 202</text>
+<text x="868" y="530" font-size="13" fill="#333333" text-anchor="start">Новиков И.</text>
+<text x="1008" y="530" font-size="13" fill="#333333" text-anchor="start">2022-11-21</text>
+<rect x="1110" y="515" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="529" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<line x1="244" y1="540" x2="1256" y2="540" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="560" font-size="13" fill="#333333" text-anchor="start">ПК-00013</text>
+<text x="350" y="560" font-size="13" fill="#333333" text-anchor="start">Apple MacBook Air 13 M2</text>
+<text x="576" y="560" font-size="13" fill="#333333" text-anchor="start">ноутбук</text>
+<text x="692" y="560" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 202</text>
+<text x="868" y="560" font-size="13" fill="#333333" text-anchor="start">Новиков И.</text>
+<text x="1008" y="560" font-size="13" fill="#333333" text-anchor="start">2023-09-04</text>
+<rect x="1110" y="545" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="559" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="570" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="570" x2="1256" y2="570" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="590" font-size="13" fill="#333333" text-anchor="start">ПК-00014</text>
+<text x="350" y="590" font-size="13" fill="#333333" text-anchor="start">Lenovo ThinkPad T14 Gen 3</text>
+<text x="576" y="590" font-size="13" fill="#333333" text-anchor="start">ноутбук</text>
+<text x="692" y="590" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 301</text>
+<text x="868" y="590" font-size="13" fill="#333333" text-anchor="start">Соколов М.</text>
+<text x="1008" y="590" font-size="13" fill="#333333" text-anchor="start">2023-01-16</text>
+<rect x="1110" y="575" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="589" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<line x1="244" y1="600" x2="1256" y2="600" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="620" font-size="13" fill="#333333" text-anchor="start">ПК-00015</text>
+<text x="350" y="620" font-size="13" fill="#333333" text-anchor="start">Dell OptiPlex 7090</text>
+<text x="576" y="620" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="620" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 301</text>
+<text x="868" y="620" font-size="13" fill="#333333" text-anchor="start">Лебедев К.</text>
+<text x="1008" y="620" font-size="13" fill="#333333" text-anchor="start">2021-05-17</text>
+<rect x="1110" y="605" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="619" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<rect x="245" y="630" width="1010" height="30" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="244" y1="630" x2="1256" y2="630" stroke="#9A9A9A" stroke-width="1"/>
+<text x="254" y="650" font-size="13" fill="#333333" text-anchor="start">ПК-00016</text>
+<text x="350" y="650" font-size="13" fill="#333333" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text x="576" y="650" font-size="13" fill="#333333" text-anchor="start">настольный ПК</text>
+<text x="692" y="650" font-size="13" fill="#333333" text-anchor="start">Главный корпус, 301</text>
+<text x="868" y="650" font-size="13" fill="#333333" text-anchor="start">Козлов Н.</text>
+<text x="1008" y="650" font-size="13" fill="#333333" text-anchor="start">2022-08-08</text>
+<rect x="1110" y="635" width="104.24000000000001" height="20" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="1162.12" y="649" font-size="11" fill="#333333" text-anchor="middle">в эксплуатации</text>
+<text x="244" y="682" font-size="11" fill="#8A8A8A" text-anchor="start">Показано 1–16 из 30 · сортировка по инв. номеру · двойной щелчок — карточка компьютера</text>
+<text x="1256" y="682" font-size="13" fill="#7A7A7A" text-anchor="end" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">‹  1  2  ›</text>
+<rect x="0" y="0" width="1280" height="800" rx="0" fill="#000000" stroke="none" stroke-width="1" fill-opacity="0.45"/>
+<rect x="380.0" y="285.0" width="520" height="230" rx="10" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1"/>
+<text x="404.0" y="325.0" font-size="17" fill="#333333" text-anchor="start" font-weight="bold" font-family="Arial-BoldMT, Arial, Helvetica, sans-serif">Удалить компьютер ПК-00012?</text>
+<text x="404.0" y="359.0" font-size="13" fill="#333333" text-anchor="start">Будут удалены: 1 закрепление, 1 обслуживание, 6 установок ПО.</text>
+<text x="404.0" y="381.0" font-size="13" fill="#333333" text-anchor="start">3 комплектующих будут перенесены на склад.</text>
+<text x="404.0" y="403.0" font-size="13" fill="#333333" text-anchor="start">Отменить действие будет нельзя.</text>
+<rect x="794.0" y="461.0" width="82" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="835.0" y="483.0" font-size="13" fill="#333333" text-anchor="middle">Удалить</text>
+<rect x="709.0" y="461.0" width="75" height="34" rx="4" fill="#FFFFFF" stroke="#9A9A9A" stroke-width="1.5"/>
+<text x="746.5" y="483.0" font-size="13" fill="#333333" text-anchor="middle">Отмена</text>
+</svg>
