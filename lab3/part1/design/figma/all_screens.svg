@@ -1,0 +1,970 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5480" height="1800" viewBox="0 0 5480 1800"><svg id="01 Главная" x="0" y="0" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<rect x="10" y="110" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#FFFFFF" text-anchor="middle">⌂</text>
+<text x="44" y="132" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Главная</text>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#C9D3E0" text-anchor="middle">▤</text>
+<text font-family="Inter" x="44" y="170" font-size="13" fill="#C9D3E0" text-anchor="start">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Главная</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Главная</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244.0" y="80" width="241.0" height="100" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="244.0" y="80" width="5" height="100" rx="2" fill="#2E7D4F" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="262.0" y="106" font-size="12" fill="#6B7785" text-anchor="start">В эксплуатации</text>
+<text x="262.0" y="142" font-size="30" fill="#2E7D4F" text-anchor="start" font-weight="bold" font-family="Inter">19</text>
+<text font-family="Inter" x="262.0" y="166" font-size="11" fill="#6B7785" text-anchor="start">по данным базы</text>
+<rect x="501.0" y="80" width="241.0" height="100" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="501.0" y="80" width="5" height="100" rx="2" fill="#3D6FB6" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="519.0" y="106" font-size="12" fill="#6B7785" text-anchor="start">В резерве</text>
+<text x="519.0" y="142" font-size="30" fill="#3D6FB6" text-anchor="start" font-weight="bold" font-family="Inter">4</text>
+<text font-family="Inter" x="519.0" y="166" font-size="11" fill="#6B7785" text-anchor="start">по данным базы</text>
+<rect x="758.0" y="80" width="241.0" height="100" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="758.0" y="80" width="5" height="100" rx="2" fill="#B7791F" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="776.0" y="106" font-size="12" fill="#6B7785" text-anchor="start">В ремонте</text>
+<text x="776.0" y="142" font-size="30" fill="#B7791F" text-anchor="start" font-weight="bold" font-family="Inter">3</text>
+<text font-family="Inter" x="776.0" y="166" font-size="11" fill="#6B7785" text-anchor="start">по данным базы</text>
+<rect x="1015.0" y="80" width="241.0" height="100" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="1015.0" y="80" width="5" height="100" rx="2" fill="#C0392B" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="1033.0" y="106" font-size="12" fill="#6B7785" text-anchor="start">Списано</text>
+<text x="1033.0" y="142" font-size="30" fill="#C0392B" text-anchor="start" font-weight="bold" font-family="Inter">4</text>
+<text font-family="Inter" x="1033.0" y="166" font-size="11" fill="#6B7785" text-anchor="start">по данным базы</text>
+<rect x="244" y="196" width="1012" height="92" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="224" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Быстрые действия</text>
+<line x1="244" y1="240" x2="1256" y2="240" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="262" y="246" width="170" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="347.0" y="268" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">＋ Поставить на учёт</text>
+<rect x="444" y="246" width="148" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="518.0" y="268" font-size="13" fill="#1F2933" text-anchor="middle">Выдать компьютер</text>
+<rect x="604" y="246" width="243" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="725.5" y="268" font-size="13" fill="#1F2933" text-anchor="middle">Зарегистрировать обслуживание</text>
+<rect x="859" y="246" width="155" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="936.5" y="268" font-size="13" fill="#1F2933" text-anchor="middle">Списать компьютер</text>
+<rect x="244" y="304" width="498.0" height="470" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="332" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Гарантия истекает в ближайшие полгода</text>
+<line x1="244" y1="348" x2="742.0" y2="348" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="260" y="364" width="466.0" height="274" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="261" y="365" width="464.0" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="270" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Инв. №</text>
+<text x="370" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Модель</text>
+<text x="598" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Гарантия до</text>
+<line x1="260" y1="398" x2="726.0" y2="398" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="418" font-size="13" fill="#1F2933" text-anchor="start">ПК-00026</text>
+<text font-family="Inter" x="370" y="418" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="598" y="418" font-size="13" fill="#1F2933" text-anchor="start">2029-10-20</text>
+<rect x="261" y="428" width="464.0" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="260" y1="428" x2="726.0" y2="428" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="448" font-size="13" fill="#1F2933" text-anchor="start">ПК-00027</text>
+<text font-family="Inter" x="370" y="448" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="598" y="448" font-size="13" fill="#1F2933" text-anchor="start">2029-10-20</text>
+<line x1="260" y1="458" x2="726.0" y2="458" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="478" font-size="13" fill="#1F2933" text-anchor="start">ПК-00030</text>
+<text font-family="Inter" x="370" y="478" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="598" y="478" font-size="13" fill="#1F2933" text-anchor="start">2029-04-06</text>
+<rect x="261" y="488" width="464.0" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="260" y1="488" x2="726.0" y2="488" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="508" font-size="13" fill="#1F2933" text-anchor="start">ПК-00021</text>
+<text font-family="Inter" x="370" y="508" font-size="13" fill="#1F2933" text-anchor="start">HP ProOne 440 G9</text>
+<text font-family="Inter" x="598" y="508" font-size="13" fill="#1F2933" text-anchor="start">2028-03-03</text>
+<line x1="260" y1="518" x2="726.0" y2="518" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="538" font-size="13" fill="#1F2933" text-anchor="start">ПК-00004</text>
+<text font-family="Inter" x="370" y="538" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="598" y="538" font-size="13" fill="#1F2933" text-anchor="start">2028-01-15</text>
+<rect x="261" y="548" width="464.0" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="260" y1="548" x2="726.0" y2="548" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="568" font-size="13" fill="#1F2933" text-anchor="start">ПК-00009</text>
+<text font-family="Inter" x="370" y="568" font-size="13" fill="#1F2933" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text font-family="Inter" x="598" y="568" font-size="13" fill="#1F2933" text-anchor="start">2027-02-01</text>
+<line x1="260" y1="578" x2="726.0" y2="578" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="598" font-size="13" fill="#1F2933" text-anchor="start">ПК-00010</text>
+<text font-family="Inter" x="370" y="598" font-size="13" fill="#1F2933" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text font-family="Inter" x="598" y="598" font-size="13" fill="#1F2933" text-anchor="start">2027-02-01</text>
+<rect x="261" y="608" width="464.0" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="260" y1="608" x2="726.0" y2="608" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="270" y="628" font-size="13" fill="#1F2933" text-anchor="start">ПК-00017</text>
+<text font-family="Inter" x="370" y="628" font-size="13" fill="#1F2933" text-anchor="start">Dell PowerEdge R650</text>
+<text font-family="Inter" x="598" y="628" font-size="13" fill="#1F2933" text-anchor="start">2026-10-04</text>
+<rect x="758.0" y="304" width="498.0" height="470" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="776.0" y="332" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Незавершённые обслуживания</text>
+<line x1="758.0" y1="348" x2="1256.0" y2="348" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="774.0" y="364" width="466.0" height="124" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="775.0" y="365" width="464.0" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="784.0" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Инв. №</text>
+<text x="880.0" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Вид</text>
+<text x="980.0" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">С</text>
+<text x="1080.0" y="386" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Исполнитель</text>
+<line x1="774.0" y1="398" x2="1240.0" y2="398" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="784.0" y="418" font-size="13" fill="#1F2933" text-anchor="start">ПК-00006</text>
+<text font-family="Inter" x="880.0" y="418" font-size="13" fill="#1F2933" text-anchor="start">ремонт</text>
+<text font-family="Inter" x="980.0" y="418" font-size="13" fill="#1F2933" text-anchor="start">2026-11-02</text>
+<text font-family="Inter" x="1080.0" y="418" font-size="13" fill="#1F2933" text-anchor="start">ООО «СервисПлюс»</text>
+<rect x="775.0" y="428" width="464.0" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="774.0" y1="428" x2="1240.0" y2="428" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="784.0" y="448" font-size="13" fill="#1F2933" text-anchor="start">ПК-00019</text>
+<text font-family="Inter" x="880.0" y="448" font-size="13" fill="#1F2933" text-anchor="start">диагностика</text>
+<text font-family="Inter" x="980.0" y="448" font-size="13" fill="#1F2933" text-anchor="start">2026-11-05</text>
+<text font-family="Inter" x="1080.0" y="448" font-size="13" fill="#1F2933" text-anchor="start">Лебедев</text>
+<line x1="774.0" y1="458" x2="1240.0" y2="458" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="784.0" y="478" font-size="13" fill="#1F2933" text-anchor="start">ПК-00028</text>
+<text font-family="Inter" x="880.0" y="478" font-size="13" fill="#1F2933" text-anchor="start">ремонт</text>
+<text font-family="Inter" x="980.0" y="478" font-size="13" fill="#1F2933" text-anchor="start">2026-10-27</text>
+<text font-family="Inter" x="1080.0" y="478" font-size="13" fill="#1F2933" text-anchor="start">Авторизованный сервис…</text>
+</svg><svg id="02 Компьютеры" x="1400" y="0" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<rect x="10" y="148" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#FFFFFF" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Компьютеры</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Просмотр данных: компьютеры</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<text x="244" y="84" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Поиск</text>
+<rect x="244" y="92" width="300" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="114.0" font-size="13" fill="#6B7785" text-anchor="start">инв. номер, сетевое имя, модель…</text>
+<text x="560" y="84" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Состояние</text>
+<rect x="560" y="92" width="170" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="570" y="114.0" font-size="13" fill="#1F2933" text-anchor="start">все</text>
+<text font-family="Inter" x="712" y="114.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="746" y="84" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Тип устройства</text>
+<rect x="746" y="92" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="756" y="114.0" font-size="13" fill="#1F2933" text-anchor="start">все</text>
+<text font-family="Inter" x="888" y="114.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<rect x="1217" y="92" width="39" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="1236.5" y="114" font-size="13" fill="#1F2933" text-anchor="middle">⟳</text>
+<rect x="1127" y="92" width="82" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="1168.0" y="114" font-size="13" fill="#1F2933" text-anchor="middle">Удалить</text>
+<rect x="1029" y="92" width="90" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="1074.0" y="114" font-size="13" fill="#1F2933" text-anchor="middle">Изменить</text>
+<rect x="917" y="92" width="104" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="969.0" y="114" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">＋ Добавить</text>
+<rect x="244" y="146" width="1012" height="514" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="245" y="147" width="1010" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="254" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Инв. № ▾</text>
+<text x="350" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Модель</text>
+<text x="576" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Тип</text>
+<text x="692" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Помещение</text>
+<text x="868" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Сотрудник</text>
+<text x="1008" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Ввод</text>
+<text x="1112" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Состояние</text>
+<line x1="244" y1="180" x2="1256" y2="180" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="200" font-size="13" fill="#1F2933" text-anchor="start">ПК-00001</text>
+<text font-family="Inter" x="350" y="200" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<text font-family="Inter" x="576" y="200" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="200" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 001</text>
+<text font-family="Inter" x="868" y="200" font-size="13" fill="#1F2933" text-anchor="start">—</text>
+<text font-family="Inter" x="1008" y="200" font-size="13" fill="#1F2933" text-anchor="start">2019-02-11</text>
+<rect x="1110" y="185" width="54.96" height="20" rx="10" fill="#FBE5E2" stroke="none" stroke-width="1"/>
+<text x="1137.48" y="199" font-size="11" fill="#C0392B" text-anchor="middle" font-weight="bold" font-family="Inter">списан</text>
+<rect x="245" y="210" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="210" x2="1256" y2="210" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="230" font-size="13" fill="#1F2933" text-anchor="start">ПК-00002</text>
+<text font-family="Inter" x="350" y="230" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<text font-family="Inter" x="576" y="230" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="230" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 101</text>
+<text font-family="Inter" x="868" y="230" font-size="13" fill="#1F2933" text-anchor="start">Петрова А.</text>
+<text font-family="Inter" x="1008" y="230" font-size="13" fill="#1F2933" text-anchor="start">2019-02-11</text>
+<rect x="1110" y="215" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="229" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="240" x2="1256" y2="240" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="260" font-size="13" fill="#1F2933" text-anchor="start">ПК-00003</text>
+<text font-family="Inter" x="350" y="260" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="260" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="260" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 101</text>
+<text font-family="Inter" x="868" y="260" font-size="13" fill="#1F2933" text-anchor="start">Иванова М.</text>
+<text font-family="Inter" x="1008" y="260" font-size="13" fill="#1F2933" text-anchor="start">2022-03-01</text>
+<rect x="1110" y="245" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="259" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="270" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="270" x2="1256" y2="270" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="290" font-size="13" fill="#1F2933" text-anchor="start">ПК-00004</text>
+<text font-family="Inter" x="350" y="290" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="290" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="290" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 001</text>
+<text font-family="Inter" x="868" y="290" font-size="13" fill="#1F2933" text-anchor="start">—</text>
+<text font-family="Inter" x="1008" y="290" font-size="13" fill="#1F2933" text-anchor="start">2025-01-15</text>
+<rect x="1110" y="275" width="73.44" height="20" rx="10" fill="#E4EDF9" stroke="none" stroke-width="1"/>
+<text x="1146.72" y="289" font-size="11" fill="#3D6FB6" text-anchor="middle" font-weight="bold" font-family="Inter">в резерве</text>
+<line x1="244" y1="300" x2="1256" y2="300" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="320" font-size="13" fill="#1F2933" text-anchor="start">ПК-00005</text>
+<text font-family="Inter" x="350" y="320" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<text font-family="Inter" x="576" y="320" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="320" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 201</text>
+<text font-family="Inter" x="868" y="320" font-size="13" fill="#1F2933" text-anchor="start">Кузнецов Д.</text>
+<text font-family="Inter" x="1008" y="320" font-size="13" fill="#1F2933" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="305" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="319" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="330" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="330" x2="1256" y2="330" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="350" font-size="13" fill="#1F2933" text-anchor="start">ПК-00006</text>
+<text font-family="Inter" x="350" y="350" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<text font-family="Inter" x="576" y="350" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="350" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 201</text>
+<text font-family="Inter" x="868" y="350" font-size="13" fill="#1F2933" text-anchor="start">Смирнова Е.</text>
+<text font-family="Inter" x="1008" y="350" font-size="13" fill="#1F2933" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="335" width="73.44" height="20" rx="10" fill="#FBF0DC" stroke="none" stroke-width="1"/>
+<text x="1146.72" y="349" font-size="11" fill="#B7791F" text-anchor="middle" font-weight="bold" font-family="Inter">в ремонте</text>
+<line x1="244" y1="360" x2="1256" y2="360" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="380" font-size="13" fill="#1F2933" text-anchor="start">ПК-00007</text>
+<text font-family="Inter" x="350" y="380" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<text font-family="Inter" x="576" y="380" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="380" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 201</text>
+<text font-family="Inter" x="868" y="380" font-size="13" fill="#1F2933" text-anchor="start">Волков А.</text>
+<text font-family="Inter" x="1008" y="380" font-size="13" fill="#1F2933" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="365" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="379" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="390" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="390" x2="1256" y2="390" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="410" font-size="13" fill="#1F2933" text-anchor="start">ПК-00008</text>
+<text font-family="Inter" x="350" y="410" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="410" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="410" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, 110</text>
+<text font-family="Inter" x="868" y="410" font-size="13" fill="#1F2933" text-anchor="start">Морозова О.</text>
+<text font-family="Inter" x="1008" y="410" font-size="13" fill="#1F2933" text-anchor="start">2023-04-03</text>
+<rect x="1110" y="395" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="409" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="420" x2="1256" y2="420" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="440" font-size="13" fill="#1F2933" text-anchor="start">ПК-00009</text>
+<text font-family="Inter" x="350" y="440" font-size="13" fill="#1F2933" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text font-family="Inter" x="576" y="440" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="440" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, 110</text>
+<text font-family="Inter" x="868" y="440" font-size="13" fill="#1F2933" text-anchor="start">Кузнецов Д.</text>
+<text font-family="Inter" x="1008" y="440" font-size="13" fill="#1F2933" text-anchor="start">2024-02-01</text>
+<rect x="1110" y="425" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="439" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="450" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="450" x2="1256" y2="450" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="470" font-size="13" fill="#1F2933" text-anchor="start">ПК-00010</text>
+<text font-family="Inter" x="350" y="470" font-size="13" fill="#1F2933" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text font-family="Inter" x="576" y="470" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="470" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, 110</text>
+<text font-family="Inter" x="868" y="470" font-size="13" fill="#1F2933" text-anchor="start">Тимофеев Р.</text>
+<text font-family="Inter" x="1008" y="470" font-size="13" fill="#1F2933" text-anchor="start">2024-02-01</text>
+<rect x="1110" y="455" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="469" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="480" x2="1256" y2="480" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="500" font-size="13" fill="#1F2933" text-anchor="start">ПК-00011</text>
+<text font-family="Inter" x="350" y="500" font-size="13" fill="#1F2933" text-anchor="start">Apple iMac 24 M3</text>
+<text font-family="Inter" x="576" y="500" font-size="13" fill="#1F2933" text-anchor="start">моноблок</text>
+<text font-family="Inter" x="692" y="500" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 202</text>
+<text font-family="Inter" x="868" y="500" font-size="13" fill="#1F2933" text-anchor="start">Фёдорова Д.</text>
+<text font-family="Inter" x="1008" y="500" font-size="13" fill="#1F2933" text-anchor="start">2024-06-10</text>
+<rect x="1110" y="485" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="499" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="510" width="1010" height="30" rx="0" fill="#DCE7F7" stroke="none" stroke-width="1"/>
+<line x1="244" y1="510" x2="1256" y2="510" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="530" font-size="13" fill="#1F2933" text-anchor="start">ПК-00012</text>
+<text font-family="Inter" x="350" y="530" font-size="13" fill="#1F2933" text-anchor="start">HP ProOne 440 G9</text>
+<text font-family="Inter" x="576" y="530" font-size="13" fill="#1F2933" text-anchor="start">моноблок</text>
+<text font-family="Inter" x="692" y="530" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 202</text>
+<text font-family="Inter" x="868" y="530" font-size="13" fill="#1F2933" text-anchor="start">Новиков И.</text>
+<text font-family="Inter" x="1008" y="530" font-size="13" fill="#1F2933" text-anchor="start">2022-11-21</text>
+<rect x="1110" y="515" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="529" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="540" x2="1256" y2="540" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="560" font-size="13" fill="#1F2933" text-anchor="start">ПК-00013</text>
+<text font-family="Inter" x="350" y="560" font-size="13" fill="#1F2933" text-anchor="start">Apple MacBook Air 13 M2</text>
+<text font-family="Inter" x="576" y="560" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="560" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 202</text>
+<text font-family="Inter" x="868" y="560" font-size="13" fill="#1F2933" text-anchor="start">Новиков И.</text>
+<text font-family="Inter" x="1008" y="560" font-size="13" fill="#1F2933" text-anchor="start">2023-09-04</text>
+<rect x="1110" y="545" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="559" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="570" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="570" x2="1256" y2="570" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="590" font-size="13" fill="#1F2933" text-anchor="start">ПК-00014</text>
+<text font-family="Inter" x="350" y="590" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkPad T14 Gen 3</text>
+<text font-family="Inter" x="576" y="590" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="590" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 301</text>
+<text font-family="Inter" x="868" y="590" font-size="13" fill="#1F2933" text-anchor="start">Соколов М.</text>
+<text font-family="Inter" x="1008" y="590" font-size="13" fill="#1F2933" text-anchor="start">2023-01-16</text>
+<rect x="1110" y="575" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="589" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="600" x2="1256" y2="600" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="620" font-size="13" fill="#1F2933" text-anchor="start">ПК-00015</text>
+<text font-family="Inter" x="350" y="620" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<text font-family="Inter" x="576" y="620" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="620" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 301</text>
+<text font-family="Inter" x="868" y="620" font-size="13" fill="#1F2933" text-anchor="start">Лебедев К.</text>
+<text font-family="Inter" x="1008" y="620" font-size="13" fill="#1F2933" text-anchor="start">2021-05-17</text>
+<rect x="1110" y="605" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="619" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="630" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="630" x2="1256" y2="630" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="650" font-size="13" fill="#1F2933" text-anchor="start">ПК-00016</text>
+<text font-family="Inter" x="350" y="650" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="650" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="650" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 301</text>
+<text font-family="Inter" x="868" y="650" font-size="13" fill="#1F2933" text-anchor="start">Козлов Н.</text>
+<text font-family="Inter" x="1008" y="650" font-size="13" fill="#1F2933" text-anchor="start">2022-08-08</text>
+<rect x="1110" y="635" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="649" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<text font-family="Inter" x="244" y="682" font-size="11" fill="#6B7785" text-anchor="start">Показано 1–16 из 30 · сортировка по инв. номеру · двойной щелчок — карточка компьютера</text>
+<text x="1256" y="682" font-size="13" fill="#2F5D9E" text-anchor="end" font-weight="bold" font-family="Inter">‹  1  2  ›</text>
+</svg><svg id="03 Постановка на учёт" x="2800" y="0" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<rect x="10" y="148" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#FFFFFF" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Компьютеры / Новый</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Постановка компьютера на учёт</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="640" height="560" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Карточка компьютера</text>
+<line x1="244" y1="124" x2="884" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text x="268" y="150" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Инвентарный номер *</text>
+<rect x="268" y="158" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="2"/>
+<text font-family="Inter" x="278" y="180.0" font-size="13" fill="#1F2933" text-anchor="start">ПК-00031</text>
+<text x="580" y="150" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Серийный номер *</text>
+<rect x="580" y="158" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#C0392B" stroke-width="2"/>
+<text font-family="Inter" x="590" y="180.0" font-size="13" fill="#1F2933" text-anchor="start">LE-A8XP2TZZ</text>
+<text font-family="Inter" x="580" y="208" font-size="11" fill="#C0392B" text-anchor="start">Компьютер с таким серийным номером уже есть</text>
+<text x="268" y="240" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Модель *</text>
+<rect x="268" y="248" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="270.0" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3 · настольный ПК</text>
+<text font-family="Inter" x="842" y="270.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="268" y="320" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Помещение *</text>
+<rect x="268" y="328" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="350.0" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, Б-01 (склад)</text>
+<text font-family="Inter" x="530" y="350.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="580" y="320" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Сетевое имя</text>
+<rect x="580" y="328" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="590" y="350.0" font-size="13" fill="#6B7785" text-anchor="start">например, BUH-05</text>
+<text x="268" y="400" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Дата ввода в эксплуатацию *</text>
+<rect x="268" y="408" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="430.0" font-size="13" fill="#1F2933" text-anchor="start">2026-11-09</text>
+<text x="580" y="400" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Гарантия до</text>
+<rect x="580" y="408" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="590" y="430.0" font-size="13" fill="#1F2933" text-anchor="start">2029-11-09</text>
+<text x="268" y="480" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Состояние</text>
+<rect x="268" y="488" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="510.0" font-size="13" fill="#1F2933" text-anchor="start">в резерве</text>
+<text font-family="Inter" x="530" y="510.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text font-family="Inter" x="268" y="550" font-size="11" fill="#6B7785" text-anchor="start">* — обязательные поля</text>
+<rect x="740" y="586" width="120" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="800.0" y="608" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">Сохранить</text>
+<rect x="628" y="586" width="100" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="678.0" y="608" font-size="13" fill="#1F2933" text-anchor="middle">Отмена</text>
+<rect x="904" y="80" width="352" height="300" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="922" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Подсказки</text>
+<line x1="904" y1="124" x2="1256" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="922" y="150" font-size="12" fill="#1F2933" text-anchor="start">Инвентарный номер — в формате ПК-NNNNN.</text>
+<text font-family="Inter" x="922" y="174" font-size="12" fill="#1F2933" text-anchor="start">Новый компьютер ставится на учёт</text>
+<text font-family="Inter" x="922" y="198" font-size="12" fill="#1F2933" text-anchor="start">в состоянии «в резерве» на складе.</text>
+<text font-family="Inter" x="922" y="222" font-size="12" fill="#1F2933" text-anchor="start">Серийный номер и сетевое имя</text>
+<text font-family="Inter" x="922" y="246" font-size="12" fill="#1F2933" text-anchor="start">должны быть уникальными.</text>
+<text font-family="Inter" x="922" y="270" font-size="12" fill="#1F2933" text-anchor="start">Даты — в формате ГГГГ-ММ-ДД;</text>
+<text font-family="Inter" x="922" y="294" font-size="12" fill="#1F2933" text-anchor="start">гарантия не раньше даты ввода.</text>
+</svg><svg id="04 Выдача компьютера" x="4200" y="0" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#C9D3E0" text-anchor="middle">▤</text>
+<text font-family="Inter" x="44" y="170" font-size="13" fill="#C9D3E0" text-anchor="start">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<rect x="10" y="224" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#FFFFFF" text-anchor="middle">⇄</text>
+<text x="44" y="246" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Закрепления / Выдача</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Выдача компьютера сотруднику</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="640" height="470" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Выдача компьютера</text>
+<line x1="244" y1="124" x2="884" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text x="268" y="150" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Компьютер (только в резерве) *</text>
+<rect x="268" y="158" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="180.0" font-size="13" fill="#1F2933" text-anchor="start">ПК-00004 · Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="842" y="180.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="268" y="230" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Сотрудник *</text>
+<rect x="268" y="238" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="260.0" font-size="13" fill="#1F2933" text-anchor="start">Петрова Анна Викторовна · Бухгалтерия</text>
+<text font-family="Inter" x="842" y="260.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="268" y="310" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Дата выдачи *</text>
+<rect x="268" y="318" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="340.0" font-size="13" fill="#1F2933" text-anchor="start">2026-11-09</text>
+<text x="580" y="310" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Номер распоряжения</text>
+<rect x="580" y="318" width="280" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="590" y="340.0" font-size="13" fill="#1F2933" text-anchor="start">Р-2026-040</text>
+<text x="268" y="390" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Переместить в помещение *</text>
+<rect x="268" y="398" width="592" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="420.0" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 101 (кабинет)</text>
+<text font-family="Inter" x="842" y="420.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<rect x="740" y="496" width="120" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="800.0" y="518" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">Выдать</text>
+<rect x="628" y="496" width="100" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="678.0" y="518" font-size="13" fill="#1F2933" text-anchor="middle">Отмена</text>
+<rect x="904" y="80" width="352" height="230" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="922" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Проверки перед выдачей</text>
+<line x1="904" y1="124" x2="1256" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="922" y="150" font-size="13" fill="#2E7D4F" text-anchor="start">✓ компьютер в состоянии «в резерве»</text>
+<text font-family="Inter" x="922" y="180" font-size="13" fill="#2E7D4F" text-anchor="start">✓ сотрудник не уволен</text>
+<text font-family="Inter" x="922" y="210" font-size="13" fill="#2E7D4F" text-anchor="start">✓ у компьютера нет действующего закрепления</text>
+<text font-family="Inter" x="922" y="240" font-size="13" fill="#2E7D4F" text-anchor="start">✓ дата выдачи не раньше даты ввода</text>
+<rect x="244" y="570" width="640" height="58" rx="6" fill="#E3F2E8" stroke="#2E7D4F" stroke-width="1"/>
+<circle cx="266" cy="599" r="11" fill="#2E7D4F" stroke="#2E7D4F" stroke-width="1"/>
+<text x="266" y="604" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">✓</text>
+<text x="288" y="594" font-size="13" fill="#2E7D4F" text-anchor="start" font-weight="bold" font-family="Inter">Компьютер ПК-00004 выдан</text>
+<text font-family="Inter" x="288" y="614" font-size="12" fill="#1F2933" text-anchor="start">Закреплён за Петровой А. В., состояние — «в эксплуатации», помещение — Главный корпус, 101</text>
+</svg><svg id="05 SQL-запросы" x="0" y="1000" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#C9D3E0" text-anchor="middle">▤</text>
+<text font-family="Inter" x="44" y="170" font-size="13" fill="#C9D3E0" text-anchor="start">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<rect x="10" y="364" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#FFFFFF" text-anchor="middle">›</text>
+<text x="44" y="386" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / SQL-запросы</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">SQL-запросы</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="1012" height="250" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="245" y="81" width="40" height="248" rx="0" fill="#F5F7FA" stroke="none" stroke-width="1"/>
+<text x="274" y="108" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">1</text>
+<text x="298" y="108" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">SELECT m.device_type AS category,</text>
+<text x="274" y="128" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">2</text>
+<text x="298" y="128" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">       COUNT(*)      AS computers</text>
+<text x="274" y="148" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">3</text>
+<text x="298" y="148" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">FROM computers c</text>
+<text x="274" y="168" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">4</text>
+<text x="298" y="168" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">JOIN models m ON m.id_model = c.id_model</text>
+<text x="274" y="188" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">5</text>
+<text x="298" y="188" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">WHERE c.status &lt;&gt; 'списан'</text>
+<text x="274" y="208" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">6</text>
+<text x="298" y="208" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">GROUP BY m.device_type</text>
+<text x="274" y="228" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">7</text>
+<text x="298" y="228" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">HAVING COUNT(*) &gt; 5</text>
+<text x="274" y="248" font-size="12" fill="#6B7785" text-anchor="end" font-family="Roboto Mono">8</text>
+<text x="298" y="248" font-size="13" fill="#1F2933" text-anchor="start" font-family="Roboto Mono">ORDER BY computers DESC;</text>
+<rect x="244" y="346" width="199" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="343.5" y="368" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">▶ Выполнить  Ctrl+Enter</text>
+<rect x="470" y="346" width="90" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="515.0" y="368" font-size="13" fill="#1F2933" text-anchor="middle">Очистить</text>
+<rect x="578" y="346" width="97" height="34" rx="6" fill="#F5F7FA" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="626.5" y="368" font-size="13" fill="#2F5D9E" text-anchor="middle">История ▾</text>
+<text x="1256" y="368" font-size="12" fill="#2E7D4F" text-anchor="end" font-weight="bold" font-family="Inter">Готово: 2 строки за 3 мс</text>
+<rect x="244" y="400" width="500" height="94" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="245" y="401" width="498" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="254" y="422" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">category</text>
+<text x="554" y="422" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">computers</text>
+<line x1="244" y1="434" x2="744" y2="434" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="454" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="554" y="454" font-size="13" fill="#1F2933" text-anchor="start">14</text>
+<rect x="245" y="464" width="498" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="464" x2="744" y2="464" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="484" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="554" y="484" font-size="13" fill="#1F2933" text-anchor="start">6</text>
+<rect x="244" y="520" width="1012" height="58" rx="6" fill="#FBE5E2" stroke="#C0392B" stroke-width="1"/>
+<circle cx="266" cy="549" r="11" fill="#C0392B" stroke="#C0392B" stroke-width="1"/>
+<text x="266" y="554" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">!</text>
+<text x="288" y="544" font-size="13" fill="#C0392B" text-anchor="start" font-weight="bold" font-family="Inter">Пример ошибки: no such column: device</text>
+<text font-family="Inter" x="288" y="564" font-size="12" fill="#1F2933" text-anchor="start">Текст ошибки SQLite показывается здесь, таблица результатов не очищается</text>
+</svg><svg id="06 Готовые запросы" x="1400" y="1000" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#C9D3E0" text-anchor="middle">▤</text>
+<text font-family="Inter" x="44" y="170" font-size="13" fill="#C9D3E0" text-anchor="start">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<rect x="10" y="402" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#FFFFFF" text-anchor="middle">★</text>
+<text x="44" y="424" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Готовые запросы</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Готовые запросы</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="330" height="696" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Запросы ЛР2</text>
+<line x1="244" y1="124" x2="574" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="266" y="140" font-size="13" fill="#1F2933" text-anchor="start">01  Все компьютеры</text>
+<text font-family="Inter" x="266" y="180" font-size="13" fill="#1F2933" text-anchor="start">02  Компьютеры по дате ввода</text>
+<text font-family="Inter" x="266" y="220" font-size="13" fill="#1F2933" text-anchor="start">03  Ноутбуки (IN с подзапросом)</text>
+<text font-family="Inter" x="266" y="260" font-size="13" fill="#1F2933" text-anchor="start">04  Сотрудники без e-mail или телефона</text>
+<text font-family="Inter" x="266" y="300" font-size="13" fill="#1F2933" text-anchor="start">05  Статистика обслуживаний</text>
+<text font-family="Inter" x="266" y="340" font-size="13" fill="#1F2933" text-anchor="start">06  Виды работ &gt; 3 раз</text>
+<text font-family="Inter" x="266" y="380" font-size="13" fill="#1F2933" text-anchor="start">07  Компьютеры и сотрудники (JOIN)</text>
+<text font-family="Inter" x="266" y="420" font-size="13" fill="#1F2933" text-anchor="start">08  Неустановленные программы</text>
+<text font-family="Inter" x="266" y="460" font-size="13" fill="#1F2933" text-anchor="start">09  Состояние гарантии (CASE)</text>
+<text font-family="Inter" x="266" y="500" font-size="13" fill="#1F2933" text-anchor="start">10  Компьютеры и их категории (вар. 18)</text>
+<rect x="254" y="518" width="310" height="34" rx="6" fill="#DCE7F7" stroke="none" stroke-width="1"/>
+<text x="266" y="540" font-size="13" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">11  Категории, где больше N (вар. 18)</text>
+<rect x="590" y="80" width="666" height="196" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="608" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Категории, где больше N компьютеров</text>
+<line x1="590" y1="124" x2="1256" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="608" y="150" font-size="13" fill="#1F2933" text-anchor="start">Типы устройств, в которых больше N несписанных компьютеров.</text>
+<text font-family="Inter" x="608" y="172" font-size="12" fill="#6B7785" text-anchor="start">Вариант 18, задание 2 · GROUP BY + HAVING</text>
+<text x="608" y="200" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">N *</text>
+<rect x="608" y="208" width="120" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="618" y="230.0" font-size="13" fill="#1F2933" text-anchor="start">5</text>
+<rect x="746" y="208" width="112" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="802.0" y="230" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">▶ Выполнить</text>
+<rect x="876" y="208" width="119" height="34" rx="6" fill="#F5F7FA" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="935.5" y="230" font-size="13" fill="#2F5D9E" text-anchor="middle">Показать SQL</text>
+<rect x="590" y="300" width="500" height="94" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="591" y="301" width="498" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="600" y="322" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">category</text>
+<text x="900" y="322" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">computers</text>
+<line x1="590" y1="334" x2="1090" y2="334" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="600" y="354" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="900" y="354" font-size="13" fill="#1F2933" text-anchor="start">14</text>
+<rect x="591" y="364" width="498" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="590" y1="364" x2="1090" y2="364" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="600" y="384" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="900" y="384" font-size="13" fill="#1F2933" text-anchor="start">6</text>
+<text font-family="Inter" x="590" y="420" font-size="11" fill="#6B7785" text-anchor="start">2 строки · запрос выполнен над computers.db</text>
+</svg><svg id="07 Импорт и экспорт" x="2800" y="1000" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#C9D3E0" text-anchor="middle">▤</text>
+<text font-family="Inter" x="44" y="170" font-size="13" fill="#C9D3E0" text-anchor="start">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<rect x="10" y="440" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#FFFFFF" text-anchor="middle">⇅</text>
+<text x="44" y="462" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Импорт и экспорт</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Импорт и экспорт</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<rect x="244" y="80" width="560" height="520" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="262" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Параметры операции</text>
+<line x1="244" y1="124" x2="804" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<text x="268" y="150" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Операция</text>
+<circle cx="276" cy="172" r="8" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="1.5"/>
+<circle cx="276" cy="172" r="4" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1"/>
+<text font-family="Inter" x="292" y="177" font-size="13" fill="#1F2933" text-anchor="start">Экспорт из базы в файл</text>
+<circle cx="506" cy="172" r="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1.5"/>
+<text font-family="Inter" x="522" y="177" font-size="13" fill="#1F2933" text-anchor="start">Импорт из файла в базу</text>
+<text x="268" y="216" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Формат</text>
+<circle cx="276" cy="238" r="8" fill="#FFFFFF" stroke="#2F5D9E" stroke-width="1.5"/>
+<circle cx="276" cy="238" r="4" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1"/>
+<text font-family="Inter" x="292" y="243" font-size="13" fill="#1F2933" text-anchor="start">CSV</text>
+<circle cx="376" cy="238" r="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1.5"/>
+<text font-family="Inter" x="392" y="243" font-size="13" fill="#1F2933" text-anchor="start">JSON</text>
+<text x="268" y="278" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Таблица *</text>
+<rect x="268" y="286" width="512" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="308.0" font-size="13" fill="#1F2933" text-anchor="start">computers — компьютеры (30 строк)</text>
+<text font-family="Inter" x="762" y="308.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="268" y="352" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Файл *</text>
+<rect x="268" y="360" width="400" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="382.0" font-size="13" fill="#1F2933" text-anchor="start">export/csv/computers.csv</text>
+<rect x="680" y="360" width="100" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="730.0" y="382" font-size="13" fill="#1F2933" text-anchor="middle">Обзор…</text>
+<text x="268" y="426" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Разделитель</text>
+<rect x="268" y="434" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="278" y="456.0" font-size="13" fill="#1F2933" text-anchor="start">запятая ( , )</text>
+<text font-family="Inter" x="410" y="456.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="444" y="426" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Кодировка</text>
+<rect x="444" y="434" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="454" y="456.0" font-size="13" fill="#1F2933" text-anchor="start">UTF-8</text>
+<text font-family="Inter" x="586" y="456.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<rect x="268" y="490" width="16" height="16" rx="3" fill="#2F5D9E" stroke="#2F5D9E" stroke-width="1.5"/>
+<text x="276" y="503" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">✓</text>
+<text font-family="Inter" x="292" y="503" font-size="13" fill="#1F2933" text-anchor="start">Первая строка — заголовки столбцов</text>
+<rect x="268" y="518" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1.5"/>
+<text font-family="Inter" x="292" y="531" font-size="13" fill="#1F2933" text-anchor="start">Пропускать существующие записи (импорт)</text>
+<rect x="620" y="548" width="160" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="700.0" y="570" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">Начать экспорт</text>
+<rect x="820" y="80" width="436" height="520" rx="8" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text x="838" y="108" font-size="16" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Ход выполнения</text>
+<line x1="820" y1="124" x2="1256" y2="124" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="838" y="146" width="400" height="12" rx="6" fill="#F5F7FA" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="838" y="146" width="400" height="12" rx="6" fill="#2E7D4F" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="838" y="180" font-size="12" fill="#6B7785" text-anchor="start">100 % · 30 из 30 строк</text>
+<rect x="838" y="200" width="400" height="58" rx="6" fill="#E3F2E8" stroke="#2E7D4F" stroke-width="1"/>
+<circle cx="860" cy="229" r="11" fill="#2E7D4F" stroke="#2E7D4F" stroke-width="1"/>
+<text x="860" y="234" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">✓</text>
+<text x="882" y="224" font-size="13" fill="#2E7D4F" text-anchor="start" font-weight="bold" font-family="Inter">Экспорт завершён</text>
+<text font-family="Inter" x="882" y="244" font-size="12" fill="#1F2933" text-anchor="start">30 строк → export/csv/computers.csv</text>
+<rect x="838" y="274" width="400" height="58" rx="6" fill="#FBE5E2" stroke="#C0392B" stroke-width="1"/>
+<circle cx="860" cy="303" r="11" fill="#C0392B" stroke="#C0392B" stroke-width="1"/>
+<text x="860" y="308" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">!</text>
+<text x="882" y="298" font-size="13" fill="#C0392B" text-anchor="start" font-weight="bold" font-family="Inter">Импорт отменён, изменения откатаны</text>
+<text font-family="Inter" x="882" y="318" font-size="12" fill="#1F2933" text-anchor="start">UNIQUE constraint failed: programs.name, programs.version</text>
+<text x="838" y="366" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Журнал</text>
+<text x="838" y="392" font-size="12" fill="#6B7785" text-anchor="start" font-family="Roboto Mono">23:42:33  экспорт computers → CSV: 30 строк</text>
+<text x="838" y="414" font-size="12" fill="#6B7785" text-anchor="start" font-family="Roboto Mono">23:41:10  импорт new_programs.csv → programs: +2</text>
+<text x="838" y="436" font-size="12" fill="#6B7785" text-anchor="start" font-family="Roboto Mono">23:41:12  импорт bad_programs.csv: ошибка, откат</text>
+</svg><svg id="08 Подтверждение удаления" x="4200" y="1000" width="1280" height="800" viewBox="0 0 1280 800">
+<rect width="1280" height="800" fill="#F5F7FA"/>
+<rect x="0" y="0" width="220" height="800" rx="0" fill="#1F2A3A" stroke="none" stroke-width="1"/>
+<rect x="20" y="18" width="34" height="34" rx="8" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="37" y="41" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">ПК</text>
+<text x="64" y="32" font-size="15" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Учёт ПК</text>
+<text font-family="Inter" x="64" y="48" font-size="10" fill="#C9D3E0" text-anchor="start">АС учёта компьютеров</text>
+<text x="20" y="98" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">РАБОТА</text>
+<text font-family="Inter" x="26" y="132" font-size="13" fill="#C9D3E0" text-anchor="middle">⌂</text>
+<text font-family="Inter" x="44" y="132" font-size="13" fill="#C9D3E0" text-anchor="start">Главная</text>
+<rect x="10" y="148" width="200" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text font-family="Inter" x="26" y="170" font-size="13" fill="#FFFFFF" text-anchor="middle">▤</text>
+<text x="44" y="170" font-size="13" fill="#FFFFFF" text-anchor="start" font-weight="bold" font-family="Inter">Компьютеры</text>
+<text font-family="Inter" x="26" y="208" font-size="13" fill="#C9D3E0" text-anchor="middle">☺</text>
+<text font-family="Inter" x="44" y="208" font-size="13" fill="#C9D3E0" text-anchor="start">Сотрудники</text>
+<text font-family="Inter" x="26" y="246" font-size="13" fill="#C9D3E0" text-anchor="middle">⇄</text>
+<text font-family="Inter" x="44" y="246" font-size="13" fill="#C9D3E0" text-anchor="start">Закрепления</text>
+<text font-family="Inter" x="26" y="284" font-size="13" fill="#C9D3E0" text-anchor="middle">✎</text>
+<text font-family="Inter" x="44" y="284" font-size="13" fill="#C9D3E0" text-anchor="start">Обслуживание</text>
+<text font-family="Inter" x="26" y="322" font-size="13" fill="#C9D3E0" text-anchor="middle">≡</text>
+<text font-family="Inter" x="44" y="322" font-size="13" fill="#C9D3E0" text-anchor="start">Справочники</text>
+<text x="20" y="352" font-size="10" fill="#C9D3E0" text-anchor="start" font-weight="bold" font-family="Inter">ДАННЫЕ</text>
+<text font-family="Inter" x="26" y="386" font-size="13" fill="#C9D3E0" text-anchor="middle">›</text>
+<text font-family="Inter" x="44" y="386" font-size="13" fill="#C9D3E0" text-anchor="start">SQL-запросы</text>
+<text font-family="Inter" x="26" y="424" font-size="13" fill="#C9D3E0" text-anchor="middle">★</text>
+<text font-family="Inter" x="44" y="424" font-size="13" fill="#C9D3E0" text-anchor="start">Готовые запросы</text>
+<text font-family="Inter" x="26" y="462" font-size="13" fill="#C9D3E0" text-anchor="middle">⇅</text>
+<text font-family="Inter" x="44" y="462" font-size="13" fill="#C9D3E0" text-anchor="start">Импорт и экспорт</text>
+<text font-family="Inter" x="20" y="778" font-size="10" fill="#C9D3E0" text-anchor="start">computers.db · схема v2</text>
+<rect x="220" y="0" width="1060" height="56" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="220" y1="56" x2="1280" y2="56" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="244" y="24" font-size="11" fill="#6B7785" text-anchor="start">Учёт ПК / Компьютеры</text>
+<text x="244" y="44" font-size="18" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Подтверждение удаления</text>
+<text font-family="Inter" x="1256" y="34" font-size="11" fill="#6B7785" text-anchor="end">computers.db · 30 компьютеров</text>
+<text x="244" y="84" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Поиск</text>
+<rect x="244" y="92" width="300" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="114.0" font-size="13" fill="#6B7785" text-anchor="start">инв. номер, сетевое имя, модель…</text>
+<text x="560" y="84" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Состояние</text>
+<rect x="560" y="92" width="170" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="570" y="114.0" font-size="13" fill="#1F2933" text-anchor="start">все</text>
+<text font-family="Inter" x="712" y="114.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<text x="746" y="84" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Тип устройства</text>
+<rect x="746" y="92" width="160" height="34" rx="5" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="756" y="114.0" font-size="13" fill="#1F2933" text-anchor="start">все</text>
+<text font-family="Inter" x="888" y="114.0" font-size="13" fill="#6B7785" text-anchor="middle">▾</text>
+<rect x="1217" y="92" width="39" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="1236.5" y="114" font-size="13" fill="#1F2933" text-anchor="middle">⟳</text>
+<rect x="1127" y="92" width="82" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="1168.0" y="114" font-size="13" fill="#1F2933" text-anchor="middle">Удалить</text>
+<rect x="1029" y="92" width="90" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="1074.0" y="114" font-size="13" fill="#1F2933" text-anchor="middle">Изменить</text>
+<rect x="917" y="92" width="104" height="34" rx="6" fill="#2F5D9E" stroke="none" stroke-width="1"/>
+<text x="969.0" y="114" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">＋ Добавить</text>
+<rect x="244" y="146" width="1012" height="514" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="245" y="147" width="1010" height="33" rx="5" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<text x="254" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Инв. № ▾</text>
+<text x="350" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Модель</text>
+<text x="576" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Тип</text>
+<text x="692" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Помещение</text>
+<text x="868" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Сотрудник</text>
+<text x="1008" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Ввод</text>
+<text x="1112" y="168" font-size="12" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Состояние</text>
+<line x1="244" y1="180" x2="1256" y2="180" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="200" font-size="13" fill="#1F2933" text-anchor="start">ПК-00001</text>
+<text font-family="Inter" x="350" y="200" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<text font-family="Inter" x="576" y="200" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="200" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 001</text>
+<text font-family="Inter" x="868" y="200" font-size="13" fill="#1F2933" text-anchor="start">—</text>
+<text font-family="Inter" x="1008" y="200" font-size="13" fill="#1F2933" text-anchor="start">2019-02-11</text>
+<rect x="1110" y="185" width="54.96" height="20" rx="10" fill="#FBE5E2" stroke="none" stroke-width="1"/>
+<text x="1137.48" y="199" font-size="11" fill="#C0392B" text-anchor="middle" font-weight="bold" font-family="Inter">списан</text>
+<rect x="245" y="210" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="210" x2="1256" y2="210" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="230" font-size="13" fill="#1F2933" text-anchor="start">ПК-00002</text>
+<text font-family="Inter" x="350" y="230" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<text font-family="Inter" x="576" y="230" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="230" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 101</text>
+<text font-family="Inter" x="868" y="230" font-size="13" fill="#1F2933" text-anchor="start">Петрова А.</text>
+<text font-family="Inter" x="1008" y="230" font-size="13" fill="#1F2933" text-anchor="start">2019-02-11</text>
+<rect x="1110" y="215" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="229" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="240" x2="1256" y2="240" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="260" font-size="13" fill="#1F2933" text-anchor="start">ПК-00003</text>
+<text font-family="Inter" x="350" y="260" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="260" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="260" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 101</text>
+<text font-family="Inter" x="868" y="260" font-size="13" fill="#1F2933" text-anchor="start">Иванова М.</text>
+<text font-family="Inter" x="1008" y="260" font-size="13" fill="#1F2933" text-anchor="start">2022-03-01</text>
+<rect x="1110" y="245" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="259" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="270" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="270" x2="1256" y2="270" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="290" font-size="13" fill="#1F2933" text-anchor="start">ПК-00004</text>
+<text font-family="Inter" x="350" y="290" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="290" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="290" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 001</text>
+<text font-family="Inter" x="868" y="290" font-size="13" fill="#1F2933" text-anchor="start">—</text>
+<text font-family="Inter" x="1008" y="290" font-size="13" fill="#1F2933" text-anchor="start">2025-01-15</text>
+<rect x="1110" y="275" width="73.44" height="20" rx="10" fill="#E4EDF9" stroke="none" stroke-width="1"/>
+<text x="1146.72" y="289" font-size="11" fill="#3D6FB6" text-anchor="middle" font-weight="bold" font-family="Inter">в резерве</text>
+<line x1="244" y1="300" x2="1256" y2="300" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="320" font-size="13" fill="#1F2933" text-anchor="start">ПК-00005</text>
+<text font-family="Inter" x="350" y="320" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<text font-family="Inter" x="576" y="320" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="320" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 201</text>
+<text font-family="Inter" x="868" y="320" font-size="13" fill="#1F2933" text-anchor="start">Кузнецов Д.</text>
+<text font-family="Inter" x="1008" y="320" font-size="13" fill="#1F2933" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="305" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="319" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="330" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="330" x2="1256" y2="330" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="350" font-size="13" fill="#1F2933" text-anchor="start">ПК-00006</text>
+<text font-family="Inter" x="350" y="350" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<text font-family="Inter" x="576" y="350" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="350" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 201</text>
+<text font-family="Inter" x="868" y="350" font-size="13" fill="#1F2933" text-anchor="start">Смирнова Е.</text>
+<text font-family="Inter" x="1008" y="350" font-size="13" fill="#1F2933" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="335" width="73.44" height="20" rx="10" fill="#FBF0DC" stroke="none" stroke-width="1"/>
+<text x="1146.72" y="349" font-size="11" fill="#B7791F" text-anchor="middle" font-weight="bold" font-family="Inter">в ремонте</text>
+<line x1="244" y1="360" x2="1256" y2="360" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="380" font-size="13" fill="#1F2933" text-anchor="start">ПК-00007</text>
+<text font-family="Inter" x="350" y="380" font-size="13" fill="#1F2933" text-anchor="start">HP ProDesk 400 G7</text>
+<text font-family="Inter" x="576" y="380" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="380" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 201</text>
+<text font-family="Inter" x="868" y="380" font-size="13" fill="#1F2933" text-anchor="start">Волков А.</text>
+<text font-family="Inter" x="1008" y="380" font-size="13" fill="#1F2933" text-anchor="start">2020-09-10</text>
+<rect x="1110" y="365" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="379" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="390" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="390" x2="1256" y2="390" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="410" font-size="13" fill="#1F2933" text-anchor="start">ПК-00008</text>
+<text font-family="Inter" x="350" y="410" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="410" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="410" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, 110</text>
+<text font-family="Inter" x="868" y="410" font-size="13" fill="#1F2933" text-anchor="start">Морозова О.</text>
+<text font-family="Inter" x="1008" y="410" font-size="13" fill="#1F2933" text-anchor="start">2023-04-03</text>
+<rect x="1110" y="395" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="409" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="420" x2="1256" y2="420" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="440" font-size="13" fill="#1F2933" text-anchor="start">ПК-00009</text>
+<text font-family="Inter" x="350" y="440" font-size="13" fill="#1F2933" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text font-family="Inter" x="576" y="440" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="440" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, 110</text>
+<text font-family="Inter" x="868" y="440" font-size="13" fill="#1F2933" text-anchor="start">Кузнецов Д.</text>
+<text font-family="Inter" x="1008" y="440" font-size="13" fill="#1F2933" text-anchor="start">2024-02-01</text>
+<rect x="1110" y="425" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="439" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="450" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="450" x2="1256" y2="450" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="470" font-size="13" fill="#1F2933" text-anchor="start">ПК-00010</text>
+<text font-family="Inter" x="350" y="470" font-size="13" fill="#1F2933" text-anchor="start">ASUS ExpertBook B1 B1500</text>
+<text font-family="Inter" x="576" y="470" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="470" font-size="13" fill="#1F2933" text-anchor="start">Корпус Б, 110</text>
+<text font-family="Inter" x="868" y="470" font-size="13" fill="#1F2933" text-anchor="start">Тимофеев Р.</text>
+<text font-family="Inter" x="1008" y="470" font-size="13" fill="#1F2933" text-anchor="start">2024-02-01</text>
+<rect x="1110" y="455" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="469" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="480" x2="1256" y2="480" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="500" font-size="13" fill="#1F2933" text-anchor="start">ПК-00011</text>
+<text font-family="Inter" x="350" y="500" font-size="13" fill="#1F2933" text-anchor="start">Apple iMac 24 M3</text>
+<text font-family="Inter" x="576" y="500" font-size="13" fill="#1F2933" text-anchor="start">моноблок</text>
+<text font-family="Inter" x="692" y="500" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 202</text>
+<text font-family="Inter" x="868" y="500" font-size="13" fill="#1F2933" text-anchor="start">Фёдорова Д.</text>
+<text font-family="Inter" x="1008" y="500" font-size="13" fill="#1F2933" text-anchor="start">2024-06-10</text>
+<rect x="1110" y="485" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="499" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="510" width="1010" height="30" rx="0" fill="#DCE7F7" stroke="none" stroke-width="1"/>
+<line x1="244" y1="510" x2="1256" y2="510" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="530" font-size="13" fill="#1F2933" text-anchor="start">ПК-00012</text>
+<text font-family="Inter" x="350" y="530" font-size="13" fill="#1F2933" text-anchor="start">HP ProOne 440 G9</text>
+<text font-family="Inter" x="576" y="530" font-size="13" fill="#1F2933" text-anchor="start">моноблок</text>
+<text font-family="Inter" x="692" y="530" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 202</text>
+<text font-family="Inter" x="868" y="530" font-size="13" fill="#1F2933" text-anchor="start">Новиков И.</text>
+<text font-family="Inter" x="1008" y="530" font-size="13" fill="#1F2933" text-anchor="start">2022-11-21</text>
+<rect x="1110" y="515" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="529" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="540" x2="1256" y2="540" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="560" font-size="13" fill="#1F2933" text-anchor="start">ПК-00013</text>
+<text font-family="Inter" x="350" y="560" font-size="13" fill="#1F2933" text-anchor="start">Apple MacBook Air 13 M2</text>
+<text font-family="Inter" x="576" y="560" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="560" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 202</text>
+<text font-family="Inter" x="868" y="560" font-size="13" fill="#1F2933" text-anchor="start">Новиков И.</text>
+<text font-family="Inter" x="1008" y="560" font-size="13" fill="#1F2933" text-anchor="start">2023-09-04</text>
+<rect x="1110" y="545" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="559" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="570" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="570" x2="1256" y2="570" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="590" font-size="13" fill="#1F2933" text-anchor="start">ПК-00014</text>
+<text font-family="Inter" x="350" y="590" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkPad T14 Gen 3</text>
+<text font-family="Inter" x="576" y="590" font-size="13" fill="#1F2933" text-anchor="start">ноутбук</text>
+<text font-family="Inter" x="692" y="590" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 301</text>
+<text font-family="Inter" x="868" y="590" font-size="13" fill="#1F2933" text-anchor="start">Соколов М.</text>
+<text font-family="Inter" x="1008" y="590" font-size="13" fill="#1F2933" text-anchor="start">2023-01-16</text>
+<rect x="1110" y="575" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="589" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<line x1="244" y1="600" x2="1256" y2="600" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="620" font-size="13" fill="#1F2933" text-anchor="start">ПК-00015</text>
+<text font-family="Inter" x="350" y="620" font-size="13" fill="#1F2933" text-anchor="start">Dell OptiPlex 7090</text>
+<text font-family="Inter" x="576" y="620" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="620" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 301</text>
+<text font-family="Inter" x="868" y="620" font-size="13" fill="#1F2933" text-anchor="start">Лебедев К.</text>
+<text font-family="Inter" x="1008" y="620" font-size="13" fill="#1F2933" text-anchor="start">2021-05-17</text>
+<rect x="1110" y="605" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="619" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<rect x="245" y="630" width="1010" height="30" rx="0" fill="#F9FAFC" stroke="none" stroke-width="1"/>
+<line x1="244" y1="630" x2="1256" y2="630" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="254" y="650" font-size="13" fill="#1F2933" text-anchor="start">ПК-00016</text>
+<text font-family="Inter" x="350" y="650" font-size="13" fill="#1F2933" text-anchor="start">Lenovo ThinkCentre M70q Gen 3</text>
+<text font-family="Inter" x="576" y="650" font-size="13" fill="#1F2933" text-anchor="start">настольный ПК</text>
+<text font-family="Inter" x="692" y="650" font-size="13" fill="#1F2933" text-anchor="start">Главный корпус, 301</text>
+<text font-family="Inter" x="868" y="650" font-size="13" fill="#1F2933" text-anchor="start">Козлов Н.</text>
+<text font-family="Inter" x="1008" y="650" font-size="13" fill="#1F2933" text-anchor="start">2022-08-08</text>
+<rect x="1110" y="635" width="104.24000000000001" height="20" rx="10" fill="#E3F2E8" stroke="none" stroke-width="1"/>
+<text x="1162.12" y="649" font-size="11" fill="#2E7D4F" text-anchor="middle" font-weight="bold" font-family="Inter">в эксплуатации</text>
+<text font-family="Inter" x="244" y="682" font-size="11" fill="#6B7785" text-anchor="start">Показано 1–16 из 30 · сортировка по инв. номеру · двойной щелчок — карточка компьютера</text>
+<text x="1256" y="682" font-size="13" fill="#2F5D9E" text-anchor="end" font-weight="bold" font-family="Inter">‹  1  2  ›</text>
+<rect x="0" y="0" width="1280" height="800" rx="0" fill="#1F2933" stroke="none" stroke-width="1" fill-opacity="0.45"/>
+<rect x="380.0" y="285.0" width="520" height="230" rx="10" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<rect x="380.0" y="285.0" width="520" height="6" rx="3" fill="#C0392B" stroke="none" stroke-width="1"/>
+<text x="404.0" y="325.0" font-size="17" fill="#1F2933" text-anchor="start" font-weight="bold" font-family="Inter">Удалить компьютер ПК-00012?</text>
+<text font-family="Inter" x="404.0" y="359.0" font-size="13" fill="#1F2933" text-anchor="start">Будут удалены: 1 закрепление, 1 обслуживание, 6 установок ПО.</text>
+<text font-family="Inter" x="404.0" y="381.0" font-size="13" fill="#1F2933" text-anchor="start">3 комплектующих будут перенесены на склад.</text>
+<text font-family="Inter" x="404.0" y="403.0" font-size="13" fill="#1F2933" text-anchor="start">Отменить действие будет нельзя.</text>
+<rect x="794.0" y="461.0" width="82" height="34" rx="6" fill="#C0392B" stroke="none" stroke-width="1"/>
+<text x="835.0" y="483.0" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Inter">Удалить</text>
+<rect x="709.0" y="461.0" width="75" height="34" rx="6" fill="#FFFFFF" stroke="#D5DBE3" stroke-width="1"/>
+<text font-family="Inter" x="746.5" y="483.0" font-size="13" fill="#1F2933" text-anchor="middle">Отмена</text>
+</svg></svg>
