@@ -26,16 +26,14 @@ python3 restore.py --list
 python3 check_backup_restore.py
 ```
 
-## Скриншоты DBeaver для отчётов
+## Скриншоты DBeaver в отчётах
 
-Сохранить в `img/` соответствующей части и пересобрать отчёт: `python3 tools/build_docx.py lab2/part1/report.md lab2/part2/report.md`.
+Сняты в DBeaver 26.2 и лежат в `part1/img/` и `part2/img/`. Чтобы заменить их своими, сохраните снимки под теми же именами и пересоберите отчёты: `python3 tools/build_docx.py lab2/part1/report.md lab2/part2/report.md`.
 
-| Файл | Что снять |
+| Файл | Что на снимке |
 | --- | --- |
 | `part1/img/dbeaver_query.png` | SQL-редактор с запросом `16_var18_categories_over_n.sql` и результатом |
-| `part2/img/dbeaver_export_csv.png` | мастер «Экспорт данных», шаг настроек CSV |
-| `part2/img/dbeaver_import_csv.png` | мастер «Импорт данных», шаг сопоставления столбцов для `data/new_programs.csv` |
-| `part2/img/dbeaver_export_json.png` | мастер «Экспорт данных», формат JSON |
-| `part2/img/dbeaver_import_json.png` | мастер «Импорт данных» с источником JSON для `data/new_components.json` |
-
-Импорт CSV и JSON в DBeaver выполнять на копии базы (например, `backups/` → открыть копию), чтобы не задвоить данные, уже загруженные скриптами. Если в вашей версии DBeaver в мастере импорта нет источника JSON, поправьте раздел 6.1 отчёта: импорт JSON тогда выполняется только скриптом `import_json.py`.
+| `part2/img/dbeaver_export_csv.png` | мастер «Export Data», настройки формата CSV |
+| `part2/img/dbeaver_import_csv.png` | мастер «Import Data», сопоставление столбцов для `data/new_programs.csv` |
+| `part2/img/dbeaver_export_json.png` | мастер «Export Data», настройки формата JSON |
+| `part2/img/dbeaver_import_json.png` | мастер «Import Data»: в Community-версии источники только CSV и Table, импорта JSON нет |
